@@ -1,192 +1,698 @@
-[15:48:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[15:48:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[15:48:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:48:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[15:48:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[16:08:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[16:08:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[16:08:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:08:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[16:08:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - WorldEdit (7.3.16+cbf4bd5)
-[15:48:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:48:55] [ServerMain/INFO]: Loaded 1407 recipes
-[15:48:55] [ServerMain/INFO]: Loaded 1520 advancements
-[15:48:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:48:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 758.3ms
-[15:48:56] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[15:48:56] [Server thread/INFO]: Loading properties
-[15:48:56] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[15:48:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:48:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:48:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:48:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:48:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:48:59] [Server thread/INFO]: Default game type: SURVIVAL
-[15:48:59] [Server thread/INFO]: Generating keypair
-[15:48:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:48:59] [Server thread/INFO]: Using epoll channel type
-[15:48:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:48:59] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:48:59] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[15:49:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@55733dda]
-[15:49:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:49:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[15:49:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:49:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:49:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[15:49:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:49:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:49:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:49:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:49:04] [Server thread/INFO]: Preparing level "world"
-[15:49:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:49:06] [Server thread/INFO]: Preparing spawn area: 0%
-[15:49:07] [Server thread/INFO]: Preparing spawn area: 2%
-[15:49:07] [Server thread/INFO]: Preparing spawn area: 8%
-[15:49:08] [Server thread/INFO]: Preparing spawn area: 95%
-[15:49:08] [Server thread/INFO]: Preparing spawn area: 95%
-[15:49:08] [Server thread/INFO]: Time elapsed: 2166 ms
-[15:49:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:49:08] [Server thread/INFO]: Preparing spawn area: 0%
-[15:49:09] [Server thread/INFO]: Time elapsed: 500 ms
-[15:49:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:49:09] [Server thread/INFO]: Preparing spawn area: 0%
-[15:49:09] [Server thread/INFO]: Time elapsed: 236 ms
-[15:49:09] [Server thread/INFO]: [spark] Starting background profiler...
-[15:49:10] [Server thread/INFO]: Done preparing level "world" (5.569s)
-[15:49:10] [Server thread/INFO]: Running delayed init tasks
-[15:49:10] [Server thread/INFO]: Done (27.412s)! For help, type "help"
-[15:49:12] [User Authenticator #0/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
-[15:49:14] [Server thread/INFO]: Davidby2007 joined the game
-[15:49:14] [Server thread/INFO]: Davidby2007[/127.234.154.116:47909] logged in with entity id 12 at ([world_nether]-189.69999998807907, 44.0, -183.87950480204074)
-[15:49:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b76ee117-a0c0-4e4d-adaa-eb6cabd8458e, mapped to EnderMan['Enderman'/78, uuid='b76ee117-a0c0-4e4d-adaa-eb6cabd8458e', l='ServerLevel[world_nether]', x=-287.82, y=34.00, z=-205.83, cpos=[-18, -13], tl=0, v=true], can't add EnderMan['Enderman'/86, uuid='b76ee117-a0c0-4e4d-adaa-eb6cabd8458e', l='ServerLevel[world_nether]', x=-288.39, y=34.00, z=-206.39, cpos=[-19, -13], tl=0, v=false]
-[15:49:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b76ee117-a0c0-4e4d-adaa-eb6cabd8458e, mapped to EnderMan['Enderman'/78, uuid='b76ee117-a0c0-4e4d-adaa-eb6cabd8458e', l='ServerLevel[world_nether]', x=-287.82, y=34.00, z=-205.83, cpos=[-18, -13], tl=0, v=true], can't add EnderMan['Enderman'/109, uuid='b76ee117-a0c0-4e4d-adaa-eb6cabd8458e', l='ServerLevel[world_nether]', x=-290.87, y=33.17, z=-208.87, cpos=[-19, -14], tl=0, v=false]
-[15:49:17] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5bb697ce-8a44-4ab5-b686-dd463cf05421, mapped to EnderMan['Enderman'/160, uuid='5bb697ce-8a44-4ab5-b686-dd463cf05421', l='ServerLevel[world_nether]', x=-223.48, y=76.00, z=-41.64, cpos=[-14, -3], tl=0, v=true], can't add EnderMan['Enderman'/180, uuid='5bb697ce-8a44-4ab5-b686-dd463cf05421', l='ServerLevel[world_nether]', x=-233.22, y=75.00, z=-35.78, cpos=[-15, -3], tl=0, v=false]
-[15:49:19] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[15:49:21] [Server thread/INFO]: SebasyTU_ joined the game
-[15:49:21] [Server thread/INFO]: SebasyTU_[/127.181.97.30:58209] logged in with entity id 222 at ([world]254.30000001192093, 68.0, 869.3000000119209)
-[15:49:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2792ms or 55 ticks behind
-[15:49:22] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 59d3db12-177a-4877-a988-7a8c0105b283, mapped to Bat['Bat'/240, uuid='59d3db12-177a-4877-a988-7a8c0105b283', l='ServerLevel[world]', x=208.43, y=25.40, z=870.09, cpos=[13, 54], tl=0, v=true], can't add Bat['Bat'/258, uuid='59d3db12-177a-4877-a988-7a8c0105b283', l='ServerLevel[world]', x=206.42, y=25.93, z=870.56, cpos=[12, 54], tl=0, v=false]
-[15:49:27] [User Authenticator #0/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
-[15:49:28] [Server thread/INFO]: Jhennsdm joined the game
-[15:49:28] [Server thread/INFO]: Jhennsdm[/127.229.234.79:53801] logged in with entity id 499 at ([world_nether]-198.1414527940104, 72.0, -198.17131609182454)
-[15:49:36] [Server thread/INFO]: Davidby2007 tried to swim in lava
-[15:49:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5969ms or 119 ticks behind
-[15:49:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: df39716c-9a11-465c-9738-923abe8c12fe, mapped to Sheep['Sheep'/731, uuid='df39716c-9a11-465c-9738-923abe8c12fe', l='ServerLevel[world]', x=-28.82, y=71.00, z=1154.18, cpos=[-2, 72], tl=0, v=true], can't add Sheep['Sheep'/850, uuid='df39716c-9a11-465c-9738-923abe8c12fe', l='ServerLevel[world]', x=-32.22, y=71.00, z=1150.83, cpos=[-3, 71], tl=0, v=false]
-[15:49:48] [Server thread/INFO]: Davidby2007 has made the advancement [Oh Shiny]
-[15:49:56] [User Authenticator #0/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[15:49:56] [Server thread/INFO]: regsexl joined the game
-[15:49:56] [Server thread/INFO]: regsexl[/127.135.38.35:38999] logged in with entity id 976 at ([world]1073.312338147644, 65.25220334025373, 1722.3014856838179)
-[15:50:06] [Async Chat Thread - #1/INFO]: [Not Secure] <SebasyTU_> mirn el PING de Davidby2007
-[15:50:08] [Server thread/INFO]: Davidby2007 was slain by Zombie
-[15:50:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Jhennsdm> hay dios
-[15:50:31] [Async Chat Thread - #1/INFO]: [Not Secure] <Davidby2007> voy
-[15:50:35] [Server thread/INFO]: regsexl was blown up by Creeper
-[15:51:13] [Server thread/INFO]: Davidby2007 has made the advancement [Who is Cutting Onions?]
-[15:51:14] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar false
-[15:51:14] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: false]
-[15:51:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Davidby2007> we
-[15:51:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Jhennsdm> q
-[15:51:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Davidby2007> ontas
-[15:51:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Jhennsdm> tradeando
-[15:53:17] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
-[15:53:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Jhennsdm> ahora vuelvo
-[15:53:50] [Server thread/INFO]: Jhennsdm lost connection: Disconnected
-[15:53:50] [Server thread/INFO]: Jhennsdm left the game
-[15:55:01] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
-[15:56:12] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere spruce_planks,stripped_spruce_wood 5
-[15:56:16] [Server thread/INFO]: SebasyTU_ issued server command: /mask diamond_block
-[15:58:17] [User Authenticator #1/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
-[15:58:17] [Server thread/INFO]: Jhennsdm joined the game
-[15:58:17] [Server thread/INFO]: Jhennsdm[/127.229.234.79:55765] logged in with entity id 5465 at ([world_nether]-186.24000575958354, 56.0, -183.95504196562098)
-[15:58:32] [Async Chat Thread - #5/INFO]: [Not Secure] <Davidby2007> ya va estoy buscando comida
-[15:59:45] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere spruce_planks,stripped_spruce_wood 5
-[15:59:52] [Server thread/INFO]: SebasyTU_ issued server command: /brush unbind
-[16:00:02] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
-[16:00:10] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
-[16:00:14] [User Authenticator #2/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
-[16:00:14] [Server thread/INFO]: zSxhio joined the game
-[16:00:14] [Server thread/INFO]: zSxhio[/127.34.225.252:53527] logged in with entity id 6649 at ([world]25.23580197989883, 69.33088254276429, 944.1789129359603)
-[16:00:18] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[16:00:20] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[16:01:20] [Async Chat Thread - #6/INFO]: [Not Secure] <zSxhio> que mierda
-[16:02:16] [Async Chat Thread - #6/INFO]: [Not Secure] <Jhennsdm> vamonos ya esta todo luteado
-[16:02:21] [Server thread/INFO]: SebasyTU_ issued server command: /brush unbind
-[16:02:40] [Server thread/INFO]: SebasyTU_ issued server command: /brush unbind
-[16:02:44] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[16:02:44] [Server thread/INFO]: SebasyTU_ left the game
-[16:02:49] [User Authenticator #3/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[16:02:50] [Server thread/INFO]: SebasyTU_ joined the game
-[16:02:50] [Server thread/INFO]: SebasyTU_[/127.181.97.30:49561] logged in with entity id 8169 at ([world]182.19417787363724, 106.0, 914.8014330443632)
-[16:03:17] [Async Chat Thread - #8/INFO]: [Not Secure] <Davidby2007> y el centro?
-[16:03:27] [Async Chat Thread - #9/INFO]: [Not Secure] <Jhennsdm> ya esta
-[16:03:29] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:wooden_axe
-[16:03:29] [Server thread/INFO]: [SebasyTU_: Gave 1 [Wooden Axe] to SebasyTU_]
-[16:03:35] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
-[16:03:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[16:03:58] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> barco tenes?
-[16:04:08] [Async Chat Thread - #9/INFO]: [Not Secure] <Davidby2007> vamos a end?
-[16:04:36] [Server thread/INFO]: regsexl lost connection: Timed out
-[16:04:36] [Server thread/INFO]: regsexl left the game
-[16:04:46] [Async Chat Thread - #9/INFO]: [Not Secure] <Davidby2007> vamos a end?
-[16:04:53] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[16:05:03] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> baras tenes?
-[16:05:06] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
-[16:05:17] [Async Chat Thread - #8/INFO]: [Not Secure] <Davidby2007> no ha aue ir a fortress
-[16:05:23] [Server thread/INFO]: SebasyTU_ issued server command: /kick zSxhio
-[16:05:23] [Server thread/INFO]: zSxhio lost connection: Kicked by an operator
-[16:05:23] [Server thread/INFO]: zSxhio left the game
-[16:05:23] [Server thread/INFO]: [SebasyTU_: Kicked zSxhio: Kicked by an operator]
-[16:05:26] [User Authenticator #4/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
-[16:05:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> q
-[16:05:27] [Server thread/INFO]: zSxhio joined the game
-[16:05:27] [Server thread/INFO]: zSxhio[/127.34.225.252:56923] logged in with entity id 9042 at ([world]259.76970193623174, 72.7531999805212, 858.3689330051097)
-[16:05:30] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> gry
-[16:05:46] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio 2002 70 2002
-[16:05:46] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to 2002.500000, 70.000000, 2002.500000]
-[16:05:52] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> que hijo de puta
-[16:05:56] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
-[16:06:05] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> puto negro
-[16:06:08] [Async Chat Thread - #9/INFO]: [Not Secure] <Jhennsdm> xd
-[16:06:21] [Server thread/INFO]: SebasyTU_ issued server command: //clearhistory
-[16:06:36] [Server thread/INFO]: SebasyTU_ issued server command: //restore
-[16:06:40] [Server thread/INFO]: SebasyTU_ issued server command: /restart
-[16:06:40] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[16:06:40] [Server thread/INFO]: Davidby2007 lost connection: Server is restarting
-[16:06:40] [Server thread/INFO]: Davidby2007 left the game
-[16:06:40] [Server thread/INFO]: Jhennsdm lost connection: Server is restarting
-[16:06:40] [Server thread/INFO]: Jhennsdm left the game
-[16:06:40] [Server thread/INFO]: SebasyTU_ lost connection: Server is restarting
-[16:06:40] [Server thread/INFO]: SebasyTU_ left the game
-[16:06:40] [Server thread/INFO]: zSxhio lost connection: Server is restarting
-[16:06:41] [Server thread/INFO]: zSxhio left the game
-[16:06:41] [Server thread/INFO]: Stopping server
-[16:06:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[16:06:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:06:41] [Server thread/INFO]: Saving players
-[16:06:41] [Server thread/INFO]: Saving worlds
-[16:06:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:06:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:06:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:06:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:06:45] [Server thread/INFO]: [ChunkHolderManager] Saved 2734 block chunks, 1119 entity chunks, 18 poi chunks in world 'world' in 3.78s
-[16:06:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[16:06:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[16:06:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:06:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:06:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:06:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Saved 1538 block chunks, 308 entity chunks, 0 poi chunks in world 'world_nether' in 1.09s
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[16:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[16:06:46] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[16:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:06:46] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[16:06:46] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[16:06:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[16:06:46] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[16:08:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:08:53] [ServerMain/INFO]: Loaded 1407 recipes
+[16:08:53] [ServerMain/INFO]: Loaded 1520 advancements
+[16:08:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:08:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 821.5ms
+[16:08:54] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[16:08:54] [Server thread/INFO]: Loading properties
+[16:08:54] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[16:08:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:08:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:08:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:08:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:08:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:08:56] [Server thread/INFO]: Default game type: SURVIVAL
+[16:08:56] [Server thread/INFO]: Generating keypair
+[16:08:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:08:56] [Server thread/INFO]: Using epoll channel type
+[16:08:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:08:56] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:08:57] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[16:08:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@fb455d7]
+[16:08:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:08:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[16:08:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:08:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:08:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[16:09:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:09:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:09:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:09:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:09:02] [Server thread/INFO]: Preparing level "world"
+[16:09:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:09:04] [Server thread/INFO]: Preparing spawn area: 0%
+[16:09:04] [Server thread/INFO]: Preparing spawn area: 2%
+[16:09:04] [Server thread/INFO]: Preparing spawn area: 14%
+[16:09:05] [Server thread/INFO]: Preparing spawn area: 51%
+[16:09:05] [Server thread/INFO]: Time elapsed: 1940 ms
+[16:09:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:09:05] [Server thread/INFO]: Preparing spawn area: 0%
+[16:09:06] [Server thread/INFO]: Time elapsed: 437 ms
+[16:09:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:09:06] [Server thread/INFO]: Preparing spawn area: 0%
+[16:09:06] [Server thread/INFO]: Time elapsed: 223 ms
+[16:09:06] [Server thread/INFO]: [spark] Starting background profiler...
+[16:09:07] [Server thread/INFO]: Done preparing level "world" (5.175s)
+[16:09:07] [Server thread/INFO]: Running delayed init tasks
+[16:09:07] [Server thread/INFO]: Done (26.555s)! For help, type "help"
+[16:09:09] [User Authenticator #0/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
+[16:09:11] [Server thread/INFO]: zSxhio joined the game
+[16:09:11] [Server thread/INFO]: zSxhio[/127.34.225.252:44383] logged in with entity id 13 at ([world]1981.1181137537271, 69.0, 1932.717947022156)
+[16:09:31] [User Authenticator #0/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
+[16:09:32] [Server thread/INFO]: Davidby2007 joined the game
+[16:09:32] [Server thread/INFO]: Davidby2007[/127.234.154.116:39993] logged in with entity id 288 at ([world_nether]-153.26795137507727, 43.0, -69.43370703229385)
+[16:09:56] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[16:09:57] [Server thread/INFO]: SebasyTU_ joined the game
+[16:09:57] [Server thread/INFO]: SebasyTU_[/127.181.97.30:44891] logged in with entity id 793 at ([world]212.9947291271597, 106.0, 914.3895430853463)
+[16:10:16] [Server thread/INFO]: zSxhio fell from a high place
+[16:10:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Davidby2007> xd
+[16:10:36] [Async Chat Thread - #0/INFO]: [Not Secure] <zSxhio> bey
+[16:11:06] [Async Chat Thread - #0/INFO]: [Not Secure] <Davidby2007> porque cada que sebas hace algo alguien muere
+[16:11:40] [Async Chat Thread - #0/INFO]: [Not Secure] <zSxhio> mi muerte esta como 1916 metro por que alguien me hico te tp a un lugar
+[16:11:55] [Async Chat Thread - #0/INFO]: [Not Secure] <SebasyTU_> q
+[16:12:02] [User Authenticator #1/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[16:12:02] [Server thread/INFO]: Jhennsdm joined the game
+[16:12:02] [Server thread/INFO]: Jhennsdm[/127.229.234.79:40999] logged in with entity id 1749 at ([world_nether]-173.473029774791, 44.08639997415543, -85.21101521336185)
+[16:12:03] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio 2002 70 2002
+[16:12:03] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to 2002.500000, 70.000000, 2002.500000]
+[16:12:09] [Async Chat Thread - #0/INFO]: [Not Secure] <zSxhio> vez
+[16:12:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Jhennsdm> q
+[16:12:26] [User Authenticator #1/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[16:12:26] [Server thread/INFO]: regsexl joined the game
+[16:12:26] [Server thread/INFO]: regsexl[/127.135.38.35:44587] logged in with entity id 2245 at ([world]-254.6424451303018, 64.0, -373.14683109830224)
+[16:12:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Davidby2007> we buscamos la fortalesa?
+[16:12:35] [Server thread/INFO]: SebasyTU_ issued server command: //br sphere stripped_birch_wood,birch_planks 5
+[16:12:41] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[16:12:43] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[16:12:51] [Server thread/INFO]: zSxhio was slain by Husk
+[16:12:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Jhennsdm> ya
+[16:12:53] [Server thread/INFO]: zSxhio lost connection: Disconnected
+[16:12:53] [Server thread/INFO]: zSxhio left the game
+[16:13:00] [Server thread/INFO]: SebasyTU_ issued server command: /mask diamond_block
+[16:13:29] [Server thread/INFO]: regsexl was shot by Skeleton
+[16:13:30] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:13:38] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:13:38] [Server thread/INFO]: regsexl lost connection: Disconnected
+[16:13:39] [Server thread/INFO]: regsexl left the game
+[16:13:45] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:13:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Davidby2007> que pedo
+[16:13:51] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:14:02] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:14:10] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:14:19] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[16:16:50] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:17:06] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:17:14] [Async Chat Thread - #3/INFO]: [Not Secure] <Davidby2007> 1 y medio won
+[16:17:23] [Server thread/INFO]: Davidby2007 was shot by Jhennsdm
+[16:17:26] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:looting 3
+[16:17:26] [Server thread/INFO]: [SebasyTU_: Applied enchantment Looting III to SebasyTU_'s item]
+[16:17:29] [Async Chat Thread - #3/INFO]: [Not Secure] <Jhennsdm> xdd
+[16:17:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Jhennsdm> te metiste
+[16:17:35] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[16:17:35] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[16:17:41] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[16:17:41] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[16:17:54] [Async Chat Thread - #3/INFO]: [Not Secure] <Jhennsdm> era para que te recuperes vida
+[16:18:00] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:efficiency 5
+[16:18:00] [Server thread/INFO]: [SebasyTU_: Applied enchantment Efficiency V to SebasyTU_'s item]
+[16:18:02] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:efficiency 5
+[16:18:02] [Server thread/INFO]: [SebasyTU_: Applied enchantment Efficiency V to SebasyTU_'s item]
+[16:18:05] [Async Chat Thread - #4/INFO]: [Not Secure] <Jhennsdm> visto todo esta planeado
+[16:18:07] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[16:18:07] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:18:28] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:19:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:19:04] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:19:11] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:19:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Jhennsdm> voy a busca la fortaleza
+[16:19:46] [Server thread/INFO]: SebasyTU_ issued server command: /locate structure minecraft:fortress
+[16:19:46] [Server thread/INFO]: Locating element minecraft:fortress took 2 ms
+[16:19:49] [Server thread/INFO]: SebasyTU_ issued server command: /tp @s 256 ~ 304
+[16:19:49] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 256.500000, 53.000000, 304.500000]
+[16:19:49] [Server thread/INFO]: SebasyTU_ has made the advancement [A Terrible Fortress]
+[16:19:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Jhennsdm> mielda
+[16:19:58] [Async Chat Thread - #6/INFO]: [Not Secure] <Davidby2007> va avisas si la encuentras para las cords
+[16:20:22] [Server thread/INFO]: SebasyTU_ issued server command: /msg Davidby2007 254 54 282
+[16:20:59] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar false
+[16:20:59] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: false]
+[16:21:11] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:fortune 3
+[16:21:11] [Server thread/INFO]: [SebasyTU_: Applied enchantment Fortune III to SebasyTU_'s item]
+[16:21:12] [Async Chat Thread - #5/INFO]: [Not Secure] <Jhennsdm> esta permitido matar?
+[16:21:19] [Async Chat Thread - #5/INFO]: [Not Secure] <SebasyTU_> no
+[16:22:00] [Server thread/INFO]: SebasyTU_ has made the advancement [Into Fire]
+[16:22:04] [User Authenticator #2/INFO]: UUID of player arsthedd is b758f643-637f-3660-88c8-03064df58e13
+[16:22:05] [Server thread/INFO]: arsthedd joined the game
+[16:22:05] [Server thread/INFO]: arsthedd[/127.248.165.49:42397] logged in with entity id 7176 at ([world]-3.5, 64.0, 8.5)
+[16:22:20] [Server thread/INFO]: SebasyTU_ issued server command: /ban-ip arsthedd
+[16:22:20] [Server thread/INFO]: [SebasyTU_: Banned IP 127.248.165.49: Banned by an operator.]
+[16:22:20] [Server thread/INFO]: [SebasyTU_: This ban affects 1 player(s): arsthedd]
+[16:22:20] [Server thread/INFO]: arsthedd lost connection: You have been IP banned from this server
+[16:22:20] [Server thread/INFO]: arsthedd left the game
+[16:22:40] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
+[16:22:40] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
+[16:22:41] [Server thread/INFO]: Davidby2007 has made the advancement [A Terrible Fortress]
+[16:22:56] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:23:08] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:23:29] [Server thread/INFO]: Davidby2007 has made the advancement [Into Fire]
+[16:23:40] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> ontas we
+[16:24:24] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> bro te estas lagueando
+[16:24:28] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> DEMASIADO
+[16:24:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> xd
+[16:24:41] [Server thread/INFO]: Davidby2007 lost connection: Timed out
+[16:24:41] [Server thread/INFO]: Davidby2007 left the game
+[16:24:43] [Server thread/INFO]: SebasyTU_ issued server command: /summon minecraft:blaze
+[16:24:43] [Server thread/INFO]: [SebasyTU_: Summoned new Blaze]
+[16:24:51] [Server thread/INFO]: Jhennsdm has made the advancement [Crafting a New Look]
+[16:25:17] [Server thread/INFO]: SebasyTU_ issued server command: /tp 16 53 138
+[16:25:17] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 16.500000, 53.000000, 138.500000]
+[16:25:21] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> dontas david
+[16:25:30] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> david no esta
+[16:25:33] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> a
+[16:25:34] [User Authenticator #3/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
+[16:25:35] [Server thread/INFO]: Davidby2007 joined the game
+[16:25:35] [Server thread/INFO]: Davidby2007[/127.234.154.116:33561] logged in with entity id 9107 at ([world_nether]215.1785506945696, 57.0, 317.5725437416688)
+[16:25:37] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> cierto
+[16:25:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:26:14] [User Authenticator #3/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
+[16:26:16] [Server thread/INFO]: zSxhio joined the game
+[16:26:16] [Server thread/INFO]: zSxhio[/127.34.225.252:50723] logged in with entity id 9516 at ([world]239.5, 64.5625, 941.5)
+[16:26:28] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> &#54DAF4e&#54D6F2l &#54CFEFs&#54CCEDe&#54C8EBb&#54C5E9a&#54C1E8s &#54BAE4l&#54B7E2e &#54AFDFg&#54ACDDu&#54A8DBs&#54A5D9t&#54A1D8a &#549AD4l&#5497D2a &#5490CFv&#548CCDe&#5489CBr&#5485C9g&#5481C8a &#547AC4m&#5477C2a&#5473C1s &#546CBDl&#5469BBa&#5465BAr&#5462
+[16:26:29] [Server thread/INFO]: zSxhio issued server command: /&#54DAF4e&#54D6F2l &#54CFEFs&#54CCEDe&#54C8EBb&#54C5E9a&#54C1E8s &#54BAE4l&#54B7E2e &#54AFDFg&#54ACDDu&#54A8DBs&#54A5D9t&#54A1D8a &#549AD4l&#5497D2a &#5490CFv&#548CCDe&#5489CBr&#5485C9g&#5481C8a &#547AC4m&#5477C2a&#5473C1s &#546CBDl&#5469BBa&#5465BAr&#546
+[16:26:31] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> xd
+[16:26:36] [Async Chat Thread - #7/INFO]: [Not Secure] <zSxhio> AJAJA
+[16:27:02] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:27:10] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:water_bucket 1
+[16:27:10] [Server thread/INFO]: [SebasyTU_: Gave 1 [Water Bucket] to SebasyTU_]
+[16:27:12] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> que paja ineciar de nuevo
+[16:27:23] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> que mrd
+[16:27:26] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:diamond_block 5
+[16:27:26] [Server thread/INFO]: [SebasyTU_: Gave 5 [Block of Diamond] to SebasyTU_]
+[16:27:34] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> zSxhio ven
+[16:27:35] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> l
+[16:27:39] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> aprovecha mañana es septiembre
+[16:27:40] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> donde
+[16:27:44] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> atras
+[16:28:06] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> ven
+[16:28:15] [Async Chat Thread - #7/INFO]: [Not Secure] <Davidby2007> Jhennsdm
+[16:28:18] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> q
+[16:28:35] [Server thread/INFO]: Davidby2007 issued server command: /msg Jhennsdm ya tengo las blazze rod
+[16:28:40] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> vamos a por el dragon
+[16:28:45] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> equipate
+[16:28:46] [Async Chat Thread - #8/INFO]: [Not Secure] <Davidby2007> estas en el nether'
+[16:28:51] [Async Chat Thread - #8/INFO]: [Not Secure] <Jhennsdm> si
+[16:28:59] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> dame tu armor
+[16:29:00] [Async Chat Thread - #7/INFO]: [Not Secure] <Davidby2007> ven a buscame
+[16:29:03] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> para q la encante
+[16:29:14] [Server thread/INFO]: SebasyTU_ issued server command: /experience add SebasyTU_ 200 levels
+[16:29:14] [Server thread/INFO]: [SebasyTU_: Gave 200 experience levels to SebasyTU_]
+[16:29:15] [Async Chat Thread - #7/INFO]: [Not Secure] <zSxhio> q
+[16:29:17] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> dame tu armor
+[16:29:19] [Async Chat Thread - #7/INFO]: [Not Secure] <Davidby2007> o dame las cords del portal
+[16:29:26] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> yyaya voy
+[16:29:39] [Async Chat Thread - #7/INFO]: [Not Secure] <zSxhio> puta madre tengo 80 de fps por los shaders
+[16:30:02] [Async Chat Thread - #7/INFO]: [Not Secure] <zSxhio> comida
+[16:30:15] [Async Chat Thread - #8/INFO]: [Not Secure] <zSxhio> impuje
+[16:30:19] [Async Chat Thread - #7/INFO]: [Not Secure] <SebasyTU_> ps eso toco
+[16:30:24] [Async Chat Thread - #9/INFO]: [Not Secure] <zSxhio> nms
+[16:30:24] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> xd
+[16:30:27] [Async Chat Thread - #9/INFO]: [Not Secure] <SebasyTU_> ala vreg
+[16:30:33] [Async Chat Thread - #9/INFO]: [Not Secure] <SebasyTU_> ya vamos??
+[16:30:36] [Async Chat Thread - #9/INFO]: [Not Secure] <SebasyTU_> unete a dc
+[16:30:36] [Async Chat Thread - #9/INFO]: [Not Secure] <zSxhio> sisi
+[16:30:39] [Async Chat Thread - #7/INFO]: [Not Secure] <Jhennsdm> por priv david no?
+[16:30:40] [Async Chat Thread - #9/INFO]: [Not Secure] <zSxhio> ya esoty
+[16:30:48] [Async Chat Thread - #7/INFO]: [Not Secure] <zSxhio> AKSDJASJd
+[16:30:48] [Async Chat Thread - #9/INFO]: [Not Secure] <Davidby2007> si
+[16:30:58] [Server thread/INFO]: Jhennsdm issued server command: /tell Davidby2007 -184 56 -84
+[16:31:11] [Server thread/INFO]: Davidby2007 issued server command: /seed
+[16:31:15] [Server thread/INFO]: SebasyTU_ issued server command: /locate structure minecraft:stronghold
+[16:31:15] [Server thread/INFO]: Locating element minecraft:stronghold took 0 ms
+[16:31:53] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:fire_aspect 2
+[16:31:53] [Server thread/INFO]: [SebasyTU_: Applied enchantment Fire Aspect II to SebasyTU_'s item]
+[16:32:31] [Async Chat Thread - #11/INFO]: [Not Secure] <Jhennsdm> dontas david
+[16:32:34] [Async Chat Thread - #11/INFO]: [Not Secure] <Davidby2007> tradea con los aldeanos para mi armor mientras llego
+[16:32:42] [Async Chat Thread - #11/INFO]: [Not Secure] <Jhennsdm> pa eso a mina voy
+[16:33:16] [Async Chat Thread - #10/INFO]: [Not Secure] <zSxhio> zi
+[16:33:25] [Async Chat Thread - #10/INFO]: [Not Secure] <zSxhio> aldea
+[16:33:28] [Server thread/INFO]: zSxhio issued server command: /creo
+[16:33:30] [Async Chat Thread - #11/INFO]: [Not Secure] <zSxhio> creo
+[16:34:31] [Async Chat Thread - #13/INFO]: [Not Secure] <Jhennsdm> ontas david
+[16:35:34] [Async Chat Thread - #15/INFO]: [Not Secure] <Jhennsdm> ahora vuelvo te deje armor encantada en cofre
+[16:35:35] [Server thread/INFO]: Jhennsdm lost connection: Disconnected
+[16:35:35] [Server thread/INFO]: Jhennsdm left the game
+[16:35:52] [Server thread/INFO]: SebasyTU_ issued server command: /tp @s 1520 ~ -96
+[16:35:52] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 1520.500000, 74.000000, -95.500000]
+[16:35:53] [Async Chat Thread - #14/INFO]: [Not Secure] <zSxhio> ño
+[16:35:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:36:03] [Async Chat Thread - #15/INFO]: [Not Secure] <zSxhio> ontas
+[16:36:29] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio SebasyTU_
+[16:36:29] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to SebasyTU_]
+[16:36:29] [Async Chat Thread - #14/INFO]: [Not Secure] <zSxhio> onde
+[16:36:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:36:45] [User Authenticator #4/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[16:36:46] [Server thread/INFO]: Jhennsdm joined the game
+[16:36:46] [Server thread/INFO]: Jhennsdm[/127.229.234.79:47281] logged in with entity id 15376 at ([world]-1447.4605700210482, 72.0, -763.055031092892)
+[16:37:48] [Async Chat Thread - #16/INFO]: [Not Secure] <Jhennsdm> ontas we
+[16:37:55] [Async Chat Thread - #16/INFO]: [Not Secure] <Davidby2007> case
+[16:38:10] [Server thread/INFO]: zSxhio has made the advancement [Eye Spy]
+[16:38:10] [Server thread/INFO]: SebasyTU_ has made the advancement [Eye Spy]
+[16:38:12] [Async Chat Thread - #16/INFO]: [Not Secure] <zSxhio> se pone xray
+[16:39:15] [Server thread/INFO]: Jhennsdm issued server command: /tell Davidby2007 apura oye ya no ganaron los otros
+[16:39:29] [Server thread/INFO]: Davidby2007 issued server command: /r ven estoy 100 y sin pico
+[16:39:49] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[16:39:51] [Server thread/INFO]: Davidby2007 issued server command: /msg Jhennsdm ven -184 56 4
+[16:40:00] [Async Chat Thread - #19/INFO]: [Not Secure] <Davidby2007> se me rompio el pico
+[16:40:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:40:05] [Async Chat Thread - #20/INFO]: [Not Secure] <Jhennsdm> nether?
+[16:40:07] [Async Chat Thread - #19/INFO]: [Not Secure] <Davidby2007> si
+[16:40:14] [Async Chat Thread - #19/INFO]: [Not Secure] <Jhennsdm> pera
+[16:41:17] [Async Chat Thread - #22/INFO]: [Not Secure] <zSxhio> ora
+[16:41:29] [Async Chat Thread - #22/INFO]: [Not Secure] <Davidby2007> weeeeee
+[16:41:32] [Async Chat Thread - #22/INFO]: [Not Secure] <Jhennsdm> q
+[16:41:43] [Async Chat Thread - #22/INFO]: [Not Secure] <Davidby2007> aqui voltea
+[16:42:04] [Async Chat Thread - #21/INFO]: [Not Secure] <Jhennsdm> go
+[16:42:28] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
+[16:42:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:42:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:42:45] [Async Chat Thread - #21/INFO]: [Not Secure] <Jhennsdm> lleva cams
+[16:42:47] [Server thread/INFO]: Jhennsdm has made the advancement [Into Fire]
+[16:43:11] [Server thread/INFO]: SebasyTU_ has made the advancement [The End?]
+[16:43:11] [Server thread/INFO]: zSxhio has made the advancement [The End?]
+[16:43:12] [Async Chat Thread - #21/INFO]: [Not Secure] <Jhennsdm> mrd
+[16:43:13] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:43:13] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[16:43:49] [Async Chat Thread - #22/INFO]: [Not Secure] <Davidby2007> vamo
+[16:43:51] [Async Chat Thread - #21/INFO]: [Not Secure] <Jhennsdm> go
+[16:44:01] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar false
+[16:44:01] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: false]
+[16:44:16] [Async Chat Thread - #22/INFO]: [Not Secure] <Davidby2007> go
+[16:44:22] [Async Chat Thread - #21/INFO]: [Not Secure] <Jhennsdm> go
+[16:44:24] [Async Chat Thread - #22/INFO]: [Not Secure] <zSxhio> ??
+[16:44:27] [Async Chat Thread - #21/INFO]: [Not Secure] <zSxhio> &#54DAF4e&#54D6F2l &#54CFEFs&#54CCEDe&#54C8EBb&#54C5E9a&#54C1E8s &#54BAE4l&#54B7E2e &#54AFDFg&#54ACDDu&#54A8DBs&#54A5D9t&#54A1D8a &#549AD4l&#5497D2a &#5490CFv&#548CCDe&#5489CBr&#5485C9g&#5481C8a &#547AC4m&#5477C2a&#5473C1s &#546CBDl&#5469BBa&#5465BAr&#5462
+[16:45:29] [Server thread/INFO]: zSxhio was doomed to fall
+[16:45:29] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:45:33] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:45:37] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio SebasyTU_
+[16:45:37] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to SebasyTU_]
+[16:45:43] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:45:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:45:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:46:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:46:22] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:46:30] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:47:09] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:47:16] [Async Chat Thread - #23/INFO]: [Not Secure] <Jhennsdm> weee
+[16:47:23] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:47:25] [Async Chat Thread - #23/INFO]: [Not Secure] <Davidby2007> se me rompio mi ojo
+[16:47:26] [Async Chat Thread - #23/INFO]: [Not Secure] <Jhennsdm> aqui
+[16:47:42] [Async Chat Thread - #23/INFO]: [Not Secure] <Davidby2007> cords
+[16:47:59] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:48:07] [Async Chat Thread - #23/INFO]: [Not Secure] <Jhennsdm> -1118 119 -1489
+[16:48:10] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:48:21] [Async Chat Thread - #23/INFO]: [Not Secure] <zSxhio> putos negros
+[16:49:27] [Server thread/INFO]: SebasyTU_ was doomed to fall
+[16:49:30] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> xd
+[16:49:31] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio
+[16:49:31] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to zSxhio]
+[16:49:36] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:49:39] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:49:54] [Server thread/INFO]: Jhennsdm has made the advancement [Eye Spy]
+[16:50:08] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> este es otro no mames
+[16:50:33] [Server thread/INFO]: Davidby2007 fell from a high place
+[16:50:35] [Server thread/INFO]: Davidby2007 lost connection: Disconnected
+[16:50:35] [Server thread/INFO]: Davidby2007 left the game
+[16:50:39] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> jajjaa
+[16:50:40] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> xdd
+[16:50:56] [Server thread/INFO]: SebasyTU_ issued server command: /effect give SebasyTU_ minecraft:strength infinite 20
+[16:50:56] [Server thread/INFO]: [SebasyTU_: Applied effect Strength to SebasyTU_]
+[16:51:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:51:08] [Async Chat Thread - #25/INFO]: [Not Secure] <zSxhio> dragona down
+[16:51:11] [Server thread/INFO]: Jhennsdm has made the advancement [The End?]
+[16:51:14] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:51:18] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:51:19] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:51:31] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> hola chicas
+[16:51:36] [Async Chat Thread - #25/INFO]: [Not Secure] <zSxhio> que raya
+[16:51:49] [Server thread/INFO]: SebasyTU_ has made the advancement [Free the End]
+[16:51:52] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> asu
+[16:51:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:52:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:52:01] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> buena loco
+[16:52:05] [Server thread/INFO]: zSxhio was slain by Enderman
+[16:52:16] [Server thread/INFO]: SebasyTU_ has reached the goal [The Next Generation]
+[16:52:24] [Server thread/INFO]: zSxhio fell out of the world
+[16:52:32] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio SebasyTU_
+[16:52:32] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to SebasyTU_]
+[16:52:48] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> lesto
+[16:53:09] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> oye y el david?
+[16:53:21] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:53:24] [User Authenticator #5/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
+[16:53:24] [Async Chat Thread - #25/INFO]: [Not Secure] <zSxhio> donde su abuela
+[16:53:25] [Server thread/INFO]: Davidby2007 joined the game
+[16:53:25] [Server thread/INFO]: Davidby2007[/127.234.154.116:54105] logged in with entity id 23632 at ([world]-1118.699999988079, 79.0, -1490.3073431316495)
+[16:53:26] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> dd
+[16:53:29] [Async Chat Thread - #26/INFO]: [Not Secure] <zSxhio> uy
+[16:53:30] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> oe que fue david
+[16:53:37] [Async Chat Thread - #25/INFO]: [Not Secure] <Davidby2007> se ,e lagep
+[16:53:46] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> a
+[16:54:16] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[16:54:16] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[16:54:18] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[16:54:18] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[16:54:19] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[16:54:19] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[16:54:25] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[16:54:25] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[16:54:30] [Server thread/WARN]: Davidby2007 moved too quickly! -3.4695839776784396,-0.41999998688697815,-16.012842774852174
+[16:54:34] [Server thread/INFO]: zSxhio was slain by Enderman
+[16:54:36] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> xd
+[16:54:38] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:54:42] [Async Chat Thread - #25/INFO]: [Not Secure] <zSxhio> bye
+[16:54:43] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:protection 4
+[16:54:43] [Server thread/INFO]: [SebasyTU_: Applied enchantment Protection IV to SebasyTU_'s item]
+[16:54:45] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:protection 4
+[16:54:45] [Server thread/INFO]: [SebasyTU_: Applied enchantment Protection IV to SebasyTU_'s item]
+[16:54:46] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:protection 4
+[16:54:46] [Server thread/INFO]: [SebasyTU_: Applied enchantment Protection IV to SebasyTU_'s item]
+[16:54:49] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:protection 4
+[16:54:49] [Server thread/INFO]: [SebasyTU_: Applied enchantment Protection IV to SebasyTU_'s item]
+[16:55:05] [Server thread/INFO]: zSxhio was doomed to fall by Enderman
+[16:55:16] [Async Chat Thread - #25/INFO]: [Not Secure] <SebasyTU_> pvp?
+[16:55:25] [Async Chat Thread - #26/INFO]: [Not Secure] <zSxhio> ryone unete
+[16:55:27] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> no era chill?
+[16:55:28] [Async Chat Thread - #26/INFO]: [Not Secure] <zSxhio> pe causa
+[16:55:31] [Async Chat Thread - #25/INFO]: [Not Secure] <SebasyTU_> pero preguntoç
+[16:55:35] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> no
+[16:55:38] [Server thread/INFO]: SebasyTU_ issued server command: /effect clear SebasyTU_
+[16:55:38] [Server thread/INFO]: [SebasyTU_: Removed every effect from SebasyTU_]
+[16:55:40] [Async Chat Thread - #26/INFO]: [Not Secure] <SebasyTU_> mmm
+[16:55:54] [Server thread/INFO]: SebasyTU_ has made the advancement [Remote Getaway]
+[16:56:04] [Server thread/INFO]: SebasyTU_ issued server command: /locate structure minecraft:end_city
+[16:56:04] [Server thread/INFO]: Locating element minecraft:end_city took 183 ms
+[16:56:07] [Server thread/INFO]: SebasyTU_ issued server command: /tp @s -1248 ~ -1216
+[16:56:07] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to -1247.500000, 58.000000, -1215.500000]
+[16:56:09] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:56:09] [Server thread/INFO]: Jhennsdm has made the advancement [Remote Getaway]
+[16:56:13] [Server thread/INFO]: zSxhio fell out of the world
+[16:56:14] [Server thread/INFO]: SebasyTU_ has made the advancement [The City at the End of the Game]
+[16:56:15] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:56:37] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> oe sebas
+[16:56:42] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> apareciste de otro lado?
+[16:56:54] [Async Chat Thread - #26/INFO]: [Not Secure] <SebasyTU_> si
+[16:56:59] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> a
+[16:57:01] [Async Chat Thread - #25/INFO]: [Not Secure] <SebasyTU_> donde apareci aviua otro
+[16:57:05] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:57:20] [Async Chat Thread - #25/INFO]: [Not Secure] <Jhennsdm> si me dic cuenta cuando no estabas conmigo
+[16:57:21] [Server thread/INFO]: Davidby2007 was slain by Zombie
+[16:57:21] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> xd
+[16:57:26] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:57:50] [Server thread/INFO]: SebasyTU_ has reached the goal [Sky's the Limit]
+[16:57:56] [Server thread/INFO]: SebasyTU_ has made the advancement [Local Brewery]
+[16:58:16] [Async Chat Thread - #26/INFO]: [Not Secure] <Jhennsdm> ese david y su ping
+[16:58:20] [Async Chat Thread - #26/INFO]: [Not Secure] <SebasyTU_> xd
+[16:58:27] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:58:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:59:33] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[16:59:48] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[16:59:51] [Server thread/INFO]: SebasyTU_ issued server command: /tp Jhennsdm
+[16:59:51] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to Jhennsdm]
+[16:59:54] [Async Chat Thread - #28/INFO]: [Not Secure] <Jhennsdm> aaaa
+[16:59:59] [Async Chat Thread - #27/INFO]: [Not Secure] <Jhennsdm> conrazon
+[17:00:44] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:01:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:01:41] [Async Chat Thread - #29/INFO]: [Not Secure] <Jhennsdm> oe sabes mandame un barco porfa
+[17:02:13] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> no puedo bro
+[17:02:20] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> porq yo no hice eso
+[17:02:21] [Async Chat Thread - #30/INFO]: [Not Secure] <Jhennsdm> mamadas apura
+[17:02:32] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> no es q enserio
+[17:02:38] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> no hice eso
+[17:02:49] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:03:22] [Server thread/INFO]: zSxhio lost connection: Disconnected
+[17:03:22] [Server thread/INFO]: zSxhio left the game
+[17:03:24] [Async Chat Thread - #29/INFO]: [Not Secure] <Jhennsdm> apura mamon ni yo estoy encontrando
+[17:03:25] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[17:03:25] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[17:03:32] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> xddd
+[17:03:33] [Server thread/INFO]: Davidby2007 has made the advancement [Eye Spy]
+[17:03:47] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> yo no me tp
+[17:03:48] [Async Chat Thread - #29/INFO]: [Not Secure] <Jhennsdm> ese david recien xd
+[17:03:56] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> si me tpeo ps te tpeo
+[17:04:00] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> pero si no no
+[17:04:02] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:04:14] [Async Chat Thread - #30/INFO]: [Not Secure] <Jhennsdm> pero si te tepeaste asi mi apura tienes persmiso
+[17:04:28] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> no
+[17:04:28] [Async Chat Thread - #30/INFO]: [Not Secure] <SebasyTU_> xd
+[17:04:31] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> no lo hice
+[17:04:46] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> no tengo ni la pagina esa abierta
+[17:04:48] [Async Chat Thread - #30/INFO]: [Not Secure] <Jhennsdm> apura no puedes encontrar un barco asi de rapido
+[17:05:03] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> no lo encontre mrd
+[17:05:09] [Async Chat Thread - #30/INFO]: [Not Secure] <Jhennsdm> tonce
+[17:05:11] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> apareci alado de uno
+[17:05:15] [Async Chat Thread - #29/INFO]: [Not Secure] <Jhennsdm> jajaja
+[17:05:20] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> ni yo sabia q tenia barco
+[17:05:36] [Server thread/INFO]: Davidby2007 has made the advancement [The End?]
+[17:05:59] [Async Chat Thread - #30/INFO]: [Not Secure] <Jhennsdm> apura no te hagas
+[17:06:05] [Async Chat Thread - #29/INFO]: [Not Secure] <Jhennsdm> la vistima
+[17:06:06] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:06:13] [Async Chat Thread - #29/INFO]: [Not Secure] <SebasyTU_> no me hago mrd
+[17:06:37] [Server thread/INFO]: SebasyTU_ issued server command: /tp 252 72 960
+[17:06:37] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 252.500000, 72.000000, 960.500000]
+[17:06:59] [Server thread/INFO]: Davidby2007 has made the advancement [Remote Getaway]
+[17:07:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:07:25] [Async Chat Thread - #32/INFO]: [Not Secure] <SebasyTU_> bueneoo ya tengo lo q queria byee
+[17:07:27] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[17:07:27] [Server thread/INFO]: SebasyTU_ left the game
+[17:08:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
+sfds<--[HERE]
+[17:09:07] [Async Chat Thread - #33/INFO]: [Not Secure] <Jhennsdm> que dices vos david
+[17:09:11] [Async Chat Thread - #33/INFO]: [Not Secure] <Davidby2007> de que
+[17:09:48] [Async Chat Thread - #33/INFO]: [Not Secure] <Jhennsdm> sobre sebas es que es demasiado raro yo entre al portal y no estaba el segun tenia que estar con el
+[17:09:58] [Async Chat Thread - #33/INFO]: [Not Secure] <Davidby2007> eso es paja
+[17:10:15] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> luego de un ratito ni 2 minutos tenia elitras
+[17:11:01] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> y otra cosa que aqui est un portalito con agua y tenia el mio ni no deje cin agua ademas no es el lugar
+[17:11:26] [Async Chat Thread - #34/INFO]: [Not Secure] <Davidby2007> yo sali en otro
+[17:11:30] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> y en este lugar no hay ningun barco cerca
+[17:11:35] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> ya en otro
+[17:11:36] [Async Chat Thread - #33/INFO]: [Not Secure] <Jhennsdm> 1
+[17:12:02] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> pero sobre de las elitras no tardo ni 1 minuto y tenia elitras
+[17:12:12] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> a no
+[17:12:19] [Async Chat Thread - #34/INFO]: [Not Secure] <Davidby2007> obvio se tepeo
+[17:12:25] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> creo que ahora le creo
+[17:12:37] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> aqui hay una
+[17:12:40] [Async Chat Thread - #34/INFO]: [Not Secure] <Jhennsdm> al lado
+[17:13:03] [Server thread/INFO]: Jhennsdm has made the advancement [The City at the End of the Game]
+[17:14:29] [Async Chat Thread - #36/INFO]: [Not Secure] <Jhennsdm> naaa
+[17:14:40] [Async Chat Thread - #35/INFO]: [Not Secure] <Davidby2007> sin barco?
+[17:14:59] [Server thread/INFO]: Jhennsdm lost connection: Disconnected
+[17:14:59] [Server thread/INFO]: Jhennsdm left the game
+[17:15:19] [Server thread/INFO]: You whisper to Davidby2007: no me tpie
+[17:15:25] [Async Chat Thread - #35/INFO]: [Not Secure] <Davidby2007> we ayudaaaa
+[17:15:25] [User Authenticator #6/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[17:15:26] [Server thread/INFO]: Jhennsdm joined the game
+[17:15:26] [Server thread/INFO]: Jhennsdm[/127.229.234.79:51039] logged in with entity id 38288 at ([world_the_end]402.33349833527933, 105.2049327473135, -2521.6140175630067)
+[17:15:38] [Async Chat Thread - #35/INFO]: [Not Secure] <Jhennsdm> si mano sin barco se lo saco del crativ
+[17:15:46] [Server thread/INFO]: Jhennsdm lost connection: Disconnected
+[17:15:46] [Server thread/INFO]: Jhennsdm left the game
+[17:15:48] [Server thread/INFO]: You whisper to Davidby2007: lo prometo q spawnie alado de uno
+[17:15:54] [Async Chat Thread - #35/INFO]: [Not Secure] <Davidby2007> te creo
+[17:16:01] [Async Chat Thread - #35/INFO]: [Not Secure] <Davidby2007> pero ayduaaaaa
+[17:16:19] [Async Chat Thread - #36/INFO]: [Not Secure] <Davidby2007> me quede sin bloques
+[17:16:22] [Server thread/INFO]: You whisper to Davidby2007: sli y ya tenia barco esa weebada solo subi y ya y me fui
+[17:17:50] [Async Chat Thread - #37/INFO]: [Not Secure] <Davidby2007> lo baneaste?
+[17:18:27] [User Authenticator #7/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[17:18:28] [Server thread/INFO]: Jhennsdm joined the game
+[17:18:28] [Server thread/INFO]: Jhennsdm[/127.229.234.79:60243] logged in with entity id 38694 at ([world_the_end]408.3450310033464, 98.0, -2528.51778161369)
+[17:18:40] [Async Chat Thread - #38/INFO]: [Not Secure] <Jhennsdm> que opinas sobre lo que te dije
+[17:19:08] [Async Chat Thread - #38/INFO]: [Not Secure] <Davidby2007> nose opino que todo es posible pero a la vez raro
+[17:19:37] [Async Chat Thread - #38/INFO]: [Not Secure] <Jhennsdm> si pero como te dije aqui no hay nungun barco aver voy por hay a invetigar
+[17:20:50] [Server thread/INFO]: You whisper to Jhennsdm: tilin ese portal que encontraste alado de una city lo encontre despues de tpm a ti y me fui por ahi
+[17:21:34] [Async Chat Thread - #39/INFO]: [Not Secure] <Jhennsdm> a ok
+[17:21:49] [Async Chat Thread - #39/INFO]: [Not Secure] <Davidby2007> hola
+[17:22:02] [Server thread/INFO]: Jhennsdm was doomed to fall by Shulker
+[17:22:08] [Async Chat Thread - #39/INFO]: [Not Secure] <Jhennsdm> xdd
+[17:22:16] [Async Chat Thread - #39/INFO]: [Not Secure] <Davidby2007> lo vi todo xd
+[17:22:21] [Async Chat Thread - #40/INFO]: [Not Secure] <Jhennsdm> ya fue ya
+[17:22:24] [Async Chat Thread - #39/INFO]: [Not Secure] <Jhennsdm> aa tabas conmigo
+[17:22:34] [Async Chat Thread - #40/INFO]: [Not Secure] <Davidby2007> acababa de llegar xd
+[17:22:42] [Async Chat Thread - #39/INFO]: [Not Secure] <Jhennsdm> recoje mis cosas plis{
+[17:22:46] [Server thread/INFO]: Teleported Jhennsdm to Davidby2007
+[17:22:46] [Server thread/INFO]: Davidby2007 has made the advancement [The City at the End of the Game]
+[17:22:52] [Async Chat Thread - #39/INFO]: [Not Secure] <Jhennsdm> ese admin q
+[17:24:13] [Server thread/INFO]: Jhennsdm was doomed to fall by Shulker
+[17:24:18] [Async Chat Thread - #41/INFO]: [Not Secure] <Jhennsdm> admin
+[17:24:50] [Async Chat Thread - #42/INFO]: [Not Secure] <Jhennsdm> oe recojes mi cosas mano
+[17:24:57] [Async Chat Thread - #41/INFO]: [Not Secure] <Jhennsdm> el de netehrite te regalo
+[17:24:59] [Async Chat Thread - #42/INFO]: [Not Secure] <Jhennsdm> igual
+[17:25:01] [Async Chat Thread - #42/INFO]: [Not Secure] <Davidby2007> va
+[17:25:03] [Async Chat Thread - #41/INFO]: [Not Secure] <Jhennsdm> pero recoje todo
+[17:25:07] [Async Chat Thread - #41/INFO]: [Not Secure] <Jhennsdm> todooooooooooooooooooooooooooooooooooooooo
+[17:25:10] [Server thread/INFO]: Jhennsdm lost connection: Disconnected
+[17:25:10] [Server thread/INFO]: Jhennsdm left the game
+[17:25:27] [Server thread/WARN]: Davidby2007 moved too quickly! -6.353079319000244,-45.017688393592834,6.25376033782959
+[17:27:40] [User Authenticator #8/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[17:27:40] [Server thread/INFO]: SebasyTU_ joined the game
+[17:27:40] [Server thread/INFO]: SebasyTU_[/127.181.97.30:48707] logged in with entity id 40645 at ([world]245.67305872550028, 66.0, 939.1182727205645)
+[17:27:49] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> yo no me tpie mrd
+[17:27:51] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[17:27:51] [Server thread/INFO]: SebasyTU_ left the game
+[17:28:25] [User Authenticator #8/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[17:28:25] [Server thread/INFO]: SebasyTU_ joined the game
+[17:28:25] [Server thread/INFO]: SebasyTU_[/127.181.97.30:32891] logged in with entity id 40987 at ([world]245.67305872550028, 66.0, 939.1182727205645)
+[17:28:29] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> y si
+[17:28:36] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> mando la IP en un server grande
+[17:28:44] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> y la version q pasa????????
+[17:28:47] [Async Chat Thread - #43/INFO]: [Not Secure] <Davidby2007> quien
+[17:28:51] [Async Chat Thread - #43/INFO]: [Not Secure] <Davidby2007> que pedo
+[17:29:04] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> si o no
+[17:29:21] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[17:29:21] [Server thread/INFO]: SebasyTU_ left the game
+[17:29:22] [Async Chat Thread - #43/INFO]: [Not Secure] <Davidby2007> pues si dejas que chte shi
+[17:29:30] [User Authenticator #9/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[17:29:30] [Server thread/INFO]: SebasyTU_ joined the game
+[17:29:30] [Server thread/INFO]: SebasyTU_[/127.181.97.30:32979] logged in with entity id 41429 at ([world]245.81614249255108, 66.0, 939.7439390366807)
+[17:29:33] [Async Chat Thread - #44/INFO]: [Not Secure] <Davidby2007> pues si dejas que chte shi
+[17:29:51] [Async Chat Thread - #43/INFO]: [Not Secure] <SebasyTU_> como sea la voy a mandar
+[17:31:23] [Server thread/WARN]: Davidby2007 moved too quickly! -0.23928546905517578,-9.127793312072754,7.850857734680176
+[17:31:55] [Async Chat Thread - #45/INFO]: [Not Secure] <Davidby2007> me ayudas a encontrar mis elytras bro
+[17:31:58] [Async Chat Thread - #45/INFO]: [Not Secure] <Davidby2007> ??
+[17:32:40] [Async Chat Thread - #46/INFO]: [Not Secure] <SebasyTU_> lo mande a UNIVERSO
+[17:32:44] [Async Chat Thread - #46/INFO]: [Not Secure] <SebasyTU_> ehhh no
+[17:32:48] [Async Chat Thread - #45/INFO]: [Not Secure] <SebasyTU_> estoy comiendoç
+[17:32:55] [Async Chat Thread - #45/INFO]: [Not Secure] <Davidby2007> :c
+[17:36:23] [User Authenticator #10/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[17:36:24] [Server thread/INFO]: Jhennsdm joined the game
+[17:36:24] [Server thread/INFO]: Jhennsdm[/127.229.234.79:48217] logged in with entity id 42685 at ([world_the_end]-6.7040233082038165, 62.0, -51.41834527429957)
+[17:36:35] [Async Chat Thread - #47/INFO]: [Not Secure] <Jhennsdm> lesto papeto lendo recojiste todo?
+[17:36:49] [Async Chat Thread - #47/INFO]: [Not Secure] <Davidby2007> no habia casi nada
+[17:36:54] [Async Chat Thread - #47/INFO]: [Not Secure] <Jhennsdm> a
+[17:37:02] [Async Chat Thread - #47/INFO]: [Not Secure] <Jhennsdm> arriba en el techo
+[17:37:06] [Async Chat Thread - #47/INFO]: [Not Secure] <Davidby2007> si
+[17:37:19] [Async Chat Thread - #47/INFO]: [Not Secure] <Jhennsdm> mamon
+[17:37:31] [Async Chat Thread - #48/INFO]: [Not Secure] <Davidby2007> ;/
+[17:38:04] [Async Chat Thread - #47/INFO]: [Not Secure] <SebasyTU_> sin insultos mrd
+[17:38:07] [Server thread/INFO]: SebasyTU_ issued server command: /kick Jhennsdm
+[17:38:07] [Server thread/INFO]: Jhennsdm lost connection: Kicked by an operator
+[17:38:07] [Server thread/INFO]: Jhennsdm left the game
+[17:38:07] [Server thread/INFO]: [SebasyTU_: Kicked Jhennsdm: Kicked by an operator]
+[17:38:10] [User Authenticator #11/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[17:38:11] [Server thread/INFO]: Jhennsdm joined the game
+[17:38:11] [Server thread/INFO]: Jhennsdm[/127.229.234.79:52853] logged in with entity id 43313 at ([world_the_end]-126.32124891121092, 61.67647087614427, -1201.5828984552143)
+[17:38:14] [Async Chat Thread - #47/INFO]: [Not Secure] <Davidby2007> xdd
+[17:39:01] [Async Chat Thread - #47/INFO]: [Not Secure] <Jhennsdm> ok
+[17:41:55] [Async Chat Thread - #49/INFO]: [Not Secure] <Jhennsdm> ontas
+[17:42:10] [Async Chat Thread - #49/INFO]: [Not Secure] <Davidby2007> asjaksjaksj
+[17:42:14] [Async Chat Thread - #49/INFO]: [Not Secure] <Davidby2007> yo?
+[17:42:17] [Async Chat Thread - #49/INFO]: [Not Secure] <Jhennsdm> se
+[17:42:41] [Async Chat Thread - #49/INFO]: [Not Secure] <Davidby2007> buscando
+[17:42:49] [Async Chat Thread - #49/INFO]: [Not Secure] <Jhennsdm> q
+[17:43:13] [Async Chat Thread - #49/INFO]: [Not Secure] <Davidby2007> las elytra
+[17:47:33] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:47:51] [Async Chat Thread - #52/INFO]: [Not Secure] <Jhennsdm> sebas tepeame a david porfa
+[17:47:53] [Async Chat Thread - #52/INFO]: [Not Secure] <Jhennsdm> mano
+[17:47:59] [Async Chat Thread - #52/INFO]: [Not Secure] <Davidby2007> no bro espera
+[17:48:04] [Async Chat Thread - #52/INFO]: [Not Secure] <Jhennsdm> m...
+[17:48:06] [Async Chat Thread - #51/INFO]: [Not Secure] <Jhennsdm> apura sebas
+[17:48:12] [Server thread/WARN]: Jhennsdm moved too quickly! 0.0856161117553711,-14.813976287841797,-4.24965500831604
+[17:48:14] [Server thread/WARN]: Jhennsdm moved too quickly! -3.3130106925964355,-12.087407112121582,-5.967770099639893
+[17:48:23] [Server thread/INFO]: Davidby2007 issued server command: /msg SebasyTU_ no sebs
+[17:48:33] [Async Chat Thread - #52/INFO]: [Not Secure] <Jhennsdm> sebas
+[17:49:12] [Async Chat Thread - #52/INFO]: [Not Secure] <Jhennsdm> sebasss
+[17:49:18] [Server thread/WARN]: Jhennsdm moved too quickly! 7.673497200012207,-24.432961463928223,7.212581634521484
+[17:50:05] [Server thread/WARN]: Jhennsdm moved too quickly! -5.261736154556274,-9.451074600219727,7.405600547790527
+[17:50:05] [Server thread/WARN]: Davidby2007 moved too quickly! 4.058138847351074,-35.17753887176514,-5.319422721862793
+[17:51:48] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> sebas
+[17:52:01] [Server thread/WARN]: Davidby2007 moved too quickly! 7.286314964294434,-20.802063941955566,7.079814910888672
+[17:52:02] [Server thread/WARN]: Jhennsdm moved too quickly! 6.920683860778809,-0.7233467102050781,7.82569694519043
+[17:52:14] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> xd
+[17:52:15] [Server thread/INFO]: Jhennsdm fell out of the world
+[17:52:53] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> ontas david
+[17:52:58] [Server thread/WARN]: Davidby2007 moved too quickly! -5.562353610992432,-13.60242748260498,-3.185919761657715
+[17:53:04] [Async Chat Thread - #53/INFO]: [Not Secure] <Davidby2007> lootena
+[17:53:09] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> q
+[17:53:22] [Server thread/WARN]: Davidby2007 moved too quickly! -6.20519757270813,-46.97726631164551,-4.143798112869263
+[17:53:41] [Async Chat Thread - #54/INFO]: [Not Secure] <Davidby2007> en el end
+[17:54:04] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> dile a sebas que me tpee asi vos
+[17:54:08] [Async Chat Thread - #54/INFO]: [Not Secure] <SebasyTU_> volvi
+[17:54:13] [Server thread/INFO]: Davidby2007 issued server command: /msg SebasyTU_ no sebs
+[17:54:17] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> hayta
+[17:54:24] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> sebas tepeame a david porfa
+[17:54:26] [Server thread/INFO]: Davidby2007 issued server command: /msg SebasyTU_ no sebs
+[17:54:34] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> a
+[17:54:47] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> a ti no tio porq me caes mal :CCCC
+[17:55:09] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:55:28] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> apura
+[17:55:40] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> como que voy a caer mal si somos del mismo pais
+[17:55:44] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> calla Boliviano
+[17:55:52] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> no
+[17:56:01] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> tu naciste el Bolivia
+[17:56:08] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> yo VIVO
+[17:56:22] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> pero igual sos boliviano ya
+[17:56:22] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> ps
+[17:56:33] [Server thread/WARN]: Davidby2007 moved too quickly! 6.052111625671387,-27.333694458007812,0.27608680725097656
+[17:56:37] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> q hablas bro te muestro papeles?
+[17:56:46] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> aunq no puedo q me doxeo xd
+[17:56:46] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> aver
+[17:56:53] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> tacha ps
+[17:57:02] [Server thread/INFO]: SebasyTU_ issued server command: /tp Jhennsdm 2002 80 20002
+[17:57:02] [Server thread/INFO]: [SebasyTU_: Teleported Jhennsdm to 2002.500000, 80.000000, 20002.500000]
+[17:57:10] [Async Chat Thread - #54/INFO]: [Not Secure] <Jhennsdm> hay que mrd
+[17:57:21] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> listo
+[17:57:25] [Async Chat Thread - #54/INFO]: [Not Secure] <SebasyTU_> ahi te tpie
+[17:57:27] [Async Chat Thread - #53/INFO]: [Not Secure] <Jhennsdm> david dije
+[17:57:32] [Server thread/INFO]: Davidby2007 issued server command: /msg SebasyTU_ no sebs
+[17:57:33] [Async Chat Thread - #54/INFO]: [Not Secure] <Jhennsdm> ._.
+[17:57:39] [Async Chat Thread - #53/INFO]: [Not Secure] <SebasyTU_> ps te tpie a david
+[17:57:55] [Async Chat Thread - #55/INFO]: [Not Secure] <Jhennsdm> ps aqui no esta bobo
+[17:58:05] [Async Chat Thread - #54/INFO]: [Not Secure] <SebasyTU_> ps ns
+[17:58:15] [Server thread/INFO]: SebasyTU_ fell from a high place
+[17:58:21] [Async Chat Thread - #55/INFO]: [Not Secure] <Davidby2007> a
+[17:58:28] [Async Chat Thread - #54/INFO]: [Not Secure] <Jhennsdm> ni comandos sabe el admin ush
+[17:58:51] [Server thread/INFO]: SebasyTU_ issued server command: /tp 252 72 960
+[17:58:51] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 252.500000, 72.000000, 960.500000]
+[17:58:55] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:59:52] [Server thread/INFO]: SebasyTU_ issued server command: /tp 30000 80 30000
+[17:59:52] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 30000.500000, 80.000000, 30000.500000]
+[18:00:13] [Async Chat Thread - #56/INFO]: [Not Secure] <Jhennsdm> apura tpame hacia david
+[18:00:46] [Server thread/INFO]: SebasyTU_ issued server command: /tp Jhennsdm SebasyTU_
+[18:00:46] [Server thread/INFO]: [SebasyTU_: Teleported Jhennsdm to SebasyTU_]
+[18:00:47] [Server thread/INFO]: SebasyTU_ issued server command: /tp 252 72 960
+[18:00:47] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 252.500000, 72.000000, 960.500000]
+[18:00:53] [Server thread/INFO]: Jhennsdm was blown up by Creeper
+[18:01:14] [Server thread/INFO]: SebasyTU_ issued server command: /tp Jhennsdm 30000 70 30000
+[18:01:14] [Server thread/INFO]: [SebasyTU_: Teleported Jhennsdm to 30000.500000, 70.000000, 30000.500000]
+[18:01:18] [Server thread/INFO]: Stopping server
+[18:01:18] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[18:01:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:01:19] [Server thread/INFO]: Saving players
+[18:01:19] [Server thread/INFO]: Davidby2007 lost connection: Server closed
+[18:01:19] [Server thread/INFO]: Davidby2007 left the game
+[18:01:19] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
+[18:01:19] [Server thread/INFO]: SebasyTU_ left the game
+[18:01:19] [Server thread/INFO]: Jhennsdm lost connection: Server closed
+[18:01:19] [Server thread/INFO]: Jhennsdm left the game
+[18:01:19] [Server thread/INFO]: Saving worlds
+[18:01:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:01:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:01:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:01:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Saved 2904 block chunks, 2710 entity chunks, 0 poi chunks in world 'world' in 5.46s
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:01:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 88 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:01:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:01:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:01:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:01:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:01:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:01:26] [Server thread/INFO]: [ChunkHolderManager] Saved 739 block chunks, 65 entity chunks, 0 poi chunks in world 'world_the_end' in 0.56s
+[18:01:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:01:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:01:27] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:01:27] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:01:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:01:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
