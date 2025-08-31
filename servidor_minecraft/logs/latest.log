@@ -87,3 +87,22 @@
 [18:27:24] [Server thread/INFO]: [SebasyTU_: Applied effect Speed to Davidby2007]
 [18:27:36] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
 [18:27:36] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
+[18:27:37] [Server thread/WARN]: Davidby2007 moved too quickly! -2.6736557956249953,0.0,10.19902968777626
+[18:28:07] [Server thread/INFO]: SebasyTU_ issued server command: /effect clear Davidby2007
+[18:28:07] [Server thread/INFO]: [SebasyTU_: Removed every effect from Davidby2007]
+[18:29:49] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007
+[18:29:49] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to Davidby2007]
+[18:34:50] [Server thread/INFO]: Davidby2007 has made the advancement [Stay Hydrated!]
+[18:34:57] [Server thread/INFO]: SebasyTU_ has made the advancement [Stay Hydrated!]
+[18:35:01] [Server thread/INFO]: SebasyTU_ issued server command: /summon minecraft:happy_ghast
+[18:35:01] [Server thread/INFO]: [SebasyTU_: Summoned new Happy Ghast]
+[18:35:29] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:35:34] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:35:41] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:35:48] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:35:59] [Server thread/INFO]: SebasyTU_ issued server command: /summon minecraft:happy_ghast
+[18:35:59] [Server thread/INFO]: [SebasyTU_: Summoned new Happy Ghast]
+[18:36:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:36:13] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:36:35] [Server thread/INFO]: Davidby2007 was burned to a crisp while fighting SebasyTU_
+[18:36:36] [Server thread/INFO]: Attempt to teleport removed player Davidby2007 restricted
