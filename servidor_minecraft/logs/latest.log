@@ -106,3 +106,22 @@
 [18:36:13] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
 [18:36:35] [Server thread/INFO]: Davidby2007 was burned to a crisp while fighting SebasyTU_
 [18:36:36] [Server thread/INFO]: Attempt to teleport removed player Davidby2007 restricted
+[18:38:55] [Server thread/WARN]: SebasyTU_ moved wrongly!
+[18:40:17] [Server thread/INFO]: SebasyTU_ was blown up by Creeper
+[18:40:25] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007
+[18:40:25] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to Davidby2007]
+[18:41:38] [Server thread/INFO]: Davidby2007 was slain by Zombie
+[18:41:43] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:42:29] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:43:41] [Server thread/INFO]: SebasyTU_ was blown up by Creeper
+[18:46:34] [Async Chat Thread - #1/INFO]: [Not Secure] <Davidby2007> dame un give y ya pe
+[18:46:41] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:46:52] [Server thread/WARN]: Happy Ghast (vehicle of SebasyTU_) moved wrongly! 0.44098912739352375
+[18:47:21] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
+[18:47:21] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
+[18:47:37] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
+[18:47:37] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
+[18:48:23] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:protection 4
+[18:48:23] [Server thread/INFO]: [SebasyTU_: Applied enchantment Protection IV to SebasyTU_'s item]
+[18:48:29] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
+[18:48:29] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
