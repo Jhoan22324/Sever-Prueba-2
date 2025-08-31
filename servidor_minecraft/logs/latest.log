@@ -125,3 +125,98 @@
 [18:48:23] [Server thread/INFO]: [SebasyTU_: Applied enchantment Protection IV to SebasyTU_'s item]
 [18:48:29] [Server thread/INFO]: SebasyTU_ issued server command: /enchant SebasyTU_ minecraft:unbreaking 3
 [18:48:29] [Server thread/INFO]: [SebasyTU_: Applied enchantment Unbreaking III to SebasyTU_'s item]
+[18:48:44] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:48:54] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:49:53] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere diamond_block 5
+[18:49:58] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[18:50:12] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:50:22] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:50:26] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[18:50:27] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[18:50:28] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[18:50:30] [Server thread/INFO]: SebasyTU_ issued server command: /undo
+[18:50:36] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:50:48] [Server thread/INFO]: SebasyTU_ issued server command: /effect give @a minecraft:haste infinite 20
+[18:50:48] [Server thread/INFO]: [SebasyTU_: Applied effect Haste to 2 targets]
+[18:51:42] [Server thread/INFO]: SebasyTU_ issued server command: /summon minecraft:wither
+[18:51:42] [Server thread/INFO]: [SebasyTU_: Summoned new Wither]
+[18:51:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:51:51] [Server thread/INFO]: SebasyTU_ issued server command: /effect give SebasyTU_ minecraft:strength infinite 200
+[18:51:51] [Server thread/INFO]: [SebasyTU_: Applied effect Strength to SebasyTU_]
+[18:51:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[18:52:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Davidby2007> lo voy a hacer legal
+[18:53:46] [User Authenticator #2/INFO]: UUID of player mixmatiasfreire is 91fd9363-aa23-37cc-a9e4-3f2989accd7a
+[18:53:48] [Server thread/INFO]: mixmatiasfreire joined the game
+[18:53:48] [Server thread/INFO]: mixmatiasfreire[/127.58.235.29:46513] logged in with entity id 7688 at ([world]3.5, 65.0, 4.5)
+[18:53:58] [Async Chat Thread - #4/INFO]: [Not Secure] <mixmatiasfreire> AMO EL PNEE
+[18:54:17] [Server thread/INFO]: SebasyTU_ issued server command: //set 09
+[18:54:20] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[18:54:26] [Server thread/INFO]: mixmatiasfreire was kicked due to keepalive timeout!
+[18:54:26] [Server thread/INFO]: mixmatiasfreire lost connection: Timed out
+[18:54:26] [Server thread/INFO]: mixmatiasfreire left the game
+[18:54:39] [User Authenticator #2/INFO]: UUID of player mixmatiasfreire is 91fd9363-aa23-37cc-a9e4-3f2989accd7a
+[18:54:40] [Server thread/INFO]: mixmatiasfreire joined the game
+[18:54:40] [Server thread/INFO]: mixmatiasfreire[/127.58.235.29:49133] logged in with entity id 8103 at ([world]9.529237277935103, 64.0, -1.4180714482969174)
+[18:54:48] [Async Chat Thread - #4/INFO]: [Not Secure] <mixmatiasfreire> a
+[18:54:58] [Server thread/INFO]: SebasyTU_ issued server command: /effect clear SebasyTU_
+[18:54:58] [Server thread/INFO]: [SebasyTU_: Removed every effect from SebasyTU_]
+[18:55:03] [Server thread/INFO]: SebasyTU_ issued server command: /effect clear @a
+[18:55:03] [Server thread/INFO]: [SebasyTU_: Removed every effect from 3 targets]
+[18:55:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Davidby2007> -1438 72 -762
+[18:55:18] [Server thread/INFO]: mixmatiasfreire was kicked due to keepalive timeout!
+[18:55:18] [Server thread/INFO]: mixmatiasfreire lost connection: Timed out
+[18:55:18] [Server thread/INFO]: mixmatiasfreire left the game
+[18:55:25] [Server thread/INFO]: Davidby2007 was doomed to fall by Stray
+[18:55:34] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
+[18:55:34] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
+[18:55:38] [User Authenticator #2/INFO]: UUID of player mixmatiasfreire is 91fd9363-aa23-37cc-a9e4-3f2989accd7a
+[18:55:39] [Server thread/INFO]: mixmatiasfreire joined the game
+[18:55:39] [Server thread/INFO]: mixmatiasfreire[/127.58.235.29:57253] logged in with entity id 8596 at ([world]18.569709739170094, 72.7531999805212, 16.422974808417898)
+[18:56:25] [Async Chat Thread - #7/INFO]: [Not Secure] <Davidby2007> -1438 72 -762
+[18:57:23] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar true
+[18:57:23] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: true]
+[18:57:36] [Server thread/INFO]: SebasyTU_ issued server command: /spawnpoint @a
+[18:57:36] [Server thread/INFO]: [SebasyTU_: Set spawn point to -1422, 70, -760 [0.0] in minecraft:overworld for 3 players]
+[18:57:54] [Server thread/INFO]: mixmatiasfreire was shot by Skeleton
+[18:58:36] [Server thread/INFO]: mixmatiasfreire has made the advancement [Diamonds!]
+[19:00:34] [Async Chat Thread - #9/INFO]: [Not Secure] <mixmatiasfreire> execute in @e[type=snowball]
+[19:00:45] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:01:02] [Server thread/INFO]: mixmatiasfreire was slain by Davidby2007
+[19:01:10] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:01:25] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:01:27] [Async Chat Thread - #9/INFO]: [Not Secure] <mixmatiasfreire> execute in @e[type=snowball] run summon snowball
+[19:01:30] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:01:48] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:01:54] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[19:02:11] [Server thread/INFO]: mixmatiasfreire has made the advancement [Cover Me with Diamonds]
+[19:02:15] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[19:02:24] [Server thread/INFO]: mixmatiasfreire has made the advancement [Monster Hunter]
+[19:02:26] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar false
+[19:02:26] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: false]
+[19:02:53] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:03:06] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:03:10] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[19:03:19] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[19:03:27] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:04:01] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:04:04] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:04:23] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:04:26] [Server thread/INFO]: Davidby2007 was slain by mixmatiasfreire
+[19:04:32] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
+[19:04:32] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
+[19:04:44] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:05:38] [Server thread/INFO]: SebasyTU_ issued server command: //set netherite_block
+[19:05:40] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:06:05] [Server thread/INFO]: SebasyTU_ issued server command: //set water
+[19:06:10] [Server thread/INFO]: mixmatiasfreire issued server command: /msg SebasyTU_ pon un command block
+[19:06:19] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:06:28] [Server thread/INFO]: mixmatiasfreire issued server command: /msg SebasyTU_ con el comando q dije
+[19:06:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[19:06:53] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[19:07:34] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
+[19:07:52] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:08:09] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
+[19:08:19] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[19:08:39] [Server thread/INFO]: mixmatiasfreire has made the advancement [Take Aim]
+[19:08:49] [Server thread/INFO]: SebasyTU_ issued server command: /weather thunder
+[19:08:49] [Server thread/INFO]: [SebasyTU_: Set the weather to rain & thunder]
