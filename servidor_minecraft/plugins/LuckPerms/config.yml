@@ -747,5 +747,5 @@ commands-read-only-mode:
 #
 # Note: This does not affect interactions with LuckPerms via the API.
 disable-luckperms-commands:
-  players: false
-  console: false
+  players: true
+  console: true
