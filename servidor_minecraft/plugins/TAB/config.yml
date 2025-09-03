@@ -102,7 +102,6 @@ scoreboard:
         - "➤&b&lInfo:"
         - " &fNick: &b%player%"
         - " &fPing: &b%ping%&bms"
-        - " &fClan: &b%clans_clan_tag%"
         - ""
         - "➤&b&lEstadisticas:"
         - " &f⚔Kills: &b%statistic_player_kills%"
