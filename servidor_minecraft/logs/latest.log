@@ -1,577 +1,247 @@
-[20:28:49] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[20:28:49] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[20:28:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:28:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[20:28:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Essentials (2.22.0-dev+20-81ac6f7), JustTPA (20250220c), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.10), TAB (5.2.5), Vault (1.7.3-b131)
-[20:28:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:29:00] [ServerMain/INFO]: Loaded 1407 recipes
-[20:29:00] [ServerMain/INFO]: Loaded 1520 advancements
-[20:29:00] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:29:01] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 698.8ms
-[20:29:01] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:29:01] [Server thread/INFO]: Loading properties
-[20:29:01] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[20:29:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:29:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:29:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:29:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:29:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:29:03] [Server thread/INFO]: Default game type: SURVIVAL
-[20:29:03] [Server thread/INFO]: Generating keypair
-[20:29:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:29:04] [Server thread/INFO]: Using epoll channel type
-[20:29:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:29:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[20:29:04] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[20:29:04] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[20:29:04] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[20:29:04] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+20-81ac6f7
-[20:29:04] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
-[20:29:04] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[20:29:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:29:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:29:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[20:29:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:29:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:29:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
-[20:29:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[20:29:07] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:29:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
-[20:29:07] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[20:29:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:29:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:29:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:29:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:29:07] [Server thread/INFO]: Preparing level "world"
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:29:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[20:29:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:29:08] [Server thread/INFO]: Preparing spawn area: 0%
-[20:29:08] [Server thread/INFO]: Preparing spawn area: 2%
-[20:29:10] [Server thread/INFO]: Preparing spawn area: 2%
-[20:29:10] [Server thread/INFO]: Preparing spawn area: 2%
-[20:29:10] [Server thread/INFO]: Preparing spawn area: 2%
-[20:29:10] [Server thread/INFO]: Time elapsed: 2173 ms
-[20:29:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:29:10] [Server thread/INFO]: Preparing spawn area: 0%
-[20:29:11] [Server thread/INFO]: Preparing spawn area: 75%
-[20:29:11] [Server thread/INFO]: Time elapsed: 532 ms
-[20:29:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:29:11] [Server thread/INFO]: Preparing spawn area: 0%
-[20:29:11] [Server thread/INFO]: Time elapsed: 199 ms
-[20:29:11] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:29:11] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:29:11] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[20:29:12] [Server thread/INFO]: [TAB] Enabled in 540ms
-[20:29:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+20-81ac6f7
-[20:29:13] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:29:13] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[20:29:13] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[20:29:14] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[20:29:14] [Server thread/INFO]: [Essentials] Using locale en
-[20:29:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:29:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:29:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[20:29:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:29:14] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[20:29:14] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[20:29:14] [Server thread/INFO]: [JustTPA] bStats enabled
-[20:29:14] [Server thread/INFO]: [JustTPA] Checking for updates...
-[20:29:15] [Server thread/INFO]: [spark] Starting background profiler...
-[20:29:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:29:15] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[20:29:15] [Server thread/INFO]: Done preparing level "world" (8.632s)
-[20:29:15] [Server thread/INFO]: Running delayed init tasks
-[20:29:16] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[20:29:16] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:29:16] [Server thread/INFO]: Done (27.629s)! For help, type "help"
-[20:29:16] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:29:16] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
-[20:29:16] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[20:29:26] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[20:29:26] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
-[20:29:28] [Server thread/INFO]: SebasyTU_ joined the game
-[20:29:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:29:28] [Server thread/INFO]: SebasyTU_[/127.57.223.113:55065] logged in with entity id 46 at ([world]81.34379808973905, 100.0, -58.300388723088666)
-[20:31:40] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:31:40] [Server thread/INFO]: [TAB] Disabled in 3ms
-[20:31:40] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:31:40] [Server thread/INFO]: [TAB] Enabled in 38ms
-[20:32:30] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:32:30] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:32:30] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:32:30] [Server thread/INFO]: [TAB] Enabled in 40ms
-[20:32:54] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:32:54] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:32:54] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:32:54] [Server thread/INFO]: [TAB] Enabled in 28ms
-[20:33:17] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:33:17] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:33:17] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:33:17] [Server thread/INFO]: [TAB] Enabled in 25ms
-[20:33:39] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:33:39] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:33:39] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:33:39] [Server thread/INFO]: [TAB] Enabled in 19ms
-[20:33:51] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:33:51] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:33:51] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:33:51] [Server thread/INFO]: [TAB] Enabled in 13ms
-[20:34:04] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:34:04] [Server thread/INFO]: [TAB] Disabled in 0ms
-[20:34:04] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:34:04] [Server thread/INFO]: [TAB] Enabled in 15ms
-[20:34:52] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:34:52] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:34:52] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:34:52] [Server thread/INFO]: [TAB] Enabled in 26ms
-[20:36:23] [Server thread/INFO]: SebasyTU_ issued server command: /deop
-[20:36:26] [Server thread/INFO]: SebasyTU_ issued server command: /deop s
-[20:36:29] [Server thread/INFO]: SebasyTU_ issued server command: /deop SebasyTU_
-[20:36:29] [Server thread/INFO]: [SebasyTU_: Made SebasyTU_ no longer a server operator]
-[20:36:42] [Server thread/INFO]: Made SebasyTU_ a server operator
-[20:36:53] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:36:53] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:36:53] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:36:53] [Server thread/INFO]: [TAB] Enabled in 12ms
-[20:38:07] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:38:07] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:38:07] [Server thread/INFO]: [TAB] [WARN] [config.yml] Layout feature breaks playerlist-objective feature, because it replaces real player with fake slots with different usernames for more reliable functionality. Disable playerlist-objective feature, as it will only look bad and consume resources.
-[20:38:07] [Server thread/INFO]: [TAB] [WARN] Failed to load skin by id: No skin with the id '383747683' was found
-[20:38:07] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:38:07] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
-[20:38:07] [Server thread/INFO]: [TAB] Enabled in 294ms
-[20:40:01] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:40:01] [Server thread/INFO]: [TAB] Disabled in 2ms
-[20:40:01] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:40:01] [Server thread/INFO]: [TAB] Enabled in 24ms
-[20:40:17] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:40:17] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:40:17] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:40:17] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:43:57] [Server thread/INFO]: SebasyTU_ issued server command: /deop SebasyTU_
-[20:43:57] [Server thread/INFO]: [SebasyTU_: Made SebasyTU_ no longer a server operator]
-[20:44:19] [Server thread/INFO]: [TAB] TAB v5.2.5
-[20:44:19] [Server thread/INFO]: [TAB]                                                                                 
-[20:44:19] [Server thread/INFO]: [TAB]  >> /tab reload
-[20:44:19] [Server thread/INFO]: [TAB]       - Reloads plugin and config
-[20:44:19] [Server thread/INFO]: [TAB]  >> /tab group/player <name> <property> <value...>
-[20:44:19] [Server thread/INFO]: [TAB]       - Do /tab group/player to show properties
-[20:44:19] [Server thread/INFO]: [TAB]  >> /tab parse <player> <placeholder> 
-[20:44:19] [Server thread/INFO]: [TAB]       - Test if a placeholder works
-[20:44:19] [Server thread/INFO]: [TAB]  >> /tab debug [player]
-[20:44:19] [Server thread/INFO]: [TAB]       - displays debug information about player
-[20:44:19] [Server thread/INFO]: [TAB]  >> /tab cpu
-[20:44:19] [Server thread/INFO]: [TAB]       - shows CPU usage of the plugin
-[20:44:19] [Server thread/INFO]: [TAB]  >> /tab group/player <name> remove
-[20:44:19] [Server thread/INFO]: [TAB]       - Clears all data about player/group
-[20:44:19] [Server thread/INFO]: [TAB]                                                                                 
-[20:44:35] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[20:44:35] [Server thread/INFO]: SebasyTU_ left the game
-[20:44:41] [User Authenticator #1/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[20:44:42] [Server thread/INFO]: SebasyTU_ joined the game
-[20:44:42] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:44:42] [Server thread/INFO]: SebasyTU_[/127.57.223.113:53351] logged in with entity id 1723 at ([world]72.14587721371343, 92.0, -75.89416454189256)
-[20:44:52] [Server thread/INFO]: Made SebasyTU_ a server operator
-[20:47:12] [Async Chat Thread - #1/INFO]: [Not Secure] <SebasyTU_> Mundo actual
-[20:47:22] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:47:22] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:47:22] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:47:22] [Server thread/INFO]: [TAB] Enabled in 12ms
-[20:47:41] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:47:41] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:47:41] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:47:41] [Server thread/INFO]: [TAB] Enabled in 11ms
-[20:49:30] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:49:30] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:49:30] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:49:30] [Server thread/INFO]: [TAB] Enabled in 9ms
-[20:49:41] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:49:41] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:49:41] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:49:41] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:50:07] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:50:07] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:50:07] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:50:07] [Server thread/INFO]: [TAB] Enabled in 12ms
-[20:50:30] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:50:30] [Server thread/INFO]: [TAB] Disabled in 2ms
-[20:50:30] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:50:30] [Server thread/INFO]: [TAB] Enabled in 35ms
-[20:50:53] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:50:53] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:50:53] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:50:53] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:51:21] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:51:21] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:51:21] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:51:21] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:52:07] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:52:07] [Server thread/INFO]: [TAB] Disabled in 2ms
-[20:52:07] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:52:07] [Server thread/INFO]: [TAB] Enabled in 9ms
-[20:52:19] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:52:19] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:52:19] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:52:19] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:52:26] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:52:26] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:52:26] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:52:26] [Server thread/INFO]: [TAB] Enabled in 16ms
-[20:52:33] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:52:33] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:52:33] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:52:33] [Server thread/INFO]: [TAB] Enabled in 6ms
-[20:54:52] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:54:52] [Server thread/INFO]: [TAB] Disabled in 2ms
-[20:54:52] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:54:52] [Server thread/INFO]: [TAB] Enabled in 8ms
-[20:55:01] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:55:01] [Server thread/INFO]: [TAB] Disabled in 2ms
-[20:55:01] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:55:01] [Server thread/INFO]: [TAB] Enabled in 7ms
-[20:55:51] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[20:55:51] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:55:51] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[20:55:51] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:01:22] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:01:22] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:01:22] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:01:22] [Server thread/INFO]: [TAB] Enabled in 28ms
-[21:01:40] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:01:40] [Server thread/INFO]: [TAB] Disabled in 2ms
-[21:01:40] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:01:40] [Server thread/INFO]: [TAB] Enabled in 15ms
-[21:01:45] [User Authenticator #2/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[21:01:48] [Server thread/INFO]: GGENMO joined the game
-[21:01:48] [Server thread/INFO]: GGENMO[/127.248.184.103:34393] logged in with entity id 3378 at ([world]48.5, 92.0, 41.5)
-[21:01:48] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:02:11] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar false
-[21:02:11] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: false]
-[21:02:14] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO s
-[21:02:21] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode creative GGENMO
-[21:03:40] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:03:40] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:03:40] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:03:40] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:03:40] [Server thread/INFO]: [TAB] Enabled in 14ms
-[21:03:57] [Server thread/INFO]: SebasyTU_ issued server command: /op GGENMO
-[21:03:57] [Server thread/INFO]: [SebasyTU_: Made GGENMO a server operator]
-[21:04:03] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:04:03] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:04:03] [Server thread/INFO]: [TAB] [WARN] File plugins/TAB/config.yml has broken syntax.
-[21:04:03] [Server thread/INFO]: [TAB] Error message from yaml parser: while parsing a block collection
- in 'reader', line 101, column 9:
-            - "%animation:MyAnimation1%"
-            ^
-expected <block end>, but found '<scalar>'
- in 'reader', line 104, column 12:
-            - ""
-               ^
+[21:48:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[21:48:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[21:48:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:48:24] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Clans-0.4.5.jar'...
+[21:48:25] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Clans-0.4.5.jar' in 808ms.
+[21:48:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[21:48:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Clans (0.4.5), Essentials (2.22.0-dev+20-81ac6f7), JustTPA (20250220c), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.10), TAB (5.2.5), Vault (1.7.3-b131)
+[21:48:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:48:35] [ServerMain/INFO]: Loaded 1407 recipes
+[21:48:35] [ServerMain/INFO]: Loaded 1520 advancements
+[21:48:35] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:48:36] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 734.6ms
+[21:48:36] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:48:36] [Server thread/INFO]: Loading properties
+[21:48:36] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:48:36] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:48:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:48:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:48:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:48:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:48:38] [Server thread/INFO]: Default game type: SURVIVAL
+[21:48:38] [Server thread/INFO]: Generating keypair
+[21:48:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:48:39] [Server thread/INFO]: Using epoll channel type
+[21:48:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:48:39] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:48:39] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[21:48:39] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[21:48:39] [Server thread/INFO]: [Clans] Loading server plugin Clans v0.4.5
+[21:48:39] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[21:48:39] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+20-81ac6f7
+[21:48:39] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[21:48:39] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[21:48:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:48:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:48:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:48:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:48:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:48:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[21:48:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[21:48:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:48:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[21:48:41] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[21:48:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:48:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:48:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:48:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:48:41] [Server thread/INFO]: Preparing level "world"
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:48:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:48:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:48:42] [Server thread/INFO]: Preparing spawn area: 0%
+[21:48:43] [Server thread/INFO]: Preparing spawn area: 2%
+[21:48:43] [Server thread/INFO]: Preparing spawn area: 2%
+[21:48:44] [Server thread/INFO]: Preparing spawn area: 2%
+[21:48:44] [Server thread/INFO]: Preparing spawn area: 2%
+[21:48:44] [Server thread/INFO]: Time elapsed: 2159 ms
+[21:48:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:48:44] [Server thread/INFO]: Preparing spawn area: 0%
+[21:48:45] [Server thread/INFO]: Time elapsed: 452 ms
+[21:48:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:48:45] [Server thread/INFO]: Preparing spawn area: 0%
+[21:48:45] [Server thread/INFO]: Time elapsed: 281 ms
+[21:48:45] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[21:48:45] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:48:45] [Server thread/INFO]: [Clans] Enabling Clans v0.4.5
+[21:48:45] [Server thread/ERROR]: Error occurred while enabling Clans v0.4.5 (Is it up to date?)
+java.lang.VerifyError: Illegal type at constant pool entry 825 in class Clans.ClanConfiguration
+Exception Details:
+  Location:
+    Clans/ClanConfiguration.playSound(Lorg/bukkit/entity/Player;Ljava/lang/String;)V @39: invokestatic
+  Reason:
+    Constant pool index 825 is invalid
+  Bytecode:
+    0000000: 2ab4 013c 9a00 04b1 2ab4 006b bb01 c259
+    0000010: b701 c313 02f4 b601 c72c b601 c7b6 01ca
+    0000020: b601 434e 013a 04b8 0339 3a05 1905 be36
+    0000030: 0603 3607 1507 1506 a200 2219 0515 0732
+    0000040: 3a08 1908 b903 3a01 002d b602 3e99 0007
+    0000050: 1908 3a04 8407 01a7 ffdd 1904 c600 182b
+    0000060: 2bb9 0302 0100 1904 1303 030c b903 0605
+    0000070: 00a7 0028 b803 0abb 01c2 59b7 01c3 b800
+    0000080: 40b6 030c b601 c713 030e b601 c72d b601
+    0000090: c7b6 01ca b903 1302 00b1               
+  Stackmap Table:
+    same_frame(@8)
+    full_frame(@52,{Object[#2],Object[#437],Object[#202],Object[#202],Object[#758],Object[#764],Integer,Integer},{})
+    same_frame(@84)
+    chop_frame(@90,3)
+    same_frame(@116)
+    same_frame(@153)
 
-[21:04:03] [Server thread/INFO]: [TAB] Suggestions to fix yaml syntax:
-[21:04:03] [Server thread/INFO]: [TAB] - Add " at the end of line 103
-[21:04:03] [Server thread/INFO]: [TAB] [WARN] Did not enable due to a broken configuration file.
-[21:04:08] [Server thread/INFO]: GGENMO issued server command: /effect give GGENMO minecraft:haste infinite 255
-[21:04:08] [Server thread/INFO]: [GGENMO: Applied effect Haste to GGENMO]
-[21:04:28] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:04:28] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:04:28] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:04:28] [Server thread/INFO]: [TAB] Enabled in 16ms
-[21:05:24] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:05:24] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:05:24] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:05:24] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:05:24] [Server thread/INFO]: [TAB] Enabled in 12ms
-[21:05:40] [Server thread/INFO]: GGENMO issued server command: /effect clear
-[21:05:40] [Server thread/INFO]: [GGENMO: Removed every effect from GGENMO]
-[21:06:23] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:06:23] [Server thread/INFO]: [TAB] Disabled in 2ms
-[21:06:23] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:06:23] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:06:23] [Server thread/INFO]: [TAB] Enabled in 15ms
-[21:06:49] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:06:49] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:06:49] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:06:49] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:06:49] [Server thread/INFO]: [TAB] Enabled in 8ms
-[21:07:34] [Server thread/INFO]: GGENMO has completed the challenge [Cover Me in Debris]
-[21:08:15] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:08:15] [Server thread/INFO]: [TAB] Disabled in 0ms
-[21:08:15] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:08:15] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:08:15] [Server thread/INFO]: [TAB] Enabled in 11ms
-[21:09:33] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:09:33] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:09:33] [Server thread/INFO]: [TAB] [WARN] File plugins/TAB/config.yml has broken syntax.
-[21:09:33] [Server thread/INFO]: [TAB] Error message from yaml parser: while parsing a block collection
- in 'reader', line 101, column 9:
-            - "%animation:MyAnimation1%"
-            ^
-expected <block end>, but found '<scalar>'
- in 'reader', line 104, column 12:
-            - ""
-               ^
-
-[21:09:33] [Server thread/INFO]: [TAB] Suggestions to fix yaml syntax:
-[21:09:33] [Server thread/INFO]: [TAB] - Add " at the end of line 103
-[21:09:33] [Server thread/INFO]: [TAB] [WARN] Did not enable due to a broken configuration file.
-[21:11:05] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:11:05] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:11:05] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:11:05] [Server thread/INFO]: [TAB] Enabled in 12ms
-[21:12:23] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:12:23] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:12:23] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:12:23] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:12:23] [Server thread/INFO]: [TAB] Enabled in 17ms
-[21:12:39] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:12:39] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:12:39] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:12:39] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:12:39] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:12:59] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:12:59] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:12:59] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:12:59] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:12:59] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:13:19] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:13:19] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:13:19] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:13:19] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:13:19] [Server thread/INFO]: [TAB] Enabled in 8ms
-[21:13:43] [Server thread/INFO]: GGENMO has made the advancement [Monster Hunter]
-[21:13:57] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:13:57] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:13:57] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:13:57] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:13:57] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:14:34] [Server thread/INFO]: GGENMO issued server command: /skin set larosalia
-[21:14:50] [Server thread/INFO]: GGENMO issued server command: /skin set femboy
-[21:15:18] [Server thread/INFO]: GGENMO issued server command: /skin set GGENMO
-[21:15:27] [Server thread/INFO]: GGENMO issued server command: /skin set iMezo__
-[21:15:53] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:15:53] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:15:53] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:15:53] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:15:53] [Server thread/INFO]: [TAB] Enabled in 12ms
-[21:16:22] [Server thread/INFO]: GGENMO issued server command: /give ggenmo elytra
-[21:16:22] [Server thread/INFO]: GGENMO has reached the goal [Sky's the Limit]
-[21:16:28] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:16:28] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:16:28] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:16:28] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:16:28] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:16:29] [Server thread/INFO]: GGENMO issued server command: /give ggenmo elytra 1
-[21:18:28] [Async Chat Thread - #2/INFO]: [Not Secure] <GGENMO> death
-[21:18:33] [Async Chat Thread - #2/INFO]: [Not Secure] <GGENMO> deaht
-[21:19:22] [Server thread/INFO]: SebasyTU_ issued server command: /papi ecloud download KillStats
-[21:19:42] [Server thread/INFO]: GGENMO issued server command: /effect give GGENMO minecraft:haste infinite 255
-[21:19:42] [Server thread/INFO]: [GGENMO: Applied effect Haste to GGENMO]
-[21:20:11] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:20:11] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:20:11] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:20:11] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:20:11] [Server thread/INFO]: [TAB] Enabled in 10ms
-[21:20:12] [Server thread/INFO]: GGENMO has made the advancement [Acquire Hardware]
-[21:20:36] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:20:36] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:20:36] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:20:36] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:20:36] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:21:06] [Server thread/INFO]: SebasyTU_ issued server command: /papi ecloud download Statistic
-[21:21:06] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[21:21:11] [Server thread/INFO]: SebasyTU_ issued server command: /papi reload
-[21:21:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[21:21:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[21:21:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[21:22:30] [Server thread/INFO]: SebasyTU_ has made the advancement [Acquire Hardware]
-[21:22:56] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:22:56] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:22:56] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:22:56] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:22:56] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:23:20] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:23:20] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:23:20] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:23:20] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:23:20] [Server thread/INFO]: [TAB] Enabled in 6ms
-[21:23:52] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:23:52] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:23:52] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:23:52] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:23:52] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:24:03] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:24:03] [Server thread/INFO]: [TAB] Disabled in 0ms
-[21:24:03] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:24:03] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:24:03] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:24:12] [Server thread/INFO]: GGENMO issued server command: /kill
-[21:24:16] [Server thread/INFO]: GGENMO issued server command: /kill GGENMO
-[21:24:16] [Server thread/INFO]: GGENMO died
-[21:24:22] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO s
-[21:25:28] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:25:28] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:25:28] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:25:28] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:25:28] [Server thread/INFO]: [TAB] Enabled in 11ms
-[21:26:10] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:26:10] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:26:10] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:26:10] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:26:10] [Server thread/INFO]: [TAB] Enabled in 6ms
-[21:26:45] [Server thread/INFO]: GGENMO issued server command: /effect give GGENMO minecraft:haste infinite 255
-[21:26:45] [Server thread/INFO]: [GGENMO: Applied effect Haste to GGENMO]
-[21:26:56] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:26:56] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:26:56] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:26:56] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:26:56] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:27:07] [Server thread/INFO]: GGENMO issued server command: /effect give GGENMO speed infinite 10
-[21:27:07] [Server thread/INFO]: [GGENMO: Applied effect Speed to GGENMO]
-[21:27:23] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:27:23] [Server thread/INFO]: [TAB] Disabled in 3ms
-[21:27:23] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:27:23] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:27:23] [Server thread/INFO]: [TAB] Enabled in 19ms
-[21:27:32] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> %#3122E4 asd
-[21:27:43] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:27:43] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:27:43] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:27:43] [Server thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:27:43] [Server thread/INFO]: [TAB] Enabled in 6ms
-[21:27:58] [Server thread/INFO]: GGENMO lost connection: Disconnected
-[21:27:58] [Server thread/INFO]: GGENMO left the game
-[21:28:01] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:28:01] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:28:01] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:28:01] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:28:11] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:28:11] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:28:11] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:28:11] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:30:02] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:30:02] [Server thread/INFO]: [TAB] Disabled in 0ms
-[21:30:02] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:30:02] [Server thread/INFO]: [TAB] Enabled in 8ms
-[21:30:42] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:30:42] [Server thread/INFO]: [TAB] Disabled in 3ms
-[21:30:42] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:30:42] [Server thread/INFO]: [TAB] Enabled in 9ms
-[21:31:17] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:31:17] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:31:17] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:31:17] [Server thread/INFO]: [TAB] Enabled in 8ms
-[21:31:40] [Server thread/INFO]: SebasyTU_ issued server command: /tab r
-[21:31:42] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:31:42] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:31:42] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:31:42] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:31:59] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:31:59] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:31:59] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:32:00] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:32:26] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:32:26] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:32:26] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:32:26] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:32:31] [Server thread/INFO]: SebasyTU_ issued server command: /pl
-[21:34:31] [Async Chat Thread - #6/INFO]: [Not Secure] <SebasyTU_> - "➤&b&lEstadisticas:"
-[21:34:38] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:34:38] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:34:38] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:34:38] [Server thread/INFO]: [TAB] Enabled in 7ms
-[21:35:18] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:35:18] [Server thread/INFO]: [TAB] Disabled in 0ms
-[21:35:18] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:35:18] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:40:53] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:40:53] [Server thread/INFO]: [TAB] Disabled in 2ms
-[21:40:53] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:40:53] [Server thread/INFO]: [TAB] Enabled in 17ms
-[21:41:13] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:41:13] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:41:13] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:41:13] [Server thread/INFO]: [TAB] Enabled in 5ms
-[21:44:12] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:44:12] [Server thread/INFO]: [TAB] Disabled in 2ms
-[21:44:12] [Server thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[21:44:12] [Server thread/INFO]: [TAB] Enabled in 6ms
-[21:44:23] [Server thread/INFO]: Stopping the server
-[21:44:23] [Server thread/INFO]: Stopping server
-[21:44:23] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[21:44:23] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[21:44:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
-[21:44:23] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+20-81ac6f7
-[21:44:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[21:44:23] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[21:44:23] [Server thread/INFO]: [TAB] Disabled in 2ms
-[21:44:23] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[21:44:23] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[21:44:23] [Server thread/INFO]: Saving players
-[21:44:23] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
-[21:44:23] [Server thread/INFO]: SebasyTU_ left the game
-[21:44:23] [Server thread/INFO]: Saving worlds
-[21:44:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:44:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:44:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:44:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Saved 935 block chunks, 437 entity chunks, 2 poi chunks in world 'world' in 1.26s
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:44:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:44:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:44:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:44:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:44:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[21:44:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[21:44:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:44:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+	at Clans-0.4.5.jar/Clans.Main.onEnable(Main.java:30) ~[Clans-0.4.5.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:48:45] [Server thread/INFO]: [Clans] Disabling Clans v0.4.5
+[21:48:45] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[21:48:46] [Server thread/INFO]: [TAB] Enabled in 578ms
+[21:48:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+20-81ac6f7
+[21:48:47] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:48:47] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:48:47] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:48:48] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[21:48:48] [Server thread/INFO]: [Essentials] Using locale en
+[21:48:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:48:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:48:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:48:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:48:48] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[21:48:48] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[21:48:48] [Server thread/INFO]: [JustTPA] bStats enabled
+[21:48:48] [Server thread/INFO]: [JustTPA] Checking for updates...
+[21:48:49] [Server thread/INFO]: [spark] Starting background profiler...
+[21:48:49] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:48:49] [Server thread/INFO]: Done preparing level "world" (7.947s)
+[21:48:49] [Server thread/INFO]: Running delayed init tasks
+[21:48:49] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:48:49] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:48:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[21:48:49] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[21:48:49] [Server thread/INFO]: Done (27.036s)! For help, type "help"
+[21:48:49] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
+[21:48:50] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
+[21:48:50] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[21:50:52] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[21:50:53] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
+[21:50:54] [Server thread/INFO]: SebasyTU_ joined the game
+[21:50:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[21:50:54] [Server thread/INFO]: SebasyTU_[/127.57.223.113:48737] logged in with entity id 32 at ([world]-3.3164375657957743, 118.49362477278413, -116.15238634027587)
+[21:51:08] [Server thread/INFO]: SebasyTU_ issued server command: /clan create SGR
+[21:51:08] [Server thread/ERROR]: Command exception: /clan create SGR
+org.bukkit.command.CommandException: Cannot execute command 'clan' in plugin Clans v0.4.5 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:118) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1562) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1252) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:51:18] [Server thread/INFO]: SebasyTU_ issued server command: /pl
+[21:52:21] [Server thread/INFO]: Stopping the server
+[21:52:21] [Server thread/INFO]: Stopping server
+[21:52:21] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[21:52:21] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[21:52:21] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[21:52:21] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+20-81ac6f7
+[21:52:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[21:52:21] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[21:52:21] [Server thread/INFO]: [TAB] Disabled in 4ms
+[21:52:21] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[21:52:21] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:52:21] [Server thread/INFO]: Saving players
+[21:52:21] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
+[21:52:21] [Server thread/INFO]: SebasyTU_ left the game
+[21:52:21] [Server thread/INFO]: Saving worlds
+[21:52:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:52:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:52:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:52:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Saved 1225 block chunks, 1225 entity chunks, 0 poi chunks in world 'world' in 4.04s
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[21:52:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.10s
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[21:52:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[21:52:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[21:52:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:52:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:52:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:52:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:52:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:52:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[21:52:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:52:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
