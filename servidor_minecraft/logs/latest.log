@@ -1,29 +1,29 @@
-[22:36:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[22:36:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[22:36:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:36:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[22:36:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+[23:36:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[23:36:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[23:36:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:36:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[23:36:19] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
  - Essentials (2.22.0-dev+20-81ac6f7), Jobs (5.2.6.3), JustTPA (20250220c), PlaceholderAPI (2.11.6), SimpleClans (2.19.2-05e7abc), SkinsRestorer (15.7.10), TAB (5.2.5), Vault (1.7.3-b131)
-[22:36:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:36:45] [ServerMain/INFO]: Loaded 1407 recipes
-[22:36:45] [ServerMain/INFO]: Loaded 1520 advancements
-[22:36:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[22:36:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 646.0ms
-[22:36:46] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[22:36:46] [Server thread/INFO]: Loading properties
-[22:36:46] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[22:36:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:36:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:36:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:36:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:36:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:36:48] [Server thread/INFO]: Default game type: SURVIVAL
-[22:36:48] [Server thread/INFO]: Generating keypair
-[22:36:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:36:48] [Server thread/INFO]: Using epoll channel type
-[22:36:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:36:48] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:36:48] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/Jobs5.2.6.3.jar' in 'plugins/.paper-remapped'
+[23:36:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:36:30] [ServerMain/INFO]: Loaded 1407 recipes
+[23:36:30] [ServerMain/INFO]: Loaded 1520 advancements
+[23:36:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:36:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 649.9ms
+[23:36:31] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[23:36:31] [Server thread/INFO]: Loading properties
+[23:36:31] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[23:36:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:36:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:36:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:36:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[23:36:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:36:34] [Server thread/INFO]: Default game type: SURVIVAL
+[23:36:34] [Server thread/INFO]: Generating keypair
+[23:36:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:36:34] [Server thread/INFO]: Using epoll channel type
+[23:36:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:36:34] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[23:36:34] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/Jobs5.2.6.3.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'Jobs'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
@@ -33,205 +33,175 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[22:36:49] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[22:36:49] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[22:36:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[22:36:49] [Server thread/INFO]: [SimpleClans] Loading server plugin SimpleClans v2.19.2-05e7abc
-[22:36:49] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+20-81ac6f7
-[22:36:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
-[22:36:49] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[22:36:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:36:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[22:36:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[22:36:49] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[22:36:49] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[22:36:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
-[22:36:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[22:36:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[22:36:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
-[22:36:51] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[22:36:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:36:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:36:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:36:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:36:51] [Server thread/INFO]: Preparing level "world"
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[22:36:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[22:36:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:36:52] [Server thread/INFO]: Preparing spawn area: 0%
-[22:36:53] [Server thread/INFO]: Preparing spawn area: 2%
-[22:36:54] [Server thread/INFO]: Preparing spawn area: 2%
-[22:36:54] [Server thread/INFO]: Preparing spawn area: 2%
-[22:36:54] [Server thread/INFO]: Time elapsed: 1821 ms
-[22:36:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:36:54] [Server thread/INFO]: Preparing spawn area: 0%
-[22:36:54] [Server thread/INFO]: Time elapsed: 438 ms
-[22:36:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:36:54] [Server thread/INFO]: Preparing spawn area: 0%
-[22:36:55] [Server thread/INFO]: Time elapsed: 247 ms
-[22:36:55] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[22:36:55] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[22:36:55] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[22:36:55] [Server thread/INFO]: [TAB] Enabled in 408ms
-[22:36:55] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
-[22:36:56] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
-[22:36:56] [Server thread/INFO]: [SimpleClans] Clans: 1
-[22:36:56] [Server thread/INFO]: [SimpleClans] Clan players: 1
-[22:36:56] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
-[22:36:56] [Server thread/INFO]: [SimpleClans] [ACF] Enabled Asynchronous Tab Completion Support!
-[22:36:56] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
-[22:36:57] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
-[22:36:57] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
-[22:36:57] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
-[22:36:57] [Server thread/INFO]: [SimpleClans] Multithreading: true
-[22:36:57] [Server thread/INFO]: [SimpleClans] BungeeCord: false
-[22:36:57] [Server thread/INFO]: [SimpleClans] HEX support: true
-[22:36:57] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
-[22:36:57] [Server thread/INFO]: [SimpleClans] PlaceholderAPI found. Registering hook...
-[22:36:57] [Server thread/INFO]: [SimpleClans] Registering 7 placeholder resolvers...
-[22:36:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: simpleclans [2.19.2-05e7abc]
-[22:36:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+20-81ac6f7
-[22:36:58] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[22:36:58] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[22:36:58] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[22:36:59] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[22:36:59] [Server thread/INFO]: [Essentials] Using locale en
-[22:36:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:37:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:37:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[22:37:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[22:37:00] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[22:37:00] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[22:37:00] [Server thread/INFO]: [JustTPA] bStats enabled
-[22:37:00] [Server thread/INFO]: [JustTPA] Checking for updates...
-[22:37:00] [Server thread/INFO]: [spark] Starting background profiler...
-[22:37:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[22:37:01] [Server thread/INFO]: Done preparing level "world" (9.382s)
-[22:37:01] [Server thread/INFO]: Running delayed init tasks
-[22:37:01] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[22:37:01] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[22:37:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[22:37:01] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[22:37:01] [Server thread/INFO]: Done (27.902s)! For help, type "help"
-[22:37:01] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[22:37:01] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[22:37:01] [Craft Scheduler Thread - 2 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[22:37:08] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[22:37:08] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
-[22:37:09] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] Can't read players locale, you will be unable to automatically detect players language. Only Bukkit 1.7+ is supported for this.
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] java.lang.NoSuchFieldException: locale
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at SimpleClans.jar//net.sacredlabyrinth.phaed.simpleclans.acf.BukkitCommandManager.readPlayerLocale(BukkitCommandManager.java:324)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at SimpleClans.jar//net.sacredlabyrinth.phaed.simpleclans.acf.ACFBukkitListener.onPlayerJoin(ACFBukkitListener.java:57)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:332)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:185)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.TickTask.run(TickTask.java:18)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[22:37:09] [Server thread/INFO]: [SimpleClans] [ACF] 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[22:37:09] [Server thread/INFO]: SebasyTU_ joined the game
-[22:37:09] [Server thread/INFO]: SebasyTU_[/127.57.223.113:37183] logged in with entity id 30 at ([world]-6.755232494064866, 98.0, -129.85485612129742)
-[22:37:23] [Async Chat Thread - #0/INFO]: [Not Secure] SGR .<SebasyTU_> a
-[22:37:59] [Server thread/INFO]: SebasyTU_ issued server command: /clan modtag &b&lSGR
-[22:37:59] [Server thread/INFO]: [Clan Announce] [SebasyTU_] * Tag changed to SGR
-[22:38:32] [Server thread/INFO]: SebasyTU_ issued server command: /clan mod rename SGR
-[22:38:37] [Async Chat Thread - #2/INFO]: [Not Secure] SGR .<SebasyTU_> a
-[22:40:02] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[22:40:02] [Server thread/INFO]: SebasyTU_ left the game
-[22:40:10] [Server thread/INFO]: Stopping the server
-[22:40:10] [Server thread/INFO]: Stopping server
-[22:40:10] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[22:40:10] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[22:40:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
-[22:40:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+20-81ac6f7
-[22:40:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[22:40:10] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.19.2-05e7abc
-[22:40:10] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[22:40:10] [Server thread/INFO]: [TAB] Disabled in 2ms
-[22:40:10] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[22:40:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[22:40:10] [Server thread/INFO]: Saving players
-[22:40:10] [Server thread/INFO]: Saving worlds
-[22:40:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:40:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:40:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:40:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Saved 1337 block chunks, 1337 entity chunks, 0 poi chunks in world 'world' in 4.14s
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.12s
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:40:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:40:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:40:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:40:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:40:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:40:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:40:15] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:40:15] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[22:40:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:40:15] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[23:36:35] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[23:36:35] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[23:36:35] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[23:36:35] [Server thread/INFO]: [SimpleClans] Loading server plugin SimpleClans v2.19.2-05e7abc
+[23:36:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+20-81ac6f7
+[23:36:35] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[23:36:35] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[23:36:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:36:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[23:36:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:36:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:36:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[23:36:35] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[23:36:36] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[23:36:37] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[23:36:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[23:36:37] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[23:36:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:36:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:36:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:36:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:36:37] [Server thread/INFO]: Preparing level "world"
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[23:36:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[23:36:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:36:39] [Server thread/INFO]: Preparing spawn area: 0%
+[23:36:39] [Server thread/INFO]: Preparing spawn area: 2%
+[23:36:39] [Server thread/INFO]: Preparing spawn area: 2%
+[23:36:40] [Server thread/INFO]: Preparing spawn area: 2%
+[23:36:40] [Server thread/INFO]: Preparing spawn area: 2%
+[23:36:41] [Server thread/INFO]: Time elapsed: 2248 ms
+[23:36:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:36:41] [Server thread/INFO]: Preparing spawn area: 0%
+[23:36:41] [Server thread/INFO]: Preparing spawn area: 26%
+[23:36:41] [Server thread/INFO]: Time elapsed: 700 ms
+[23:36:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:36:41] [Server thread/INFO]: Preparing spawn area: 0%
+[23:36:42] [Server thread/INFO]: Preparing spawn area: 20%
+[23:36:42] [Server thread/INFO]: Time elapsed: 546 ms
+[23:36:42] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[23:36:42] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:36:42] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[23:36:43] [Server thread/INFO]: [TAB] Enabled in 587ms
+[23:36:43] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
+[23:36:44] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
+[23:36:44] [Server thread/INFO]: [SimpleClans] Clans: 1
+[23:36:44] [Server thread/INFO]: [SimpleClans] Clan players: 1
+[23:36:44] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
+[23:36:44] [Server thread/INFO]: [SimpleClans] [ACF] Enabled Asynchronous Tab Completion Support!
+[23:36:44] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
+[23:36:44] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
+[23:36:45] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
+[23:36:45] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
+[23:36:45] [Server thread/INFO]: [SimpleClans] Multithreading: true
+[23:36:45] [Server thread/INFO]: [SimpleClans] BungeeCord: false
+[23:36:45] [Server thread/INFO]: [SimpleClans] HEX support: true
+[23:36:45] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
+[23:36:45] [Server thread/INFO]: [SimpleClans] PlaceholderAPI found. Registering hook...
+[23:36:45] [Server thread/INFO]: [SimpleClans] Registering 7 placeholder resolvers...
+[23:36:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: simpleclans [2.19.2-05e7abc]
+[23:36:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+20-81ac6f7
+[23:36:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:36:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[23:36:46] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[23:36:47] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[23:36:47] [Server thread/INFO]: [Essentials] Using locale en
+[23:36:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:36:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:36:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[23:36:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[23:36:48] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[23:36:48] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[23:36:48] [Server thread/INFO]: [JustTPA] bStats enabled
+[23:36:48] [Server thread/INFO]: [JustTPA] Checking for updates...
+[23:36:48] [Server thread/INFO]: [spark] Starting background profiler...
+[23:36:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:36:50] [Server thread/INFO]: Done preparing level "world" (12.241s)
+[23:36:50] [Server thread/INFO]: Running delayed init tasks
+[23:36:50] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:36:50] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[23:36:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[23:36:50] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[23:36:50] [Server thread/INFO]: Done (36.499s)! For help, type "help"
+[23:36:50] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[23:36:50] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[23:36:50] [Craft Scheduler Thread - 2 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[23:38:19] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[23:38:19] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
+[23:38:21] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] Can't read players locale, you will be unable to automatically detect players language. Only Bukkit 1.7+ is supported for this.
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] java.lang.NoSuchFieldException: locale
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at SimpleClans.jar//net.sacredlabyrinth.phaed.simpleclans.acf.BukkitCommandManager.readPlayerLocale(BukkitCommandManager.java:324)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at SimpleClans.jar//net.sacredlabyrinth.phaed.simpleclans.acf.ACFBukkitListener.onPlayerJoin(ACFBukkitListener.java:57)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:332)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:185)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[23:38:21] [Server thread/INFO]: [SimpleClans] [ACF] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[23:38:22] [Server thread/INFO]: SebasyTU_ joined the game
+[23:38:22] [Server thread/INFO]: SebasyTU_[/127.57.223.113:38003] logged in with entity id 30 at ([world]23.90520873758002, 99.0, -102.27416903457348)
+[23:38:35] [Server thread/INFO]: SebasyTU_ issued server command: /clan disband
+[23:38:40] [Server thread/INFO]: [Server Announce] Clan a has been disbanded
+[23:38:47] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[23:39:16] [Async Chat Thread - #1/INFO]: [Not Secure] <SebasyTU_> a
+[23:39:31] [Server thread/INFO]: SebasyTU_ issued server command: /clan create SGR
+[23:39:36] [Server thread/INFO]: [Clan Announce] [SebasyTU_] * Clan SGR created
+[23:39:38] [Async Chat Thread - #0/INFO]: [Not Secure] SGR .<SebasyTU_> a
+[23:39:47] [Server thread/INFO]: SebasyTU_ issued server command: /clan disband
+[23:39:50] [Server thread/INFO]: [Server Announce] Clan SGR has been disbanded
+[23:41:24] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[23:41:56] [Server thread/INFO]: SebasyTU_ issued server command: /tp 10000 80 10000
+[23:44:43] [Server thread/INFO]: SebasyTU_ issued server command: /locate biome minecraft:plains
+[23:44:43] [Server thread/INFO]: Locating element minecraft:plains took 516 ms
+[23:44:55] [Server thread/INFO]: SebasyTU_ issued server command: /tp @s 10640 63 10817
+[23:45:00] [Server thread/INFO]: SebasyTU_ issued server command: /tp SebasyTU_ 10640 63 10817
+[23:45:40] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[23:45:43] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
