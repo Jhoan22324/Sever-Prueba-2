@@ -20,3 +20,11 @@ timestamps:
   login: 1756944310337
 money: '0'
 last-account-name: cestian
+lastlocation:
+  world: 9e88f55a-7d90-43d2-a12f-8f3b64db3f19
+  world-name: world
+  x: 12216.700005242239
+  y: 65.0
+  z: 11381.634898940343
+  yaw: -10.667640686035156
+  pitch: 16.218767166137695

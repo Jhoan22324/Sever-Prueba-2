@@ -11,3 +11,229 @@
 [00:05:10] [TAB Processing Thread/INFO]: [TAB] [WARN] Player cestian's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [00:05:10] [Server thread/INFO]: cestian joined the game
 [00:05:10] [Server thread/INFO]: cestian[/127.162.210.252:53681] logged in with entity id 12156 at ([world]41.5, 92.0, 29.5)
+[00:07:07] [Server thread/INFO]: GGENMO has made the advancement [Getting an Upgrade]
+[00:07:31] [Server thread/INFO]: cestian issued server command: /tpa Sebasy_TU_
+[00:07:44] [Server thread/INFO]: SebasyTU_ issued server command: /tpahere cestian
+[00:07:57] [Server thread/INFO]: cestian issued server command: /tpa acept
+[00:08:05] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian SebasyTU_
+[00:09:51] [Server thread/INFO]: SebasyTU_ issued server command: /ban GGENMO
+[00:09:51] [Server thread/INFO]: GGENMO lost connection: You have been banned:
+The Ban Hammer has spoken!
+[00:09:51] [Server thread/INFO]: GGENMO left the game
+[00:09:51] [Server thread/INFO]: [Essentials] Player SebasyTU_ banned GGENMO for: \<secondary>You have been banned:
+\<reset>The Ban Hammer has spoken!.
+[00:10:04] [User Authenticator #3/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
+[00:10:04] [Server thread/INFO]: Disconnecting GGENMO (/127.248.184.103:34971): You are banned from this server. Reason: The Ban Hammer has spoken!
+[00:10:04] [Server thread/INFO]: GGENMO (/127.248.184.103:34971) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
+[00:10:07] [Server thread/INFO]: SebasyTU_ issued server command: /banlist
+[00:10:16] [User Authenticator #3/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
+[00:10:16] [Server thread/INFO]: Disconnecting GGENMO (/127.248.184.103:49501): You are banned from this server. Reason: The Ban Hammer has spoken!
+[00:10:16] [Server thread/INFO]: GGENMO (/127.248.184.103:49501) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
+[00:10:22] [Server thread/INFO]: SebasyTU_ issued server command: /pardon GGENMO
+[00:10:22] [Server thread/INFO]: [Essentials] Player SebasyTU_ unbanned GGENMO
+[00:10:26] [User Authenticator #3/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
+[00:10:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:10:28] [Server thread/INFO]: GGENMO joined the game
+[00:10:28] [Server thread/INFO]: GGENMO[/127.248.184.103:46527] logged in with entity id 13593 at ([world]12178.393943579085, 67.0, 11388.112078182143)
+[00:10:31] [Server thread/INFO]: SebasyTU_ issued server command: /shock
+[00:10:49] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
+[00:11:17] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
+[00:11:31] [Server thread/INFO]: SebasyTU_ issued server command: /weather storm
+[00:11:43] [Server thread/INFO]: cestian has made the advancement [Sweet Dreams]
+[00:12:22] [Server thread/INFO]: cestian has made the advancement [Stone Age]
+[00:12:23] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:12:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:13:06] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> v
+[00:13:09] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> brg
+[00:13:10] [Server thread/INFO]: cestian has made the advancement [Getting an Upgrade]
+[00:13:11] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> me
+[00:13:13] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> cage
+[00:13:19] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> xddd
+[00:13:21] [Server thread/INFO]: Unknown or incomplete command, see below for error
+a<--[HERE]
+[00:13:23] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> ??
+[00:13:25] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> yo tmb
+[00:13:35] [Async Chat Thread - #5/INFO]: [Not Secure] <GGENMO> se come con el qlo
+[00:13:40] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
+[00:14:00] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:14:16] [Server thread/INFO]: SebasyTU_ issued server command: /fireball egg
+[00:14:22] [Server thread/INFO]: SebasyTU_ issued server command: /fireball dragon
+[00:14:26] [Async Chat Thread - #5/INFO]: [Not Secure] <GGENMO> hacelo
+[00:14:31] [Async Chat Thread - #5/INFO]: [Not Secure] <cestian> NO
+[00:14:35] [Server thread/INFO]: SebasyTU_ issued server command: /fireball fireball
+[00:14:35] [Async Chat Thread - #5/INFO]: [Not Secure] <cestian> NO LO AGAS
+[00:14:40] [Async Chat Thread - #5/INFO]: [Not Secure] <GGENMO> ./summon tnt cestian
+[00:14:41] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
+[00:14:45] [Server thread/INFO]: SebasyTU_ blew up
+[00:15:33] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
+[00:15:37] [Server thread/INFO]: cestian blew up
+[00:15:52] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:16:02] [Server thread/INFO]: SebasyTU_ issued server command: /shock GGENMO
+[00:16:06] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:16:09] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:16:13] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:16:15] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:16:24] [Server thread/INFO]: SebasyTU_ issued server command: /fireball expbottle
+[00:16:35] [Server thread/INFO]: SebasyTU_ issued server command: /nuke GGENMO
+[00:16:39] [Server thread/INFO]: cestian blew up
+[00:16:39] [Server thread/INFO]: GGENMO blew up
+[00:16:50] [Server thread/INFO]: cestian has made the advancement [Suit Up]
+[00:17:39] [Server thread/INFO]: SebasyTU_ issued server command: /shock GGENMO
+[00:17:41] [Server thread/INFO]: GGENMO lost connection: Disconnected
+[00:17:41] [Server thread/INFO]: GGENMO left the game
+[00:17:45] [User Authenticator #4/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
+[00:17:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:17:46] [Server thread/INFO]: GGENMO joined the game
+[00:17:46] [Server thread/INFO]: GGENMO[/127.248.184.103:43807] logged in with entity id 15028 at ([world]12159.386245833493, 64.0, 11398.256184887361)
+[00:18:06] [Server thread/INFO]: cestian has made the advancement [Acquire Hardware]
+[00:18:15] [Server thread/INFO]: GGENMO has made the advancement [Hot Stuff]
+[00:18:29] [Server thread/INFO]: GGENMO lost connection: Disconnected
+[00:18:29] [Server thread/INFO]: GGENMO left the game
+[00:18:35] [Async Chat Thread - #6/INFO]: [Not Secure] SGR .<SebasyTU_> su risa xddddd
+[00:19:09] [Server thread/INFO]: SebasyTU_ issued server command: /fly
+[00:19:36] [Server thread/INFO]: SebasyTU_ issued server command: /fly
+[00:20:44] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
+[00:21:18] [User Authenticator #5/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[00:21:19] [Server thread/INFO]: regsexl joined the game
+[00:21:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:21:19] [Server thread/INFO]: regsexl[/127.135.38.35:41415] logged in with entity id 15615 at ([world]52.5, 93.0, 28.5)
+[00:21:21] [User Authenticator #5/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
+[00:21:22] [Server thread/INFO]: GGENMO joined the game
+[00:21:22] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:21:22] [Server thread/INFO]: GGENMO[/127.248.184.103:45425] logged in with entity id 15648 at ([world]12158.903987446094, 62.0, 11392.990944303505)
+[00:21:50] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
+[00:22:26] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
+[00:22:53] [Server thread/INFO]: SebasyTU_ issued server command: /shock regsexl
+[00:23:13] [Async Chat Thread - #7/INFO]: [Not Secure] <GGENMO> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[00:23:19] [Async Chat Thread - #8/INFO]: [Not Secure] <GGENMO> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[00:23:22] [Server thread/INFO]: cestian issued server command: /skin set black
+[00:23:23] [Async Chat Thread - #7/INFO]: [Not Secure] <GGENMO> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[00:23:44] [Server thread/INFO]: SebasyTU_ issued server command: /fireball dragon
+[00:24:09] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
+[00:24:18] [Server thread/INFO]: SebasyTU_ issued server command: /weather storm
+[00:24:28] [Server thread/INFO]: regsexl was shot by Skeleton
+[00:24:39] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
+[00:24:43] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
+[00:24:58] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:01] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:02] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:04] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:07] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:10] [Server thread/INFO]: regsexl has made the advancement [Stone Age]
+[00:25:11] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:12] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:15] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:15] [Server thread/INFO]: regsexl has made the advancement [Getting an Upgrade]
+[00:25:16] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:18] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:19] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:20] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:21] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:22] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:23] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:40] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:25:53] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:54] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:55] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:25:56] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:26:02] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:26:04] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:26:19] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:26:25] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:26:30] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
+[00:26:35] [Server thread/INFO]: cestian has made the advancement [Monster Hunter]
+[00:26:38] [Server thread/INFO]: SebasyTU_ issued server command: /nuke regsexl
+[00:26:52] [Server thread/INFO]: GGENMO issued server command: /skin set creeper
+[00:26:54] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
+[00:26:58] [Server thread/INFO]: cestian blew up
+[00:27:26] [Server thread/INFO]: SebasyTU_ issued server command: /give regsexl iron_block 10
+[00:27:44] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl
+[00:27:47] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO
+[00:28:18] [Server thread/INFO]: SebasyTU_ issued server command: /invsee cestian
+[00:28:29] [Server thread/INFO]: SebasyTU_ issued server command: /invsee GGENMO
+[00:28:33] [Server thread/INFO]: cestian has made the advancement [Hot Stuff]
+[00:28:52] [Server thread/INFO]: GGENMO burned to death
+[00:29:02] [Server thread/INFO]: regsexl has made the advancement [Acquire Hardware]
+[00:29:03] [Server thread/INFO]: GGENMO has made the advancement [Ice Bucket Challenge]
+[00:29:15] [Server thread/INFO]: regsexl has made the advancement [Suit Up]
+[00:29:19] [Server thread/INFO]: SebasyTU_ issued server command: /nuke GGENMO
+[00:29:38] [Server thread/INFO]: regsexl has made the advancement [Isn't It Iron Pick]
+[00:29:49] [Server thread/INFO]: cestian was slain by Zombie
+[00:30:07] [Server thread/INFO]: SebasyTU_ issued server command: /time set day
+[00:30:12] [Server thread/INFO]: SebasyTU_ issued server command: /weather sun
+[00:30:13] [Server thread/INFO]: cestian was shot by Skeleton
+[00:30:16] [Server thread/INFO]: regsexl has made the advancement [Monster Hunter]
+[00:30:20] [Server thread/INFO]: SebasyTU_ issued server command: /clear cestian
+[00:30:23] [Server thread/INFO]: SebasyTU_ issued server command: /clear GGENMO
+[00:30:27] [Server thread/INFO]: SebasyTU_ issued server command: /clear regsexl
+[00:30:31] [Server thread/INFO]: SebasyTU_ issued server command: /clear SebasyTU_
+[00:30:34] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian SebasyTU_
+[00:30:37] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO s
+[00:30:37] [Server thread/INFO]: regsexl lost connection: Disconnected
+[00:30:37] [Server thread/INFO]: regsexl left the game
+[00:30:41] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO SebasyTU_
+[00:30:48] [User Authenticator #6/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[00:30:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:30:49] [Server thread/INFO]: regsexl joined the game
+[00:30:49] [Server thread/INFO]: regsexl[/127.135.38.35:50053] logged in with entity id 18141 at ([world]12213.718762776318, 42.0, 11443.300000011921)
+[00:31:04] [Server thread/INFO]: SebasyTU_ issued server command: /locate biome minecraft:plains
+[00:31:05] [Server thread/INFO]: Locating element minecraft:plains took 81 ms
+[00:31:07] [Server thread/INFO]: SebasyTU_ issued server command: /tp @s 11800 65 11798
+[00:31:14] [Server thread/INFO]: SebasyTU_ issued server command: /tp SebasyTU_ 11800 65 11798
+[00:31:17] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian s
+[00:31:20] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO SebasyTU_
+[00:31:23] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl SebasyTU_
+[00:31:31] [Server thread/INFO]: SebasyTU_ issued server command: /spawnpoint @a
+[00:31:31] [Server thread/INFO]: [SebasyTU_: Set spawn point to 11803, 67, 11800 [0.0] in minecraft:overworld for 4 players]
+[00:31:40] [Server thread/INFO]: GGENMO fell from a high place
+[00:31:42] [Server thread/INFO]: SebasyTU_ issued server command: /kill GGENMO
+[00:31:50] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:31:56] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:32:01] [Server thread/INFO]: SebasyTU_ issued server command: /clan
+[00:32:01] [Craft Scheduler Thread - 306 - SimpleClans/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:32:04] [Server thread/INFO]: regsexl issued server command: /clan
+[00:32:05] [Server thread/INFO]: GGENMO issued server command: /Clan
+[00:32:09] [Server thread/INFO]: GGENMO issued server command: /clan
+[00:32:15] [Server thread/INFO]: cestian issued server command: /clan
+[00:32:25] [Server thread/INFO]: SebasyTU_ issued server command: /clan invite cestian
+[00:32:29] [Server thread/INFO]: SebasyTU_ issued server command: /clan invite GGENMO
+[00:32:33] [Server thread/INFO]: GGENMO issued server command: /accept
+[00:32:33] [Server thread/INFO]: [Server Announce] GGENMO has joined SGR
+[00:32:33] [Server thread/INFO]: GGENMO issued server command: /accept
+[00:32:34] [Server thread/INFO]: SebasyTU_ issued server command: /clan invite regsexl
+[00:32:36] [Server thread/INFO]: regsexl issued server command: /accept
+[00:32:36] [Server thread/INFO]: [Server Announce] regsexl has joined SGR
+[00:32:40] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:32:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:33:03] [Server thread/INFO]: SebasyTU_ issued server command: /ban GGENMO
+[00:33:03] [Server thread/INFO]: GGENMO lost connection: You have been banned:
+The Ban Hammer has spoken!
+[00:33:03] [Server thread/INFO]: GGENMO left the game
+[00:33:03] [Server thread/INFO]: [Essentials] Player SebasyTU_ banned GGENMO for: \<secondary>You have been banned:
+\<reset>The Ban Hammer has spoken!.
+[00:33:12] [User Authenticator #7/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
+[00:33:12] [Server thread/INFO]: Disconnecting GGENMO (/127.248.184.103:51551): You are banned from this server. Reason: The Ban Hammer has spoken!
+[00:33:12] [Server thread/INFO]: GGENMO (/127.248.184.103:51551) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
+[00:33:13] [Server thread/INFO]: cestian issued server command: /clan
+[00:33:13] [Server thread/INFO]: SebasyTU_ issued server command: /pardon GGENMO
+[00:33:13] [Server thread/INFO]: [Essentials] Player SebasyTU_ unbanned GGENMO
+[00:33:23] [Server thread/INFO]: SebasyTU_ issued server command: /clan
+[00:33:35] [Server thread/INFO]: SebasyTU_ issued server command: /clan
+[00:33:52] [Server thread/INFO]: cestian issued server command: /accept
+[00:33:52] [Server thread/INFO]: [Server Announce] cestian has joined SGR
+[00:33:52] [Server thread/INFO]: cestian issued server command: /accept
+[00:34:18] [Server thread/INFO]: SebasyTU_ issued server command: /clan home
+[00:34:24] [Server thread/INFO]: SebasyTU_ issued server command: /clan setbanner
+[00:34:44] [Server thread/INFO]: SebasyTU_ issued server command: /balance
+[00:34:58] [Async Chat Thread - #9/INFO]: [Not Secure] SGR .<SebasyTU_> ./balance
+[00:35:15] [Server thread/INFO]: regsexl issued server command: /balance
+[00:35:15] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
+[00:35:33] [Server thread/INFO]: SebasyTU_ issued server command: /pay SebasyTU_ 100
+[00:35:41] [Server thread/INFO]: SebasyTU_ issued server command: /pay regsexl 100
+[00:35:53] [Server thread/INFO]: SebasyTU_ issued server command: /balancetop
+[00:35:53] [Server thread/INFO]: regsexl issued server command: /balance
+[00:35:53] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
+[00:36:00] [Server thread/INFO]: SebasyTU_ issued server command: /balancetop
+[00:36:11] [Server thread/INFO]: regsexl issued server command: /baltop
+[00:36:11] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
+[00:36:29] [Server thread/INFO]: regsexl issued server command: /skin ernun
