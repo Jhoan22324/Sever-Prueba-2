@@ -237,3 +237,74 @@ The Ban Hammer has spoken!
 [00:36:11] [Server thread/INFO]: regsexl issued server command: /baltop
 [00:36:11] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
 [00:36:29] [Server thread/INFO]: regsexl issued server command: /skin ernun
+[00:37:26] [Server thread/INFO]: SebasyTU_ has made the advancement [Getting an Upgrade]
+[00:37:36] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:37:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:38:26] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
+[00:40:04] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:40:16] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:40:38] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:40:44] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:42:20] [Server thread/INFO]: SebasyTU_ issued server command: /tpa regsexl
+[00:42:23] [Server thread/INFO]: cestian was slain by Zombie
+[00:42:33] [Server thread/INFO]: cestian issued server command: /tpa regsexl
+[00:42:36] [Server thread/INFO]: regsexl has made the advancement [Sweet Dreams]
+[00:42:38] [Server thread/INFO]: Villager Villager['Villager'/19187, uuid='0db23521-e603-4d0c-81eb-8cdd3c85805f', l='ServerLevel[world]', x=11556.49, y=71.00, z=12189.30, cpos=[722, 761], tl=7055, v=true] died, message: 'Villager was slain by Zombie'
+[00:42:48] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
+[00:43:29] [Server thread/INFO]: regsexl was slain by Zombie
+[00:43:40] [Server thread/INFO]: regsexl was slain by Zombie
+[00:43:49] [Server thread/INFO]: regsexl was slain by Zombie
+[00:43:56] [Server thread/INFO]: regsexl was slain by Zombie
+[00:44:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:44:04] [Server thread/INFO]: regsexl was slain by Zombie
+[00:44:15] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:44:52] [Server thread/INFO]: cestian issued server command: /tpa regsexl
+[00:44:56] [Server thread/INFO]: regsexl issued server command: /tpaccpet
+[00:45:02] [Server thread/INFO]: regsexl issued server command: /tpac
+[00:45:09] [Server thread/INFO]: regsexl issued server command: /tpaccept
+[00:46:48] [Server thread/INFO]: SebasyTU_ issued server command: /fly
+[00:48:59] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:49:00] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:49:05] [Server thread/INFO]: SebasyTU_ issued server command: /fly
+[00:49:19] [Server thread/INFO]: cestian issued server command: /tpa regsexl
+[00:49:29] [Server thread/INFO]: regsexl issued server command: /tpaccept
+[00:49:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:51:08] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[00:54:32] [Server thread/INFO]: SebasyTU_ issued server command: /fly
+[00:54:59] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian
+[00:55:10] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl
+[00:55:22] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian
+[00:55:41] [Server thread/INFO]: cestian fell from a high place
+[00:55:45] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian SebasyTU_
+[00:55:50] [Server thread/INFO]: cestian fell from a high place
+[00:55:57] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian s
+[00:55:58] [Server thread/INFO]: regsexl lost connection: Disconnected
+[00:55:58] [Server thread/INFO]: regsexl left the game
+[00:57:06] [User Authenticator #8/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[00:57:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:57:07] [Server thread/INFO]: regsexl joined the game
+[00:57:07] [Server thread/INFO]: regsexl[/127.135.38.35:58805] logged in with entity id 28152 at ([world]11667.472124369537, 79.0, 12246.680441488788)
+[00:57:10] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl s
+[00:57:12] [Server thread/INFO]: regsexl lost connection: Disconnected
+[00:57:12] [Server thread/INFO]: regsexl left the game
+[00:58:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[00:59:08] [Server thread/INFO]: cestian fell from a high place
+[00:59:22] [Server thread/INFO]: cestian was shot by Skeleton
+[00:59:23] [User Authenticator #9/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[00:59:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:59:24] [Server thread/INFO]: regsexl joined the game
+[00:59:24] [Server thread/INFO]: regsexl[/127.135.38.35:36951] logged in with entity id 29071 at ([world]12037.80067890911, 91.33509156971034, 11823.211547369949)
+[00:59:29] [Server thread/INFO]: regsexl fell from a high place
+[00:59:43] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
+[00:59:44] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl s
+[00:59:46] [Server thread/INFO]: regsexl was shot by Skeleton
+[00:59:49] [Server thread/INFO]: cestian was slain by Enderman
+[00:59:49] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl s
+[01:00:11] [Server thread/INFO]: cestian lost connection: Disconnected
+[01:00:11] [Server thread/INFO]: cestian left the game
+[01:01:02] [Server thread/INFO]: regsexl lost connection: Disconnected
+[01:01:02] [Server thread/INFO]: regsexl left the game
+[01:03:08] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
+[01:03:09] [Server thread/INFO]: SebasyTU_ left the game
+[01:03:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+a<--[HERE]

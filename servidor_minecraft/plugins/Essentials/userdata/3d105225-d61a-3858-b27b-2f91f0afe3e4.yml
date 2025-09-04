@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1756947611475
   login: 1756944310337
 money: '0'
 last-account-name: cestian
 lastlocation:
   world: 9e88f55a-7d90-43d2-a12f-8f3b64db3f19
   world-name: world
-  x: 12216.700005242239
-  y: 65.0
-  z: 11381.634898940343
-  yaw: -10.667640686035156
-  pitch: 16.218767166137695
+  x: 48.9363862447271
+  y: 94.16610926093821
+  z: 47.808798826780446
+  yaw: 5.7512383460998535
+  pitch: 27.558034896850586
+logoutlocation:
+  world: 9e88f55a-7d90-43d2-a12f-8f3b64db3f19
+  world-name: world
+  x: 40.55094650047646
+  y: 104.0
+  z: 106.69999998807907
+  yaw: 8.387234687805176
+  pitch: 15.815919876098633
