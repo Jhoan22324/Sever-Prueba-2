@@ -107,7 +107,7 @@ scoreboard:
         - "➤&b&lEstadisticas:"
         - " &f⚔Kills: &b%statistic_player_kills%"
         - " &f☠Muertes: &b%statistic_deaths%"
-        - " &f$Dinero: &b%vault_eco_balance%$"
+        - " &f$Dinero: &b0$"
         - "%animation:MyAnimation1%"
     scoreboard:
       title: "<#E0B11E>MyServer</#FF0000>"
