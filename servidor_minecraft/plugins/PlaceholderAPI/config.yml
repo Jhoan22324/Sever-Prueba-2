@@ -22,3 +22,10 @@ expansions:
       ally: '&b'
       same_clan: '&a'
       rival: '&c'
+  vault:
+    formatting:
+      thousands: k
+      millions: M
+      billions: B
+      trillions: T
+      quadrillions: Q
