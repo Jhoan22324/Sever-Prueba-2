@@ -1,165 +1,161 @@
-[20:53:03] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[20:53:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[20:53:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:53:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[20:53:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[20:58:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[20:58:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[20:58:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:58:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[20:58:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - JustTPA (20250220c), LuckPerms (5.5.11), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.10), TAB (5.2.5), WorldEdit (7.3.16+cbf4bd5), nametags (1.2.4-stable)
-[20:53:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:53:15] [ServerMain/INFO]: Loaded 1407 recipes
-[20:53:15] [ServerMain/INFO]: Loaded 1520 advancements
-[20:53:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:53:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 769.4ms
-[20:53:16] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:53:16] [Server thread/INFO]: Loading properties
-[20:53:16] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[20:53:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:53:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:53:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:53:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:53:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:53:18] [Server thread/INFO]: Default game type: SURVIVAL
-[20:53:18] [Server thread/INFO]: Generating keypair
-[20:53:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:53:18] [Server thread/INFO]: Using epoll channel type
-[20:53:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:53:18] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[20:53:19] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
-[20:53:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:53:20] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[20:53:20] [Server thread/INFO]: [nametags] Loading server plugin nametags v1.2.4-stable
-[20:53:20] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[20:53:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@727febc3]
-[20:53:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[20:53:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
-[20:53:21] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[20:53:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:53:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
-[20:53:21] [Server thread/INFO]:         __    
-[20:53:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
-[20:53:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:53:21] [Server thread/INFO]: 
-[20:53:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:53:22] [Server thread/WARN]: [LuckPerms] LuckPerms commands are disabled in the configuration for both console and players. Skipping command registration.
-[20:53:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:53:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:53:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1561ms)
-[20:53:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[20:53:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:53:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:53:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[20:53:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
-[20:53:27] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[20:53:28] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:53:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
-[20:53:28] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[20:53:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:53:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:53:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:53:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:53:28] [Server thread/INFO]: Preparing level "world"
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:53:28] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[20:53:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:53:30] [Server thread/INFO]: Preparing spawn area: 0%
-[20:53:31] [Server thread/INFO]: Preparing spawn area: 2%
-[20:53:31] [Server thread/INFO]: Preparing spawn area: 18%
-[20:53:31] [Server thread/INFO]: Time elapsed: 1154 ms
-[20:53:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:53:31] [Server thread/INFO]: Preparing spawn area: 0%
-[20:53:32] [Server thread/INFO]: Preparing spawn area: 0%
-[20:53:32] [Server thread/INFO]: Preparing spawn area: 0%
-[20:53:33] [Server thread/INFO]: Preparing spawn area: 0%
-[20:53:33] [Server thread/INFO]: Time elapsed: 1583 ms
-[20:53:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:53:33] [Server thread/INFO]: Preparing spawn area: 0%
-[20:53:33] [Server thread/INFO]: Time elapsed: 484 ms
-[20:53:33] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:53:34] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:53:34] [Server thread/INFO]: [nametags] Enabling nametags v1.2.4-stable
-[20:53:34] [Server thread/INFO]: [nametags] NameTagPlugin has been enabled.
-[20:53:34] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[20:53:35] [Server thread/INFO]: [TAB] Enabled in 613ms
-[20:53:35] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[20:53:35] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[20:53:35] [Server thread/INFO]: [JustTPA] bStats enabled
-[20:53:35] [Server thread/INFO]: [JustTPA] Checking for updates...
-[20:53:35] [Server thread/INFO]: [spark] Starting background profiler...
-[20:53:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:53:36] [Server thread/INFO]: Done preparing level "world" (7.405s)
-[20:53:36] [Server thread/INFO]: Running delayed init tasks
-[20:53:36] [Server thread/INFO]: Done (33.680s)! For help, type "help"
-[20:53:36] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
-[20:53:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[20:53:36] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[20:53:36] [Craft Scheduler Thread - 1 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[20:53:45] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[20:53:45] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer]
-[20:53:48] [Server thread/INFO]: SebasyTU_ joined the game
-[20:53:48] [Server thread/INFO]: SebasyTU_[/127.19.202.255:56477] logged in with entity id 524 at ([world]-975.9646516349595, 84.0, 498.63305671660464)
-[20:54:24] [Server thread/INFO]: SebasyTU_ issued server command: /lp
-[20:54:26] [Async Chat Thread - #0/INFO]: [Not Secure] <SebasyTU_> a
-[20:54:27] [Async Chat Thread - #0/INFO]: [Not Secure] <SebasyTU_> xd
-[20:54:31] [Server thread/INFO]: SebasyTU_ issued server command: /pl
-[20:54:37] [Server thread/INFO]: SebasyTU_ issued server command: /luckperms
-[20:54:41] [Server thread/INFO]: SebasyTU_ issued server command: /lp SebasyTU_
-[20:57:50] [Server thread/INFO]: SebasyTU_ issued server command: /stop
-[20:57:50] [Server thread/INFO]: [SebasyTU_: Stopping the server]
-[20:57:50] [Server thread/INFO]: Stopping server
-[20:57:50] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[20:57:50] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[20:57:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
-[20:57:50] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[20:57:50] [Server thread/INFO]: [TAB] Disabled in 3ms
-[20:57:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[20:57:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:57:50] [Server thread/INFO]: [nametags] Disabling nametags v1.2.4-stable
-[20:57:50] [Server thread/INFO]: [nametags] NameTagPlugin has been disabled.
-[20:57:50] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[20:57:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
-[20:57:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:57:50] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:57:50] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:57:50] [Server thread/INFO]: Saving players
-[20:57:50] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
-[20:57:50] [Server thread/INFO]: SebasyTU_ left the game
-[20:57:50] [Server thread/INFO]: Saving worlds
-[20:57:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:57:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:57:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:57:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Saved 1345 block chunks, 1345 entity chunks, 0 poi chunks in world 'world' in 4.15s
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:57:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:57:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.08s
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:57:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:57:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:57:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:57:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:57:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:57:55] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[20:57:55] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[20:57:55] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:57:55] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:58:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:58:48] [ServerMain/INFO]: Loaded 1407 recipes
+[20:58:48] [ServerMain/INFO]: Loaded 1520 advancements
+[20:58:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:58:49] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 672.1ms
+[20:58:49] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[20:58:49] [Server thread/INFO]: Loading properties
+[20:58:49] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[20:58:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:58:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:58:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:58:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:58:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[20:58:52] [Server thread/INFO]: Default game type: SURVIVAL
+[20:58:52] [Server thread/INFO]: Generating keypair
+[20:58:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:58:52] [Server thread/INFO]: Using epoll channel type
+[20:58:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:58:52] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:58:53] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
+[20:58:53] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:58:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[20:58:53] [Server thread/INFO]: [nametags] Loading server plugin nametags v1.2.4-stable
+[20:58:53] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[20:58:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@45823a15]
+[20:58:54] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[20:58:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[20:58:54] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[20:58:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:58:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[20:58:55] [Server thread/INFO]:         __    
+[20:58:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
+[20:58:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:58:55] [Server thread/INFO]: 
+[20:58:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:58:56] [Server thread/WARN]: [LuckPerms] LuckPerms commands are disabled in the configuration for both console and players. Skipping command registration.
+[20:58:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:58:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:58:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1609ms)
+[20:58:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[20:58:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:58:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:58:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[20:59:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[20:59:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[20:59:02] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:59:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[20:59:02] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[20:59:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:59:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:59:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:59:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:59:02] [Server thread/INFO]: Preparing level "world"
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:59:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:59:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:59:04] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:04] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:05] [Server thread/INFO]: Preparing spawn area: 55%
+[20:59:05] [Server thread/INFO]: Time elapsed: 1093 ms
+[20:59:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:59:05] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:06] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:06] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:06] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:06] [Server thread/INFO]: Time elapsed: 1637 ms
+[20:59:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:59:07] [Server thread/INFO]: Preparing spawn area: 0%
+[20:59:07] [Server thread/INFO]: Time elapsed: 254 ms
+[20:59:07] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[20:59:07] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:59:07] [Server thread/INFO]: [nametags] Enabling nametags v1.2.4-stable
+[20:59:07] [Server thread/INFO]: [nametags] NameTagPlugin has been enabled.
+[20:59:07] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[20:59:08] [Server thread/INFO]: [TAB] Enabled in 731ms
+[20:59:08] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[20:59:08] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[20:59:08] [Server thread/INFO]: [JustTPA] bStats enabled
+[20:59:08] [Server thread/INFO]: [JustTPA] Checking for updates...
+[20:59:09] [Server thread/INFO]: [spark] Starting background profiler...
+[20:59:09] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:59:09] [Server thread/INFO]: Done preparing level "world" (7.535s)
+[20:59:09] [Server thread/INFO]: Running delayed init tasks
+[20:59:09] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[20:59:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[20:59:09] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[20:59:09] [Server thread/INFO]: Done (33.659s)! For help, type "help"
+[20:59:10] [Craft Scheduler Thread - 1 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[20:59:15] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[20:59:15] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer]
+[20:59:17] [Server thread/INFO]: SebasyTU_ joined the game
+[20:59:17] [Server thread/INFO]: SebasyTU_[/127.19.202.255:60541] logged in with entity id 524 at ([world]-984.9431652107174, 84.0, 499.06904844676507)
+[20:59:19] [Server thread/INFO]: SebasyTU_ issued server command: /lp
+[20:59:24] [Server thread/INFO]: SebasyTU_ issued server command: /pl
+[20:59:28] [Server thread/INFO]: SebasyTU_ issued server command: /lp SebasyTU_
+[20:59:39] [Server thread/INFO]: Stopping the server
+[20:59:39] [Server thread/INFO]: Stopping server
+[20:59:39] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[20:59:39] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[20:59:39] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[20:59:39] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[20:59:39] [Server thread/INFO]: [TAB] Disabled in 2ms
+[20:59:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[20:59:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:59:39] [Server thread/INFO]: [nametags] Disabling nametags v1.2.4-stable
+[20:59:39] [Server thread/INFO]: [nametags] NameTagPlugin has been disabled.
+[20:59:39] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[20:59:39] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
+[20:59:39] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:59:39] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:59:39] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:59:39] [Server thread/INFO]: Saving players
+[20:59:39] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
+[20:59:39] [Server thread/INFO]: SebasyTU_ left the game
+[20:59:39] [Server thread/INFO]: Saving worlds
+[20:59:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:59:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:59:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:59:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Saved 1274 block chunks, 1274 entity chunks, 0 poi chunks in world 'world' in 3.35s
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:59:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:59:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:59:43] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:59:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:59:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:59:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:59:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:59:43] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:59:43] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:59:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:59:43] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
