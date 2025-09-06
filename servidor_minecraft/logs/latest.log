@@ -1,310 +1,253 @@
-[00:01:02] [Server thread/INFO]: GGENMO has made the advancement [Sweet Dreams]
-[00:02:09] [Server thread/INFO]: GGENMO has made the advancement [Suit Up]
-[00:04:32] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[00:04:32] [Server thread/INFO]: SebasyTU_ left the game
-[00:04:48] [User Authenticator #2/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[00:04:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:04:49] [Server thread/INFO]: SebasyTU_ joined the game
-[00:04:49] [Server thread/INFO]: SebasyTU_[/127.57.223.113:33803] logged in with entity id 12116 at ([world]12161.270843188773, 63.0, 11398.965706966655)
-[00:04:54] [Server thread/INFO]: GGENMO has made the advancement [Stone Age]
-[00:05:07] [User Authenticator #2/INFO]: UUID of player cestian is 3d105225-d61a-3858-b27b-2f91f0afe3e4
-[00:05:10] [TAB Processing Thread/INFO]: [TAB] [WARN] Player cestian's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:05:10] [Server thread/INFO]: cestian joined the game
-[00:05:10] [Server thread/INFO]: cestian[/127.162.210.252:53681] logged in with entity id 12156 at ([world]41.5, 92.0, 29.5)
-[00:07:07] [Server thread/INFO]: GGENMO has made the advancement [Getting an Upgrade]
-[00:07:31] [Server thread/INFO]: cestian issued server command: /tpa Sebasy_TU_
-[00:07:44] [Server thread/INFO]: SebasyTU_ issued server command: /tpahere cestian
-[00:07:57] [Server thread/INFO]: cestian issued server command: /tpa acept
-[00:08:05] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian SebasyTU_
-[00:09:51] [Server thread/INFO]: SebasyTU_ issued server command: /ban GGENMO
-[00:09:51] [Server thread/INFO]: GGENMO lost connection: You have been banned:
-The Ban Hammer has spoken!
-[00:09:51] [Server thread/INFO]: GGENMO left the game
-[00:09:51] [Server thread/INFO]: [Essentials] Player SebasyTU_ banned GGENMO for: \<secondary>You have been banned:
-\<reset>The Ban Hammer has spoken!.
-[00:10:04] [User Authenticator #3/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[00:10:04] [Server thread/INFO]: Disconnecting GGENMO (/127.248.184.103:34971): You are banned from this server. Reason: The Ban Hammer has spoken!
-[00:10:04] [Server thread/INFO]: GGENMO (/127.248.184.103:34971) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
-[00:10:07] [Server thread/INFO]: SebasyTU_ issued server command: /banlist
-[00:10:16] [User Authenticator #3/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[00:10:16] [Server thread/INFO]: Disconnecting GGENMO (/127.248.184.103:49501): You are banned from this server. Reason: The Ban Hammer has spoken!
-[00:10:16] [Server thread/INFO]: GGENMO (/127.248.184.103:49501) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
-[00:10:22] [Server thread/INFO]: SebasyTU_ issued server command: /pardon GGENMO
-[00:10:22] [Server thread/INFO]: [Essentials] Player SebasyTU_ unbanned GGENMO
-[00:10:26] [User Authenticator #3/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[00:10:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:10:28] [Server thread/INFO]: GGENMO joined the game
-[00:10:28] [Server thread/INFO]: GGENMO[/127.248.184.103:46527] logged in with entity id 13593 at ([world]12178.393943579085, 67.0, 11388.112078182143)
-[00:10:31] [Server thread/INFO]: SebasyTU_ issued server command: /shock
-[00:10:49] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
-[00:11:17] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
-[00:11:31] [Server thread/INFO]: SebasyTU_ issued server command: /weather storm
-[00:11:43] [Server thread/INFO]: cestian has made the advancement [Sweet Dreams]
-[00:12:22] [Server thread/INFO]: cestian has made the advancement [Stone Age]
-[00:12:23] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:12:31] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:13:06] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> v
-[00:13:09] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> brg
-[00:13:10] [Server thread/INFO]: cestian has made the advancement [Getting an Upgrade]
-[00:13:11] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> me
-[00:13:13] [Async Chat Thread - #4/INFO]: [Not Secure] SGR .<SebasyTU_> cage
-[00:13:19] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> xddd
-[00:13:21] [Server thread/INFO]: Unknown or incomplete command, see below for error
-a<--[HERE]
-[00:13:23] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> ??
-[00:13:25] [Async Chat Thread - #4/INFO]: [Not Secure] <GGENMO> yo tmb
-[00:13:35] [Async Chat Thread - #5/INFO]: [Not Secure] <GGENMO> se come con el qlo
-[00:13:40] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
-[00:14:00] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:14:16] [Server thread/INFO]: SebasyTU_ issued server command: /fireball egg
-[00:14:22] [Server thread/INFO]: SebasyTU_ issued server command: /fireball dragon
-[00:14:26] [Async Chat Thread - #5/INFO]: [Not Secure] <GGENMO> hacelo
-[00:14:31] [Async Chat Thread - #5/INFO]: [Not Secure] <cestian> NO
-[00:14:35] [Server thread/INFO]: SebasyTU_ issued server command: /fireball fireball
-[00:14:35] [Async Chat Thread - #5/INFO]: [Not Secure] <cestian> NO LO AGAS
-[00:14:40] [Async Chat Thread - #5/INFO]: [Not Secure] <GGENMO> ./summon tnt cestian
-[00:14:41] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
-[00:14:45] [Server thread/INFO]: SebasyTU_ blew up
-[00:15:33] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
-[00:15:37] [Server thread/INFO]: cestian blew up
-[00:15:52] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:16:02] [Server thread/INFO]: SebasyTU_ issued server command: /shock GGENMO
-[00:16:06] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:16:09] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:16:13] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:16:15] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:16:24] [Server thread/INFO]: SebasyTU_ issued server command: /fireball expbottle
-[00:16:35] [Server thread/INFO]: SebasyTU_ issued server command: /nuke GGENMO
-[00:16:39] [Server thread/INFO]: cestian blew up
-[00:16:39] [Server thread/INFO]: GGENMO blew up
-[00:16:50] [Server thread/INFO]: cestian has made the advancement [Suit Up]
-[00:17:39] [Server thread/INFO]: SebasyTU_ issued server command: /shock GGENMO
-[00:17:41] [Server thread/INFO]: GGENMO lost connection: Disconnected
-[00:17:41] [Server thread/INFO]: GGENMO left the game
-[00:17:45] [User Authenticator #4/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[00:17:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:17:46] [Server thread/INFO]: GGENMO joined the game
-[00:17:46] [Server thread/INFO]: GGENMO[/127.248.184.103:43807] logged in with entity id 15028 at ([world]12159.386245833493, 64.0, 11398.256184887361)
-[00:18:06] [Server thread/INFO]: cestian has made the advancement [Acquire Hardware]
-[00:18:15] [Server thread/INFO]: GGENMO has made the advancement [Hot Stuff]
-[00:18:29] [Server thread/INFO]: GGENMO lost connection: Disconnected
-[00:18:29] [Server thread/INFO]: GGENMO left the game
-[00:18:35] [Async Chat Thread - #6/INFO]: [Not Secure] SGR .<SebasyTU_> su risa xddddd
-[00:19:09] [Server thread/INFO]: SebasyTU_ issued server command: /fly
-[00:19:36] [Server thread/INFO]: SebasyTU_ issued server command: /fly
-[00:20:44] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
-[00:21:18] [User Authenticator #5/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[00:21:19] [Server thread/INFO]: regsexl joined the game
-[00:21:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:21:19] [Server thread/INFO]: regsexl[/127.135.38.35:41415] logged in with entity id 15615 at ([world]52.5, 93.0, 28.5)
-[00:21:21] [User Authenticator #5/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[00:21:22] [Server thread/INFO]: GGENMO joined the game
-[00:21:22] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GGENMO's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:21:22] [Server thread/INFO]: GGENMO[/127.248.184.103:45425] logged in with entity id 15648 at ([world]12158.903987446094, 62.0, 11392.990944303505)
-[00:21:50] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
-[00:22:26] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
-[00:22:53] [Server thread/INFO]: SebasyTU_ issued server command: /shock regsexl
-[00:23:13] [Async Chat Thread - #7/INFO]: [Not Secure] <GGENMO> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-[00:23:19] [Async Chat Thread - #8/INFO]: [Not Secure] <GGENMO> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-[00:23:22] [Server thread/INFO]: cestian issued server command: /skin set black
-[00:23:23] [Async Chat Thread - #7/INFO]: [Not Secure] <GGENMO> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-[00:23:44] [Server thread/INFO]: SebasyTU_ issued server command: /fireball dragon
-[00:24:09] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
-[00:24:18] [Server thread/INFO]: SebasyTU_ issued server command: /weather storm
-[00:24:28] [Server thread/INFO]: regsexl was shot by Skeleton
-[00:24:39] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
-[00:24:43] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
-[00:24:58] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:01] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:02] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:04] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:07] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:10] [Server thread/INFO]: regsexl has made the advancement [Stone Age]
-[00:25:11] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:12] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:15] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:15] [Server thread/INFO]: regsexl has made the advancement [Getting an Upgrade]
-[00:25:16] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:18] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:19] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:20] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:21] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:22] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:23] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:40] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:25:53] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:54] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:55] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:25:56] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:26:02] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:26:04] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:26:19] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:26:25] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:26:30] [Server thread/INFO]: SebasyTU_ issued server command: /fireball
-[00:26:35] [Server thread/INFO]: cestian has made the advancement [Monster Hunter]
-[00:26:38] [Server thread/INFO]: SebasyTU_ issued server command: /nuke regsexl
-[00:26:52] [Server thread/INFO]: GGENMO issued server command: /skin set creeper
-[00:26:54] [Server thread/INFO]: SebasyTU_ issued server command: /nuke cestian
-[00:26:58] [Server thread/INFO]: cestian blew up
-[00:27:26] [Server thread/INFO]: SebasyTU_ issued server command: /give regsexl iron_block 10
-[00:27:44] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl
-[00:27:47] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO
-[00:28:18] [Server thread/INFO]: SebasyTU_ issued server command: /invsee cestian
-[00:28:29] [Server thread/INFO]: SebasyTU_ issued server command: /invsee GGENMO
-[00:28:33] [Server thread/INFO]: cestian has made the advancement [Hot Stuff]
-[00:28:52] [Server thread/INFO]: GGENMO burned to death
-[00:29:02] [Server thread/INFO]: regsexl has made the advancement [Acquire Hardware]
-[00:29:03] [Server thread/INFO]: GGENMO has made the advancement [Ice Bucket Challenge]
-[00:29:15] [Server thread/INFO]: regsexl has made the advancement [Suit Up]
-[00:29:19] [Server thread/INFO]: SebasyTU_ issued server command: /nuke GGENMO
-[00:29:38] [Server thread/INFO]: regsexl has made the advancement [Isn't It Iron Pick]
-[00:29:49] [Server thread/INFO]: cestian was slain by Zombie
-[00:30:07] [Server thread/INFO]: SebasyTU_ issued server command: /time set day
-[00:30:12] [Server thread/INFO]: SebasyTU_ issued server command: /weather sun
-[00:30:13] [Server thread/INFO]: cestian was shot by Skeleton
-[00:30:16] [Server thread/INFO]: regsexl has made the advancement [Monster Hunter]
-[00:30:20] [Server thread/INFO]: SebasyTU_ issued server command: /clear cestian
-[00:30:23] [Server thread/INFO]: SebasyTU_ issued server command: /clear GGENMO
-[00:30:27] [Server thread/INFO]: SebasyTU_ issued server command: /clear regsexl
-[00:30:31] [Server thread/INFO]: SebasyTU_ issued server command: /clear SebasyTU_
-[00:30:34] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian SebasyTU_
-[00:30:37] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO s
-[00:30:37] [Server thread/INFO]: regsexl lost connection: Disconnected
-[00:30:37] [Server thread/INFO]: regsexl left the game
-[00:30:41] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO SebasyTU_
-[00:30:48] [User Authenticator #6/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[00:30:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:30:49] [Server thread/INFO]: regsexl joined the game
-[00:30:49] [Server thread/INFO]: regsexl[/127.135.38.35:50053] logged in with entity id 18141 at ([world]12213.718762776318, 42.0, 11443.300000011921)
-[00:31:04] [Server thread/INFO]: SebasyTU_ issued server command: /locate biome minecraft:plains
-[00:31:05] [Server thread/INFO]: Locating element minecraft:plains took 81 ms
-[00:31:07] [Server thread/INFO]: SebasyTU_ issued server command: /tp @s 11800 65 11798
-[00:31:14] [Server thread/INFO]: SebasyTU_ issued server command: /tp SebasyTU_ 11800 65 11798
-[00:31:17] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian s
-[00:31:20] [Server thread/INFO]: SebasyTU_ issued server command: /tp GGENMO SebasyTU_
-[00:31:23] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl SebasyTU_
-[00:31:31] [Server thread/INFO]: SebasyTU_ issued server command: /spawnpoint @a
-[00:31:31] [Server thread/INFO]: [SebasyTU_: Set spawn point to 11803, 67, 11800 [0.0] in minecraft:overworld for 4 players]
-[00:31:40] [Server thread/INFO]: GGENMO fell from a high place
-[00:31:42] [Server thread/INFO]: SebasyTU_ issued server command: /kill GGENMO
-[00:31:50] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:31:56] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:32:01] [Server thread/INFO]: SebasyTU_ issued server command: /clan
-[00:32:01] [Craft Scheduler Thread - 306 - SimpleClans/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:32:04] [Server thread/INFO]: regsexl issued server command: /clan
-[00:32:05] [Server thread/INFO]: GGENMO issued server command: /Clan
-[00:32:09] [Server thread/INFO]: GGENMO issued server command: /clan
-[00:32:15] [Server thread/INFO]: cestian issued server command: /clan
-[00:32:25] [Server thread/INFO]: SebasyTU_ issued server command: /clan invite cestian
-[00:32:29] [Server thread/INFO]: SebasyTU_ issued server command: /clan invite GGENMO
-[00:32:33] [Server thread/INFO]: GGENMO issued server command: /accept
-[00:32:33] [Server thread/INFO]: [Server Announce] GGENMO has joined SGR
-[00:32:33] [Server thread/INFO]: GGENMO issued server command: /accept
-[00:32:34] [Server thread/INFO]: SebasyTU_ issued server command: /clan invite regsexl
-[00:32:36] [Server thread/INFO]: regsexl issued server command: /accept
-[00:32:36] [Server thread/INFO]: [Server Announce] regsexl has joined SGR
-[00:32:40] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:32:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:33:03] [Server thread/INFO]: SebasyTU_ issued server command: /ban GGENMO
-[00:33:03] [Server thread/INFO]: GGENMO lost connection: You have been banned:
-The Ban Hammer has spoken!
-[00:33:03] [Server thread/INFO]: GGENMO left the game
-[00:33:03] [Server thread/INFO]: [Essentials] Player SebasyTU_ banned GGENMO for: \<secondary>You have been banned:
-\<reset>The Ban Hammer has spoken!.
-[00:33:12] [User Authenticator #7/INFO]: UUID of player GGENMO is bb92166a-17ae-3c9b-93fc-4500f876d5fd
-[00:33:12] [Server thread/INFO]: Disconnecting GGENMO (/127.248.184.103:51551): You are banned from this server. Reason: The Ban Hammer has spoken!
-[00:33:12] [Server thread/INFO]: GGENMO (/127.248.184.103:51551) lost connection: You are banned from this server. Reason: The Ban Hammer has spoken!
-[00:33:13] [Server thread/INFO]: cestian issued server command: /clan
-[00:33:13] [Server thread/INFO]: SebasyTU_ issued server command: /pardon GGENMO
-[00:33:13] [Server thread/INFO]: [Essentials] Player SebasyTU_ unbanned GGENMO
-[00:33:23] [Server thread/INFO]: SebasyTU_ issued server command: /clan
-[00:33:35] [Server thread/INFO]: SebasyTU_ issued server command: /clan
-[00:33:52] [Server thread/INFO]: cestian issued server command: /accept
-[00:33:52] [Server thread/INFO]: [Server Announce] cestian has joined SGR
-[00:33:52] [Server thread/INFO]: cestian issued server command: /accept
-[00:34:18] [Server thread/INFO]: SebasyTU_ issued server command: /clan home
-[00:34:24] [Server thread/INFO]: SebasyTU_ issued server command: /clan setbanner
-[00:34:44] [Server thread/INFO]: SebasyTU_ issued server command: /balance
-[00:34:58] [Async Chat Thread - #9/INFO]: [Not Secure] SGR .<SebasyTU_> ./balance
-[00:35:15] [Server thread/INFO]: regsexl issued server command: /balance
-[00:35:15] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
-[00:35:33] [Server thread/INFO]: SebasyTU_ issued server command: /pay SebasyTU_ 100
-[00:35:41] [Server thread/INFO]: SebasyTU_ issued server command: /pay regsexl 100
-[00:35:53] [Server thread/INFO]: SebasyTU_ issued server command: /balancetop
-[00:35:53] [Server thread/INFO]: regsexl issued server command: /balance
-[00:35:53] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
-[00:36:00] [Server thread/INFO]: SebasyTU_ issued server command: /balancetop
-[00:36:11] [Server thread/INFO]: regsexl issued server command: /baltop
-[00:36:11] [Server thread/INFO]: [Essentials] regsexl was denied access to command.
-[00:36:29] [Server thread/INFO]: regsexl issued server command: /skin ernun
-[00:37:26] [Server thread/INFO]: SebasyTU_ has made the advancement [Getting an Upgrade]
-[00:37:36] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:37:51] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:38:26] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
-[00:40:04] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:40:16] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:40:38] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:40:44] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:42:20] [Server thread/INFO]: SebasyTU_ issued server command: /tpa regsexl
-[00:42:23] [Server thread/INFO]: cestian was slain by Zombie
-[00:42:33] [Server thread/INFO]: cestian issued server command: /tpa regsexl
-[00:42:36] [Server thread/INFO]: regsexl has made the advancement [Sweet Dreams]
-[00:42:38] [Server thread/INFO]: Villager Villager['Villager'/19187, uuid='0db23521-e603-4d0c-81eb-8cdd3c85805f', l='ServerLevel[world]', x=11556.49, y=71.00, z=12189.30, cpos=[722, 761], tl=7055, v=true] died, message: 'Villager was slain by Zombie'
-[00:42:48] [Server thread/INFO]: SebasyTU_ issued server command: /shock cestian
-[00:43:29] [Server thread/INFO]: regsexl was slain by Zombie
-[00:43:40] [Server thread/INFO]: regsexl was slain by Zombie
-[00:43:49] [Server thread/INFO]: regsexl was slain by Zombie
-[00:43:56] [Server thread/INFO]: regsexl was slain by Zombie
-[00:44:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:44:04] [Server thread/INFO]: regsexl was slain by Zombie
-[00:44:15] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:44:52] [Server thread/INFO]: cestian issued server command: /tpa regsexl
-[00:44:56] [Server thread/INFO]: regsexl issued server command: /tpaccpet
-[00:45:02] [Server thread/INFO]: regsexl issued server command: /tpac
-[00:45:09] [Server thread/INFO]: regsexl issued server command: /tpaccept
-[00:46:48] [Server thread/INFO]: SebasyTU_ issued server command: /fly
-[00:48:59] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:49:00] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:49:05] [Server thread/INFO]: SebasyTU_ issued server command: /fly
-[00:49:19] [Server thread/INFO]: cestian issued server command: /tpa regsexl
-[00:49:29] [Server thread/INFO]: regsexl issued server command: /tpaccept
-[00:49:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:51:08] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[00:54:32] [Server thread/INFO]: SebasyTU_ issued server command: /fly
-[00:54:59] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian
-[00:55:10] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl
-[00:55:22] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian
-[00:55:41] [Server thread/INFO]: cestian fell from a high place
-[00:55:45] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian SebasyTU_
-[00:55:50] [Server thread/INFO]: cestian fell from a high place
-[00:55:57] [Server thread/INFO]: SebasyTU_ issued server command: /tp cestian s
-[00:55:58] [Server thread/INFO]: regsexl lost connection: Disconnected
-[00:55:58] [Server thread/INFO]: regsexl left the game
-[00:57:06] [User Authenticator #8/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[00:57:07] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:57:07] [Server thread/INFO]: regsexl joined the game
-[00:57:07] [Server thread/INFO]: regsexl[/127.135.38.35:58805] logged in with entity id 28152 at ([world]11667.472124369537, 79.0, 12246.680441488788)
-[00:57:10] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl s
-[00:57:12] [Server thread/INFO]: regsexl lost connection: Disconnected
-[00:57:12] [Server thread/INFO]: regsexl left the game
-[00:58:01] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[00:59:08] [Server thread/INFO]: cestian fell from a high place
-[00:59:22] [Server thread/INFO]: cestian was shot by Skeleton
-[00:59:23] [User Authenticator #9/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[00:59:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[00:59:24] [Server thread/INFO]: regsexl joined the game
-[00:59:24] [Server thread/INFO]: regsexl[/127.135.38.35:36951] logged in with entity id 29071 at ([world]12037.80067890911, 91.33509156971034, 11823.211547369949)
-[00:59:29] [Server thread/INFO]: regsexl fell from a high place
-[00:59:43] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
-[00:59:44] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl s
-[00:59:46] [Server thread/INFO]: regsexl was shot by Skeleton
-[00:59:49] [Server thread/INFO]: cestian was slain by Enderman
-[00:59:49] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl s
-[01:00:11] [Server thread/INFO]: cestian lost connection: Disconnected
-[01:00:11] [Server thread/INFO]: cestian left the game
-[01:01:02] [Server thread/INFO]: regsexl lost connection: Disconnected
-[01:01:02] [Server thread/INFO]: regsexl left the game
-[01:03:08] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[01:03:09] [Server thread/INFO]: SebasyTU_ left the game
-[01:03:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
-a<--[HERE]
+[17:53:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[17:53:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[17:53:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:53:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[17:53:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - Essentials (2.22.0-dev+20-81ac6f7), Jobs (5.2.6.3), JustTPA (20250220c), PlaceholderAPI (2.11.6), SimpleClans (2.19.2-05e7abc), SkinsRestorer (15.7.10), TAB (5.2.5), Vault (1.7.3-b131)
+[17:53:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:53:52] [ServerMain/INFO]: Loaded 1407 recipes
+[17:53:52] [ServerMain/INFO]: Loaded 1520 advancements
+[17:53:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[17:53:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 717.0ms
+[17:53:53] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[17:53:53] [Server thread/INFO]: Loading properties
+[17:53:53] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[17:53:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:53:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:53:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:53:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:53:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:53:56] [Server thread/INFO]: Default game type: SURVIVAL
+[17:53:56] [Server thread/INFO]: Generating keypair
+[17:53:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:53:56] [Server thread/INFO]: Using epoll channel type
+[17:53:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:53:56] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[17:53:56] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/Jobs5.2.6.3.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'Jobs'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:566) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:235) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:53:57] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:53:57] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[17:53:57] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[17:53:57] [Server thread/INFO]: [SimpleClans] Loading server plugin SimpleClans v2.19.2-05e7abc
+[17:53:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+20-81ac6f7
+[17:53:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[17:53:57] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[17:53:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:53:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:53:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:53:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:53:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:53:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[17:53:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[17:53:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[17:53:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[17:53:59] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[17:53:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:53:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:53:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:53:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:53:59] [Server thread/INFO]: Preparing level "world"
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:54:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:54:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:54:01] [Server thread/INFO]: Preparing spawn area: 0%
+[17:54:01] [Server thread/INFO]: Preparing spawn area: 2%
+[17:54:01] [Server thread/INFO]: Preparing spawn area: 2%
+[17:54:03] [Server thread/INFO]: Preparing spawn area: 18%
+[17:54:03] [Server thread/INFO]: Preparing spawn area: 18%
+[17:54:03] [Server thread/INFO]: Time elapsed: 2263 ms
+[17:54:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:54:03] [Server thread/INFO]: Preparing spawn area: 0%
+[17:54:03] [Server thread/INFO]: Preparing spawn area: 16%
+[17:54:03] [Server thread/INFO]: Time elapsed: 819 ms
+[17:54:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:54:04] [Server thread/INFO]: Preparing spawn area: 0%
+[17:54:04] [Server thread/INFO]: Time elapsed: 468 ms
+[17:54:04] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[17:54:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:54:04] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[17:54:06] [Server thread/INFO]: [TAB] Enabled in 879ms
+[17:54:06] [Server thread/INFO]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
+[17:54:06] [Server thread/INFO]: [SimpleClans] SQLite Connection successful
+[17:54:07] [Server thread/INFO]: [SimpleClans] Clans: 1
+[17:54:07] [Server thread/INFO]: [SimpleClans] Clan players: 4
+[17:54:07] [Server thread/INFO]: [SimpleClans] Registering 4 chat handlers...
+[17:54:07] [Server thread/INFO]: [SimpleClans] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:54:07] [Server thread/INFO]: [SimpleClans] Registering 12 command contexts...
+[17:54:07] [Server thread/INFO]: [SimpleClans] Registering 15 base commands...
+[17:54:08] [Server thread/INFO]: [SimpleClans] Registering 32 command conditions...
+[17:54:08] [Server thread/INFO]: [SimpleClans] Registering 19 command completions...
+[17:54:08] [Server thread/INFO]: [SimpleClans] Multithreading: true
+[17:54:08] [Server thread/INFO]: [SimpleClans] BungeeCord: false
+[17:54:08] [Server thread/INFO]: [SimpleClans] HEX support: true
+[17:54:08] [Server thread/INFO]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
+[17:54:08] [Server thread/INFO]: [SimpleClans] PlaceholderAPI found. Registering hook...
+[17:54:08] [Server thread/INFO]: [SimpleClans] Registering 7 placeholder resolvers...
+[17:54:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: simpleclans [2.19.2-05e7abc]
+[17:54:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+20-81ac6f7
+[17:54:08] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:54:08] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[17:54:09] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[17:54:09] [Server thread/INFO]: [Essentials] Using locale en
+[17:54:10] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:54:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:54:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:54:10] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[17:54:10] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[17:54:10] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[17:54:10] [Server thread/INFO]: [JustTPA] bStats enabled
+[17:54:10] [Server thread/INFO]: [JustTPA] Checking for updates...
+[17:54:11] [Server thread/INFO]: [spark] Starting background profiler...
+[17:54:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:54:12] [Server thread/INFO]: Done preparing level "world" (13.066s)
+[17:54:13] [Server thread/INFO]: Running delayed init tasks
+[17:54:13] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:54:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:54:13] [Server thread/INFO]: Done (37.388s)! For help, type "help"
+[17:54:13] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:54:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[17:54:13] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[17:54:13] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[17:54:13] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 5 EssentialsX dev build(s) out of date!
+[17:54:13] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[17:54:13] [Craft Scheduler Thread - 2 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[17:56:32] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[17:56:32] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] Can't read players locale, you will be unable to automatically detect players language. Only Bukkit 1.7+ is supported for this.
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] java.lang.NoSuchFieldException: locale
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at SimpleClans.jar//net.sacredlabyrinth.phaed.simpleclans.acf.BukkitCommandManager.readPlayerLocale(BukkitCommandManager.java:324)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at SimpleClans.jar//net.sacredlabyrinth.phaed.simpleclans.acf.ACFBukkitListener.onPlayerJoin(ACFBukkitListener.java:57)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:332)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:185)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[17:56:35] [Server thread/INFO]: [SimpleClans] [ACF] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[17:56:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SebasyTU_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:56:35] [Server thread/INFO]: SebasyTU_ joined the game
+[17:56:36] [Server thread/INFO]: SebasyTU_[/127.19.202.255:57009] logged in with entity id 32 at ([world]11530.237440999112, 116.74746871850361, 12181.142436236327)
+[17:56:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2613ms or 52 ticks behind
+[17:57:00] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:57:15] [User Authenticator #0/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[17:57:16] [TAB Processing Thread/INFO]: [TAB] [WARN] Player regsexl's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:57:16] [Server thread/INFO]: regsexl joined the game
+[17:57:16] [Server thread/INFO]: regsexl[/127.135.38.35:53919] logged in with entity id 418 at ([world]12045.884641591341, 21.0, 11810.699999988079)
+[17:58:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:58:53] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:59:34] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[17:59:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[17:59:37] [Server thread/INFO]: SebasyTU_ issued server command: /fly
+[18:00:00] [Server thread/INFO]: regsexl has made the advancement [Not Today, Thank You]
+[18:00:10] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[18:03:53] [Server thread/INFO]: regsexl has made the advancement [Hot Stuff]
+[18:05:51] [Server thread/INFO]: regsexl has made the advancement [Diamonds!]
+[18:07:03] [Server thread/INFO]: Stopping the server
+[18:07:03] [Server thread/INFO]: Stopping server
+[18:07:03] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[18:07:03] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[18:07:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[18:07:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+20-81ac6f7
+[18:07:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:07:03] [Server thread/INFO]: [SimpleClans] Disabling SimpleClans v2.19.2-05e7abc
+[18:07:03] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[18:07:03] [Server thread/INFO]: [TAB] Disabled in 5ms
+[18:07:03] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[18:07:03] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:07:03] [Server thread/INFO]: Saving players
+[18:07:03] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
+[18:07:03] [Server thread/INFO]: SebasyTU_ left the game
+[18:07:03] [Server thread/INFO]: regsexl lost connection: Server closed
+[18:07:03] [Server thread/INFO]: regsexl left the game
+[18:07:03] [Server thread/INFO]: Saving worlds
+[18:07:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:07:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:07:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:07:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Saved 2367 block chunks, 2143 entity chunks, 16 poi chunks in world 'world' in 5.10s
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[18:07:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[18:07:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[18:07:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[18:07:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:07:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:07:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:07:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:07:09] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:07:09] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[18:07:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:07:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

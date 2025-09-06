@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756947662922
-  login: 1756947564975
+  logout: 1757182023458
+  login: 1757181436488
 money: '100'
 last-account-name: regsexl
 logoutlocation:
   world: 9e88f55a-7d90-43d2-a12f-8f3b64db3f19
   world-name: world
-  x: 12045.884641591341
-  y: 21.0
-  z: 11810.699999988079
-  yaw: 175.95562744140625
-  pitch: 14.742378234863281
+  x: 12045.699999988079
+  y: -27.0
+  z: 11793.544053422938
+  yaw: -118.1561279296875
+  pitch: 46.81945037841797
 lastlocation:
   world: 9e88f55a-7d90-43d2-a12f-8f3b64db3f19
   world-name: world
