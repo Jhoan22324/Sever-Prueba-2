@@ -1,168 +1,485 @@
-[21:00:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[21:00:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[21:00:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:00:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[21:00:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - JustTPA (20250220c), LuckPerms (5.5.11), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.10), TAB (5.2.5), WorldEdit (7.3.16+cbf4bd5), nametags (1.2.4-stable)
-[21:01:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:01:05] [ServerMain/INFO]: Loaded 1407 recipes
-[21:01:05] [ServerMain/INFO]: Loaded 1520 advancements
-[21:01:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:01:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 678.2ms
-[21:01:06] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[21:01:06] [Server thread/INFO]: Loading properties
-[21:01:06] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[21:01:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:01:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:01:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:01:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:01:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[21:01:08] [Server thread/INFO]: Default game type: SURVIVAL
-[21:01:08] [Server thread/INFO]: Generating keypair
-[21:01:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:01:09] [Server thread/INFO]: Using epoll channel type
-[21:01:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:01:09] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[21:01:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
-[21:01:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:01:15] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[21:01:15] [Server thread/INFO]: [nametags] Loading server plugin nametags v1.2.4-stable
-[21:01:15] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[21:01:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7c52a5ab]
-[21:01:16] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[21:01:16] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
-[21:01:16] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[21:01:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:01:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
-[21:01:16] [Server thread/INFO]:         __    
-[21:01:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
-[21:01:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:01:16] [Server thread/INFO]: 
-[21:01:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:01:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:01:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:01:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1571ms)
-[21:01:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[21:01:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:01:18] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:01:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[21:01:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
-[21:01:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[21:01:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[21:01:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
-[21:01:23] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[21:01:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:01:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:01:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:01:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:01:23] [Server thread/INFO]: Preparing level "world"
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[21:01:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[21:01:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:01:26] [Server thread/INFO]: Preparing spawn area: 0%
-[21:01:26] [Server thread/INFO]: Preparing spawn area: 0%
-[21:01:26] [Server thread/INFO]: Preparing spawn area: 36%
-[21:01:26] [Server thread/INFO]: Time elapsed: 1149 ms
-[21:01:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:01:26] [Server thread/INFO]: Preparing spawn area: 0%
-[21:01:27] [Server thread/INFO]: Preparing spawn area: 67%
-[21:01:28] [Server thread/INFO]: Preparing spawn area: 67%
-[21:01:28] [Server thread/INFO]: Time elapsed: 1498 ms
-[21:01:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:01:28] [Server thread/INFO]: Preparing spawn area: 0%
-[21:01:28] [Server thread/INFO]: Time elapsed: 178 ms
-[21:01:28] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[21:01:28] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[21:01:28] [Server thread/INFO]: [nametags] Enabling nametags v1.2.4-stable
-[21:01:28] [Server thread/INFO]: [nametags] NameTagPlugin has been enabled.
-[21:01:28] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[21:01:29] [Server thread/INFO]: [TAB] Enabled in 525ms
-[21:01:29] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[21:01:29] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[21:01:29] [Server thread/INFO]: [JustTPA] bStats enabled
-[21:01:29] [Server thread/INFO]: [JustTPA] Checking for updates...
-[21:01:30] [Server thread/INFO]: [spark] Starting background profiler...
-[21:01:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[21:01:30] [Server thread/INFO]: Done preparing level "world" (6.806s)
-[21:01:30] [Server thread/INFO]: Running delayed init tasks
-[21:01:30] [Server thread/INFO]: Done (38.558s)! For help, type "help"
-[21:01:30] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
-[21:01:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[21:01:30] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[21:01:31] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[21:01:39] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[21:01:39] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer]
-[21:01:41] [Server thread/INFO]: SebasyTU_ joined the game
-[21:01:41] [Server thread/INFO]: SebasyTU_[/127.19.202.255:49341] logged in with entity id 524 at ([world]-981.3986909619586, 84.0, 502.10618782088164)
-[21:01:44] [Server thread/INFO]: SebasyTU_ issued server command: /lp
-[21:02:28] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[21:02:28] [Server thread/INFO]: [TAB] Disabled in 1ms
-[21:02:28] [Server thread/INFO]: [TAB] Enabled in 38ms
-[21:07:59] [Server thread/INFO]: SebasyTU_ issued server command: /tags
-[21:08:06] [Server thread/INFO]: SebasyTU_ issued server command: /tags reload
-[21:08:06] [Server thread/INFO]: [nametags] NameTagPlugin has been disabled.
-[21:08:06] [Server thread/INFO]: [nametags] NameTagPlugin has been enabled.
-[21:08:06] [Server thread/INFO]: Plugin configuration reloaded successfully.
-[21:10:35] [Server thread/INFO]: SebasyTU_ issued server command: /tag create gruop a
-[21:10:45] [Server thread/INFO]: SebasyTU_ issued server command: /tag SebasyTU_
-[21:13:36] [Server thread/INFO]: Villager Villager['Leatherworker'/703, uuid='f53619a6-1605-4332-a4ec-878277f866d8', l='ServerLevel[world]', x=-926.19, y=79.56, z=393.48, cpos=[-58, 24], tl=14216, v=true] died, message: 'Leatherworker was slain by Zombie'
-[21:15:55] [Server thread/INFO]: Stopping the server
-[21:15:55] [Server thread/INFO]: Stopping server
-[21:15:55] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[21:15:55] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[21:15:55] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
-[21:15:55] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[21:15:55] [Server thread/INFO]: [TAB] Disabled in 3ms
-[21:15:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[21:15:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:15:55] [Server thread/INFO]: [nametags] Disabling nametags v1.2.4-stable
-[21:15:55] [Server thread/INFO]: [nametags] NameTagPlugin has been disabled.
-[21:15:55] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[21:15:55] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
-[21:15:55] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:15:55] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:15:55] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:15:55] [Server thread/INFO]: Saving players
-[21:15:55] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
-[21:15:55] [Server thread/INFO]: SebasyTU_ left the game
-[21:15:55] [Server thread/INFO]: Saving worlds
-[21:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Saved 78 block chunks, 240 entity chunks, 2 poi chunks in world 'world' in 0.47s
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:15:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
-[21:15:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:15:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:15:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:15:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:15:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:15:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:15:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[21:15:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[21:15:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:15:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[21:16:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[21:16:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[21:16:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:16:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[21:16:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - JustTPA (20250220c), LuckPerms (5.5.11), NametagEditX (5.0.0), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.10), TAB (5.2.5), WorldEdit (7.3.16+cbf4bd5)
+[21:16:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:16:57] [ServerMain/INFO]: Loaded 1407 recipes
+[21:16:57] [ServerMain/INFO]: Loaded 1520 advancements
+[21:16:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:16:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 651.4ms
+[21:16:58] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:16:58] [Server thread/INFO]: Loading properties
+[21:16:58] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:16:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:16:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:16:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:17:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:17:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:17:01] [Server thread/INFO]: Default game type: SURVIVAL
+[21:17:01] [Server thread/INFO]: Generating keypair
+[21:17:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:17:01] [Server thread/INFO]: Using epoll channel type
+[21:17:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:17:01] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:17:01] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[21:17:01] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
+[21:17:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:17:02] [Server thread/INFO]: [NametagEditX] Loading server plugin NametagEditX v5.0.0
+[21:17:02] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[21:17:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@dc31f65]
+[21:17:03] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[21:17:03] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[21:17:03] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[21:17:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:17:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[21:17:04] [Server thread/INFO]:         __    
+[21:17:04] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
+[21:17:04] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:17:04] [Server thread/INFO]: 
+[21:17:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:17:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:17:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:17:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1236ms)
+[21:17:04] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[21:17:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:17:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:17:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[21:17:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[21:17:09] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[21:17:10] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:17:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[21:17:10] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[21:17:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:17:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:17:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:17:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:17:10] [Server thread/INFO]: Preparing level "world"
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:17:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:17:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:17:13] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:13] [Server thread/INFO]: Preparing spawn area: 2%
+[21:17:13] [Server thread/INFO]: Preparing spawn area: 6%
+[21:17:13] [Server thread/INFO]: Time elapsed: 1241 ms
+[21:17:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:17:14] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:15] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:15] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:15] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:15] [Server thread/INFO]: Time elapsed: 1852 ms
+[21:17:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:17:15] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:16] [Server thread/INFO]: Time elapsed: 294 ms
+[21:17:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[21:17:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:17:16] [Server thread/INFO]: [NametagEditX] Enabling NametagEditX v5.0.0
+[21:17:16] [Server thread/INFO]: [NametagEditX] Found LuckPerms! Hooking in.
+[21:17:16] [Server thread/INFO]: [NametagEditX] Found PlaceholderAPI! Hooking in.
+[21:17:16] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[21:17:17] [Server thread/INFO]: [TAB] Enabled in 538ms
+[21:17:17] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[21:17:17] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[21:17:17] [Server thread/INFO]: [JustTPA] bStats enabled
+[21:17:17] [Server thread/INFO]: [JustTPA] Checking for updates...
+[21:17:17] [Server thread/INFO]: [spark] Starting background profiler...
+[21:17:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:17:18] [Server thread/INFO]: Done preparing level "world" (7.641s)
+[21:17:18] [Server thread/INFO]: Running delayed init tasks
+[21:17:18] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[21:17:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[21:17:18] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[21:17:18] [Server thread/INFO]: Done (33.265s)! For help, type "help"
+[21:17:18] [Craft Scheduler Thread - 1 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[21:17:22] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[21:17:22] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer]
+[21:17:23] [Server thread/INFO]: SebasyTU_ joined the game
+[21:17:24] [Server thread/INFO]: SebasyTU_[/127.19.202.255:58583] logged in with entity id 524 at ([world]-976.0031290486645, 84.0, 496.8891022449089)
+[21:17:57] [Server thread/INFO]: SebasyTU_ issued server command: /lp creategroup owner
+[21:17:57] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (owner)
+[21:17:57] [luckperms-command-executor/INFO]: [LP] LOG > create
+[21:18:31] [Server thread/INFO]: SebasyTU_ issued server command: /lp user SebasyTU_ parent set owner
+[21:18:31] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [U] (sebasytu_)
+[21:18:31] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[21:18:50] [Server thread/INFO]: SebasyTU_ issued server command: /lp user SebasyTU_ info
+[21:19:51] [Server thread/INFO]: SebasyTU_ issued server command: /lp group owner meta setprefix &b&lOWNER
+[21:19:51] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (owner)
+[21:19:51] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &b&lOWNER
+[21:20:15] [Server thread/INFO]: SebasyTU_ issued server command: /nte
+[21:20:35] [Server thread/INFO]: SebasyTU_ issued server command: /nte group list
+[21:21:06] [Server thread/INFO]: SebasyTU_ issued server command: /nte group remove Moderator
+[21:21:16] [Server thread/INFO]: SebasyTU_ issued server command: /nte group remove Moderator Admin
+[21:21:20] [Server thread/INFO]: SebasyTU_ issued server command: /nte group remove Moderator admin
+[21:21:22] [Async Chat Thread - #1/INFO]: [Not Secure] <SebasyTU_> a
+[21:21:33] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:21:33] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[21:21:35] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[21:21:37] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[21:21:49] [Server thread/INFO]: SebasyTU_ issued server command: /nte group remove Admin
+[21:22:03] [Server thread/INFO]: SebasyTU_ issued server command: /nte group add default
+[21:22:22] [Server thread/INFO]: SebasyTU_ issued server command: /nte group default permission nte.default
+[21:22:58] [Server thread/INFO]: SebasyTU_ issued server command: /nte group default prefix %luckperms_prefix%
+[21:24:09] [Server thread/INFO]: SebasyTU_ issued server command: /lp group owner meta setprefix &b&lOWNER&f
+[21:24:09] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (owner)
+[21:24:09] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &b&lOWNER&f
+[21:26:03] [Server thread/INFO]: SebasyTU_ issued server command: /lp group owner meta setprefix &b&l·OWNER·&f
+[21:26:03] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (owner)
+[21:26:03] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &b&l·OWNER·&f
+[21:26:41] [Server thread/INFO]: SebasyTU_ issued server command: /papi ecloud download LuckPerms
+[21:26:41] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:26:47] [Server thread/INFO]: SebasyTU_ issued server command: /papi reload
+[21:26:47] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:26:47] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:26:47] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[21:26:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[21:26:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[21:27:16] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set nte.default
+[21:27:16] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
+[21:27:16] [luckperms-command-executor/INFO]: [LP] LOG > permission set nte.default true
+[21:28:39] [Server thread/INFO]: SebasyTU_ issued server command: /lp group owner meta setprefix "&b&lOWNER &r"
+[21:28:39] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (owner)
+[21:28:39] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &b&lOWNER &r
+[21:29:53] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default meta setprefix "&a&lJUGADOR &r"
+[21:29:53] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
+[21:29:53] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &a&lJUGADOR &r
+[21:30:47] [Async Chat Thread - #2/INFO]: [Not Secure] <SebasyTU_> a
+[21:33:57] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:33:57] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:33:57] [Server thread/INFO]: [TAB] Enabled in 40ms
+[21:35:21] [Async Chat Thread - #4/INFO]: [Not Secure] <SebasyTU_> a
+[21:45:40] [Async Chat Thread - #6/INFO]: [Not Secure] <SebasyTU_> ❤
+[21:46:20] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:46:20] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:46:20] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "abovename" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:46:20] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:46:20] [Server thread/INFO]: [TAB] Enabled in 38ms
+[21:46:41] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> ❤
+[21:47:09] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:47:09] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:47:09] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "abovename" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:47:09] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:47:09] [Server thread/INFO]: [TAB] Enabled in 43ms
+[21:49:01] [Async Chat Thread - #11/INFO]: [Not Secure] <SebasyTU_> 🤍
+[21:49:16] [Async Chat Thread - #11/INFO]: [Not Secure] <SebasyTU_> ♡
+[21:49:27] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:49:27] [Server thread/INFO]: [TAB] Disabled in 1ms
+[21:49:27] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "abovename" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:49:27] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:49:27] [Server thread/INFO]: [TAB] Enabled in 22ms
+[21:51:14] [User Authenticator #1/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[21:51:15] [Server thread/INFO]: regsexl joined the game
+[21:51:15] [Server thread/INFO]: regsexl[/127.135.38.35:38941] logged in with entity id 3834 at ([world]-1218.4417974791265, 64.49520087700593, -302.56563233022314)
+[21:52:02] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl SebasyTU_
+[21:52:02] [Server thread/INFO]: [SebasyTU_: Teleported regsexl to SebasyTU_]
+[21:52:25] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:52:25] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:52:25] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "abovename" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:52:25] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "belowname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:52:25] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[21:52:25] [Server thread/INFO]: [TAB] Enabled in 20ms
+[21:53:17] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:53:17] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:53:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: "value" is set to "%health%❤", but this will never evaluate to a number. If you want text without limits, update to 1.20.3+ and use fancy-value. If you already did, set "value" to 0 as it is not displayed anyway.
+[21:53:17] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "belowname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:53:17] [Server thread/INFO]: [TAB] [WARN] Belowname value is configured to show "%health%❤", but returned "20❤" for player SebasyTU_, which cannot be evaluated to a number.
+[21:53:17] [Server thread/INFO]: [TAB] [WARN] Belowname value is configured to show "%health%❤", but returned "20❤" for player regsexl, which cannot be evaluated to a number.
+[21:53:17] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[21:53:17] [Server thread/INFO]: [TAB] Enabled in 33ms
+[21:53:26] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:53:26] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:53:26] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "belowname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:53:26] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:53:26] [Server thread/INFO]: [TAB] Enabled in 22ms
+[21:53:35] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:53:35] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:53:35] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "belowname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:53:35] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:53:35] [Server thread/INFO]: [TAB] Enabled in 15ms
+[21:54:13] [Async Chat Thread - #12/INFO]: [Not Secure] <SebasyTU_> ⚔
+[21:54:23] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:54:23] [Server thread/INFO]: [TAB] Disabled in 2ms
+[21:54:23] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "belowname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[21:54:23] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:54:23] [Server thread/INFO]: [TAB] Enabled in 15ms
+[21:55:12] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:55:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[21:55:12] [Server thread/INFO]: [TAB] Enabled in 19ms
+[21:58:08] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:58:08] [Server thread/INFO]: [TAB] Disabled in 1ms
+[21:58:08] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ | &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[21:58:08] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:58:08] [Server thread/INFO]: [TAB] Enabled in 21ms
+[21:59:57] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[21:59:57] [Server thread/INFO]: [TAB] Disabled in 3ms
+[21:59:57] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[21:59:57] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[21:59:57] [Server thread/INFO]: [TAB] Enabled in 31ms
+[22:01:37] [Server thread/INFO]: regsexl has made the advancement [Fishy Business]
+[22:02:43] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:02:43] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:02:43] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:02:43] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:02:43] [Server thread/INFO]: [TAB] Enabled in 13ms
+[22:03:11] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:03:11] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:03:11] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:03:11] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:03:11] [Server thread/INFO]: [TAB] Enabled in 46ms
+[22:04:12] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:04:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:04:12] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:04:12] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:04:12] [Server thread/INFO]: [TAB] Enabled in 19ms
+[22:04:12] [Async Chat Thread - #14/INFO]: [Not Secure] <regsexl> vino una tia
+[22:04:19] [Async Chat Thread - #15/INFO]: [Not Secure] <regsexl> aguantame
+[22:04:32] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:04:32] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:04:32] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:04:32] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:04:32] [Server thread/INFO]: [TAB] Enabled in 18ms
+[22:04:43] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:04:43] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:04:43] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:04:43] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:04:43] [Server thread/INFO]: [TAB] Enabled in 12ms
+[22:04:45] [Async Chat Thread - #15/INFO]: [Not Secure] <regsexl> regsexl
+[22:05:05] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:05:05] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:05:05] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:05:05] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:05:05] [Server thread/INFO]: [TAB] Enabled in 52ms
+[22:06:01] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:06:01] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:06:01] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:06:01] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:06:01] [Server thread/INFO]: [TAB] Enabled in 10ms
+[22:07:30] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:07:30] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:07:30] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:07:30] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:07:30] [Server thread/INFO]: [TAB] Enabled in 16ms
+[22:08:43] [Async Chat Thread - #17/INFO]: [Not Secure] <regsexl> ./base
+[22:08:48] [Async Chat Thread - #16/INFO]: [Not Secure] <regsexl> ./portal
+[22:10:23] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
+[22:10:33] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
+[22:10:44] [Server thread/INFO]: SebasyTU_ issued server command: /afk
+[22:11:32] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:11:32] [Server thread/INFO]: [TAB] Disabled in 3ms
+[22:11:32] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:11:32] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:11:32] [Server thread/INFO]: [TAB] Enabled in 14ms
+[22:13:13] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:13:13] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:13:13] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:13:13] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:13:13] [Server thread/INFO]: [TAB] Enabled in 18ms
+[22:16:12] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:16:12] [Server thread/INFO]: [TAB] Disabled in 3ms
+[22:16:12] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:16:12] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:16:12] [Server thread/INFO]: [TAB] Enabled in 19ms
+[22:16:31] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:16:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:16:31] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:16:31] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:16:31] [Server thread/INFO]: [TAB] Enabled in 9ms
+[22:16:39] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:16:39] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:16:39] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:16:39] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:16:39] [Server thread/INFO]: [TAB] Enabled in 11ms
+[22:18:44] [User Authenticator #2/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
+[22:18:47] [Server thread/INFO]: zSxhio joined the game
+[22:18:47] [Server thread/INFO]: zSxhio[/127.34.225.252:40355] logged in with entity id 8392 at ([world]46.5, 93.0, 25.5)
+[22:19:00] [Async Chat Thread - #18/INFO]: [Not Secure] <zSxhio> a chinga
+[22:19:17] [Server thread/INFO]: zSxhio issued server command: /tpa SebasyTU_
+[22:19:53] [Server thread/INFO]: zSxhio issued server command: /shop
+[22:20:24] [Async Chat Thread - #19/INFO]: [Not Secure] <zSxhio> tp
+[22:20:26] [Server thread/INFO]: regsexl issued server command: /shop
+[22:20:26] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
+[22:20:34] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:20:43] [Server thread/INFO]: regsexl issued server command: /tpaccept
+[22:20:44] [Server thread/INFO]: SebasyTU_ has made the advancement [Diamonds!]
+[22:20:50] [Server thread/INFO]: SebasyTU_ has made the advancement [Cover Me with Diamonds]
+[22:20:58] [Server thread/INFO]: zSxhio issued server command: /skin set negro
+[22:21:09] [Server thread/INFO]: zSxhio has made the advancement [Acquire Hardware]
+[22:21:11] [Server thread/INFO]: SebasyTU_ issued server command: /gamemode survival
+[22:21:11] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[22:21:16] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[22:21:22] [Server thread/INFO]: zSxhio has made the advancement [Suit Up]
+[22:21:40] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:21:40] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:21:40] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:21:40] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:21:40] [Server thread/INFO]: [TAB] Enabled in 32ms
+[22:22:00] [Server thread/INFO]: zSxhio has made the advancement [Isn't It Iron Pick]
+[22:22:47] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:22:47] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:22:47] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:22:47] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:22:47] [Server thread/INFO]: [TAB] Enabled in 11ms
+[22:22:52] [Server thread/INFO]: Villager Villager['Leatherworker'/679, uuid='c550fa42-1431-499f-b1e4-576656b44216', l='ServerLevel[world]', x=-926.80, y=79.00, z=394.61, cpos=[-58, 24], tl=78491, v=true] died, message: 'Leatherworker suffocated in a wall'
+[22:22:59] [Server thread/INFO]: zSxhio has made the advancement [Monster Hunter]
+[22:23:51] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:23:51] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:23:51] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:23:51] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:23:51] [Server thread/INFO]: [TAB] Enabled in 29ms
+[22:23:53] [Server thread/INFO]: regsexl has made the advancement [Cover Me with Diamonds]
+[22:24:02] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:24:02] [Server thread/INFO]: [TAB] Disabled in 3ms
+[22:24:02] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:24:02] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:24:02] [Server thread/INFO]: [TAB] Enabled in 11ms
+[22:24:14] [Server thread/INFO]: zSxhio issued server command: /clan
+[22:24:26] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:24:26] [Server thread/INFO]: [TAB] Disabled in 7ms
+[22:24:26] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:24:26] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:24:26] [Server thread/INFO]: [TAB] Enabled in 15ms
+[22:24:36] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:24:36] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:24:36] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:24:36] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:24:36] [Server thread/INFO]: [TAB] Enabled in 10ms
+[22:24:48] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:24:48] [Server thread/INFO]: [TAB] Disabled in 1ms
+[22:24:48] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:24:48] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:24:48] [Server thread/INFO]: [TAB] Enabled in 11ms
+[22:25:15] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:25:15] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:25:15] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:25:15] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:25:15] [Server thread/INFO]: [TAB] Enabled in 19ms
+[22:25:26] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:25:26] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:25:26] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:25:26] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:25:26] [Server thread/INFO]: [TAB] Enabled in 13ms
+[22:26:12] [Server thread/INFO]: zSxhio has made the advancement [Stone Age]
+[22:26:51] [Server thread/INFO]: zSxhio has made the advancement [Sweet Dreams]
+[22:26:53] [Async Chat Thread - #22/INFO]: [Not Secure] <zSxhio> wwwwwww
+[22:26:56] [Async Chat Thread - #22/INFO]: [Not Secure] <zSxhio> a mimir
+[22:28:56] [Server thread/INFO]: zSxhio issued server command: /skin set Dolphn
+[22:32:27] [Server thread/INFO]: zSxhio issued server command: /skin set skineditor
+[22:32:47] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[22:33:26] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[22:33:56] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
+[22:33:56] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:33:56] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[22:33:56] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[22:33:56] [Server thread/INFO]: [TAB] Enabled in 11ms
+[22:34:22] [Server thread/INFO]: zSxhio issued server command: /kits
+[22:34:45] [Server thread/INFO]: zSxhio has made the advancement [We Need to Go Deeper]
+[22:34:47] [Server thread/INFO]: regsexl has made the advancement [We Need to Go Deeper]
+[22:35:15] [Server thread/INFO]: SebasyTU_ issued server command: /lp creategroup vip
+[22:35:15] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
+[22:35:15] [luckperms-command-executor/INFO]: [LP] LOG > create
+[22:36:04] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip meta setprefix "&6&lVIP &r"
+[22:36:04] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
+[22:36:04] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &6&lVIP &r
+[22:36:21] [Server thread/INFO]: zSxhio was slain by Zombified Piglin
+[22:36:34] [Server thread/INFO]: zSxhio issued server command: /BACK
+[22:36:38] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:36:42] [Server thread/INFO]: regsexl issued server command: /tpaccept
+[22:37:21] [Server thread/INFO]: zSxhio was slain by Zombified Piglin
+[22:37:36] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:37:41] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:37:46] [Server thread/INFO]: regsexl issued server command: /tpaccept
+[22:38:00] [Server thread/INFO]: zSxhio was slain by Zombified Piglin
+[22:38:04] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:38:05] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:38:06] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:38:06] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:38:14] [Server thread/INFO]: SebasyTU_ issued server command: /lp user zSxhio parent set vip
+[22:38:14] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [U] (zsxhio)
+[22:38:14] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
+[22:39:30] [Server thread/INFO]: regsexl issued server command: /tpa
+[22:39:44] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio regsexl
+[22:39:44] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to regsexl]
+[22:40:17] [Server thread/INFO]: zSxhio was slain by Zombified Piglin
+[22:40:22] [Server thread/INFO]: SebasyTU_ issued server command: /tp zSxhio regsexl
+[22:40:22] [Server thread/INFO]: [SebasyTU_: Teleported zSxhio to regsexl]
+[22:40:59] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
+[22:41:01] [Server thread/INFO]: SebasyTU_ issued server command: /tpaccept
+[22:41:42] [Async Chat Thread - #23/INFO]: [Not Secure] <regsexl> zSxhio
+[22:41:49] [Server thread/INFO]: zSxhio was slain by Zombified Piglin
+[22:45:39] [Async Chat Thread - #25/INFO]: [Not Secure] <zSxhio> &#9EF454O&#8CE558W&#79D55CN&#67C65FE&#54B663R
+[22:47:20] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[22:52:51] [Server thread/INFO]: zSxhio has made the advancement [Diamonds!]
+[22:54:01] [Server thread/INFO]: zSxhio issued server command: /tpa regsexl
+[22:54:23] [Server thread/INFO]: regsexl issued server command: /tpaccept
+[22:54:24] [Server thread/INFO]: [JustTPA] You must be a player to use this command.
+[22:56:03] [Async Chat Thread - #27/INFO]: [Not Secure] <zSxhio> sebas dame op
+[22:56:08] [Async Chat Thread - #27/INFO]: [Not Secure] <zSxhio> es rapido
+[22:56:13] [Async Chat Thread - #27/INFO]: [Not Secure] <regsexl> dale op al pana
+[22:56:14] [Async Chat Thread - #27/INFO]: [Not Secure] <zSxhio> :C
+[22:56:18] [Async Chat Thread - #27/INFO]: [Not Secure] <regsexl> eso es rapido y sencillo
+[22:57:35] [Server thread/INFO]: You whisper to regsexl: NO
+[22:57:52] [Server thread/INFO]: Stopping the server
+[22:57:52] [Server thread/INFO]: Stopping server
+[22:57:52] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[22:57:52] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[22:57:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[22:57:52] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[22:57:52] [Server thread/INFO]: [TAB] Disabled in 2ms
+[22:57:52] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[22:57:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:57:52] [Server thread/INFO]: [NametagEditX] Disabling NametagEditX v5.0.0
+[22:57:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
+[22:57:52] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion luckperms
+[22:57:52] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin LuckPerms was disabled.
+[22:57:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:57:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:57:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:57:52] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[22:57:52] [Server thread/INFO]: Saving players
+[22:57:52] [Server thread/INFO]: SebasyTU_ lost connection: Server closed
+[22:57:52] [Server thread/INFO]: SebasyTU_ left the game
+[22:57:52] [Server thread/INFO]: regsexl lost connection: Server closed
+[22:57:52] [Server thread/INFO]: regsexl left the game
+[22:57:52] [Server thread/INFO]: zSxhio lost connection: Server closed
+[22:57:52] [Server thread/INFO]: zSxhio left the game
+[22:57:52] [Server thread/INFO]: Saving worlds
+[22:57:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:57:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:57:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:57:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Saved 285 block chunks, 452 entity chunks, 0 poi chunks in world 'world' in 0.53s
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:57:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Saved 91 block chunks, 75 entity chunks, 0 poi chunks in world 'world_nether' in 0.25s
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:57:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:57:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:57:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:57:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:57:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:57:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:57:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:57:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:57:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:57:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
