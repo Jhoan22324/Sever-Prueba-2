@@ -1,44 +1,409 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 1 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.16.2): 1757212571327 tunnel running, 1 tunnels registered
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 1 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.16.2): 1757212634099 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212574485 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212637229 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212577597 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212640345 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212580708 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212643447 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212583815 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212646572 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212586926 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212649683 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212590021 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212652779 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212593122 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212655882 tunnel running, 1 tunnels registered
 
 
 TUNNELS
 database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-[2J8[0mplayit (v0.16.2): 1757212596243 tunnel running, 1 tunnels registered
+[2J8[0mplayit (v0.16.2): 1757212658987 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212662096 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212665204 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212668307 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212671446 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212674554 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212677660 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212680778 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212683877 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212687016 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212690112 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212693222 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212696320 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212699434 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212702530 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212705625 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212708718 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212711812 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212714911 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212718012 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212721116 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212724217 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212727317 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212730415 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212733517 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212736628 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212739730 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212742833 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212745955 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212749051 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212752145 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212755256 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212758349 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212761440 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212764535 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212767627 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212770724 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212773826 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212776933 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212780031 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212783128 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212786234 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212789329 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212792423 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212795528 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212798618 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212801730 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212804842 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212807939 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212811037 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212814133 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212817252 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212820344 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212823437 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212826530 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212829625 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212832765 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212835855 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212838959 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212842058 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212845152 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212848247 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212851374 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212854579 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212857680 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212860776 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212863887 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212866995 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212870101 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212873211 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212876306 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212879420 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212882524 tunnel running, 1 tunnels registered
+
+
+TUNNELS
+database-nomination.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.16.2): 1757212885643 tunnel running, 1 tunnels registered
 
 
 TUNNELS
