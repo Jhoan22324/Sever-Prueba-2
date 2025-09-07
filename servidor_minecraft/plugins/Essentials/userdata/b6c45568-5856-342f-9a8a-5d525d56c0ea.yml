@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757203306404
-  login: 1757203294104
+  logout: 1757203585270
+  login: 1757203581719
 money: '10364.17'
 last-account-name: ghost17z
 logoutlocation:
@@ -26,5 +26,5 @@ logoutlocation:
   x: -2955.8461260661093
   y: 63.0
   z: -479.50824930261655
-  yaw: -12.449799537658691
-  pitch: 10.649995803833008
+  yaw: 121.50021362304688
+  pitch: 4.199995040893555
