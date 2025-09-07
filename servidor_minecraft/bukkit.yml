@@ -41,6 +41,6 @@ ticks-per:
   ambient-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
-mundos :
-  mundo :
-    generador : TerraformGenerator
+worlds:
+  world:
+    generator: TerraformGenerator
