@@ -1,521 +1,265 @@
-[22:59:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[22:59:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[22:59:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:59:41] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EconomyShopGUI-6.14.5.jar'...
-[22:59:41] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
-[22:59:42] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 1608ms.
-[22:59:43] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EconomyShopGUI-6.14.5.jar' in 2120ms.
-[22:59:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[22:59:44] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[00:00:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[00:00:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[00:00:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:00:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[00:00:46] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.14.5)
-[22:59:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[00:00:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - Essentials (2.22.0-dev+26-e086064), JustTPA (20250220c), LuckPerms (5.5.11), NametagEditX (5.0.0), PlaceholderAPI (2.11.6), SkinsRestorer (15.7.10), TAB (5.2.5), Vault (1.7.3-b131), WorldEdit (7.3.16+cbf4bd5)
-[22:59:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:59:53] [ServerMain/INFO]: Loaded 1407 recipes
-[22:59:53] [ServerMain/INFO]: Loaded 1520 advancements
-[22:59:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[22:59:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 831.8ms
-[22:59:54] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[22:59:54] [Server thread/INFO]: Loading properties
-[22:59:55] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[22:59:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:59:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:59:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:59:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:59:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:59:57] [Server thread/INFO]: Default game type: SURVIVAL
-[22:59:57] [Server thread/INFO]: Generating keypair
-[22:59:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:59:57] [Server thread/INFO]: Using epoll channel type
-[22:59:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:59:57] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:59:58] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
-[22:59:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[22:59:58] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[22:59:58] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[22:59:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+26-e086064
-[22:59:58] [Server thread/INFO]: [NametagEditX] Loading server plugin NametagEditX v5.0.0
-[22:59:58] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[23:00:00] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48d1a824]
-[23:00:00] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
-[23:00:00] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.5
-[23:00:00] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
-[23:00:00] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[23:00:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:00:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
-[23:00:00] [Server thread/INFO]:         __    
-[23:00:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
-[23:00:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[23:00:00] [Server thread/INFO]: 
-[23:00:01] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[23:00:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[23:00:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[23:00:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2046ms)
-[23:00:02] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[23:00:02] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[23:00:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[23:00:02] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[23:00:02] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[23:00:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[23:00:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[23:00:02] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[23:00:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[23:00:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
-[23:00:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[23:00:08] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[23:00:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
-[23:00:08] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[23:00:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:00:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:00:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:00:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:00:08] [Server thread/INFO]: Preparing level "world"
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[23:00:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[23:00:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:00:11] [Server thread/INFO]: Preparing spawn area: 0%
-[23:00:11] [Server thread/INFO]: Preparing spawn area: 2%
-[23:00:12] [Server thread/INFO]: Preparing spawn area: 14%
-[23:00:13] [Server thread/INFO]: Preparing spawn area: 14%
-[23:00:13] [Server thread/INFO]: Time elapsed: 1922 ms
-[23:00:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:00:13] [Server thread/INFO]: Preparing spawn area: 0%
-[23:00:13] [Server thread/INFO]: Preparing spawn area: 10%
-[23:00:13] [Server thread/INFO]: Time elapsed: 557 ms
-[23:00:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:00:13] [Server thread/INFO]: Preparing spawn area: 0%
-[23:00:14] [Server thread/INFO]: Time elapsed: 384 ms
-[23:00:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[23:00:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[23:00:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+26-e086064
-[23:00:14] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
-[23:00:15] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
-[23:00:15] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[23:00:15] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
-[23:00:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[23:00:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[23:00:15] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[23:00:15] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[23:00:15] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[23:00:15] [Server thread/INFO]: [Essentials] Done converting random teleport config.
-[23:00:15] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[23:00:15] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[23:00:16] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
-[23:00:16] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[23:00:16] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
-[23:00:16] [Server thread/INFO]: [Essentials] Using locale en
-[23:00:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[23:00:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[23:00:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[23:00:17] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[23:00:17] [Server thread/INFO]: [NametagEditX] Enabling NametagEditX v5.0.0
-[23:00:17] [Server thread/INFO]: [NametagEditX] Found LuckPerms! Hooking in.
-[23:00:17] [Server thread/INFO]: [NametagEditX] Found PlaceholderAPI! Hooking in.
-[23:00:17] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
-[23:00:17] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
-[23:00:18] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
-[23:00:18] [Server thread/INFO]: [TAB] Enabled in 650ms
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.5
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Found incompatible component tag for current minecraft version: Did you mean 'repair_cost' instead of 'RepairCost'?
-Please change the value manually to get rid of this message
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Default shops layout compatible with 121 created at /workspaces/Sever-Prueba-2/servidor_minecraft/plugins/EconomyShopGUI/shops
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.8...
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[23:00:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[23:00:18] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[23:00:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 2356ms to complete
-[23:00:20] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[23:00:20] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[23:00:20] [Server thread/INFO]: [JustTPA] bStats enabled
-[23:00:20] [Server thread/INFO]: [JustTPA] Checking for updates...
-[23:00:21] [Server thread/INFO]: [spark] Starting background profiler...
-[23:00:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[23:00:22] [Server thread/INFO]: Done preparing level "world" (13.445s)
-[23:00:22] [Server thread/INFO]: Running delayed init tasks
-[23:00:22] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[23:00:22] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[23:00:22] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
-[23:00:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[23:00:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[23:00:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[23:00:22] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[23:00:22] [Server thread/INFO]: Done (43.117s)! For help, type "help"
-[23:00:22] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
-[23:00:22] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[23:00:25] [User Authenticator #0/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[23:00:25] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer, Essentials]
-[23:00:26] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:00:26] [Server thread/INFO]: regsexl joined the game
-[23:00:27] [Server thread/INFO]: regsexl[/127.135.38.35:34145] logged in with entity id 33 at ([world]-806.297638008193, 12.0, 563.4239814246437)
-[23:00:27] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
-[23:00:31] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[23:00:32] [Server thread/INFO]: SebasyTU_ joined the game
-[23:00:32] [Server thread/INFO]: SebasyTU_[/127.19.202.255:54021] logged in with entity id 277 at ([world]-987.0579747276155, 76.0, 476.2490534029346)
-[23:00:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2532ms or 50 ticks behind
-[23:00:34] [User Authenticator #0/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
-[23:00:35] [Server thread/INFO]: zSxhio joined the game
-[23:00:35] [Server thread/INFO]: zSxhio[/127.34.225.252:57687] logged in with entity id 391 at ([world]-804.7399932808003, 12.0, 564.7486947806965)
-[23:00:36] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[23:00:43] [Server thread/INFO]: SebasyTU_ issued server command: /shop
-[23:00:48] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:00:49] [Async Chat Thread - #1/INFO]: [Not Secure] <SebasyTU_> a
-[23:00:50] [Server thread/INFO]: regsexl issued server command: /shop
-[23:00:52] [Async Chat Thread - #1/INFO]: [Not Secure] <zSxhio> a
-[23:03:42] [Server thread/INFO]: SebasyTU_ issued server command: /s reload
-[23:03:53] [Server thread/INFO]: SebasyTU_ issued server command: /sreload
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 14 secciones de tiendas.
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21.8...
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
-[23:03:53] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
-[23:04:20] [Server thread/INFO]: SebasyTU_ issued server command: /shop
-[23:05:20] [Async Chat Thread - #2/INFO]: [Not Secure] <regsexl> pito
-[23:06:35] [Async Chat Thread - #4/INFO]: [Not Secure] <regsexl> sebasssss
-[23:07:06] [Async Chat Thread - #4/INFO]: [Not Secure] <regsexl> sebasssssssss
-[23:07:17] [Server thread/INFO]: zSxhio lost connection: Disconnected
-[23:07:17] [Server thread/INFO]: zSxhio left the game
-[23:07:35] [Server thread/INFO]: SebasyTU_ issued server command: /sreload
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carga completada 16 configuraciones de la sección de /secciones/
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completada la carga de la configuración de 16 tiendas desde /shops/
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 14 secciones de tiendas.
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21.8...
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
-[23:07:35] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
-[23:07:38] [Server thread/INFO]: SebasyTU_ issued server command: /shop
-[23:09:43] [Server thread/INFO]: SebasyTU_ issued server command: /pay regsexl 1000000
-[23:09:51] [Server thread/INFO]: SebasyTU_ issued server command: /paytoggle
-[23:14:14] [User Authenticator #1/INFO]: UUID of player ghost17z is b6c45568-5856-342f-9a8a-5d525d56c0ea
-[23:14:16] [Server thread/INFO]: ghost17z joined the game
-[23:14:16] [Server thread/INFO]: ghost17z[/127.20.228.124:40981] logged in with entity id 2819 at ([world]54.5, 93.0, 29.5)
-[23:14:18] [Server thread/INFO]: SebasyTU_ issued server command: /tab reload
-[23:14:18] [Server thread/INFO]: [TAB] Disabled in 4ms
-[23:14:18] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
-[23:14:18] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
-[23:14:18] [Server thread/INFO]: [TAB] Enabled in 93ms
-[23:14:54] [Server thread/INFO]: regsexl has made the advancement [Ice Bucket Challenge]
-[23:15:07] [Server thread/INFO]: ghost17z issued server command: /jobs
-[23:15:31] [Server thread/INFO]: SebasyTU_ issued server command: /eco give SebasyTU_ 10000000
-[23:15:43] [Server thread/INFO]: SebasyTU_ issued server command: /eco reset SebasyTU_
-[23:16:22] [Server thread/INFO]: SebasyTU_ issued server command: /eco give SebasyTU_ 10000000
-[23:16:33] [Server thread/INFO]: ghost17z has made the advancement [Stone Age]
-[23:16:36] [Server thread/INFO]: regsexl issued server command: /tpa SebasyTU_
-[23:16:37] [Server thread/INFO]: SebasyTU_ issued server command: /eeco reset SebasyTU_
-[23:17:19] [Server thread/INFO]: SebasyTU_ issued server command: /eco give SebasyTU_ 10000
-[23:17:26] [Server thread/INFO]: SebasyTU_ issued server command: /eco give regsexl 10000
-[23:17:34] [Server thread/INFO]: SebasyTU_ issued server command: /eco give ghost17z 10000
-[23:17:46] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:17:50] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:18:05] [Server thread/INFO]: Shop >> ghost17z compró 16 x Cooked Beef(Food.page1.items.11) para 100.80$ con el buy screen.
-[23:18:09] [Server thread/INFO]: SebasyTU_ issued server command: /shop
-[23:18:24] [Server thread/INFO]: ghost17z has made the advancement [Getting an Upgrade]
-[23:18:32] [Server thread/INFO]: SebasyTU_ issued server command: /shop
-[23:18:42] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:21:26] [Server thread/INFO]: ghost17z was shot by Skeleton
-[23:22:01] [Server thread/INFO]: regsexl issued server command: /shop
-[23:22:15] [Server thread/INFO]: regsexl issued server command: /shop
-[23:22:51] [Server thread/INFO]: Shop >> regsexl compró 17 x Leather(Farming.page1.items.15) para 571.20$ con el buy screen.
-[23:23:18] [Server thread/INFO]: regsexl issued server command: /shop
-[23:23:28] [Server thread/INFO]: Shop >> regsexl compró 32 x Leather(Farming.page1.items.15) para 1,075.20$ con el buy screen.
-[23:24:38] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.afk
-[23:24:38] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:24:38] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.afk true
-[23:25:08] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.afk.message
-[23:25:08] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:25:08] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.afk.message true
-[23:25:56] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.afk.auto
-[23:25:56] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:25:56] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.afk.auto true
-[23:26:50] [Server thread/INFO]: regsexl lost connection: Disconnected
-[23:26:50] [Server thread/INFO]: regsexl left the game
-[23:27:09] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.home
-[23:27:09] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:27:09] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.home true
-[23:27:26] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.sethome
-[23:27:26] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:27:26] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.sethome true
-[23:27:39] [Server thread/INFO]: ghost17z has made the advancement [Acquire Hardware]
-[23:27:52] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:27:52] [User Authenticator #2/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
-[23:27:54] [Server thread/INFO]: zSxhio joined the game
-[23:27:54] [Server thread/INFO]: zSxhio[/127.34.225.252:47969] logged in with entity id 8403 at ([world]-841.8105920164014, 54.0, 604.6276102316833)
-[23:27:59] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.renamehome
-[23:27:59] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:27:59] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.renamehome true
-[23:28:07] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:28:11] [Server thread/INFO]: SebasyTU_ issued server command: /eco give zSxhio 10000
-[23:28:23] [Async Chat Thread - #6/INFO]: [Not Secure] <zSxhio> asd
-[23:29:11] [Server thread/INFO]: ghost17z has made the advancement [Isn't It Iron Pick]
-[23:30:34] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:30:38] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.balance
-[23:30:38] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:30:38] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.balance true
-[23:30:43] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:31:02] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.balancetop
-[23:31:02] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:31:02] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.balancetop true
-[23:31:12] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> eu les deja poner /balance??
-[23:31:20] [Server thread/INFO]: ghost17z issued server command: /balance
-[23:31:24] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> ¿¿?
-[23:31:24] [Async Chat Thread - #9/INFO]: [Not Secure] <ghost17z> si
-[23:31:28] [Async Chat Thread - #8/INFO]: [Not Secure] <SebasyTU_> grax
-[23:31:31] [Server thread/INFO]: zSxhio issued server command: /balance
-[23:31:31] [Server thread/INFO]: [Essentials] zSxhio was denied access to command.
-[23:31:33] [Async Chat Thread - #9/INFO]: [Not Secure] <zSxhio> a mi no
-[23:31:37] [Server thread/INFO]: ghost17z has made the advancement [Diamonds!]
-[23:33:46] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.afk
-[23:33:46] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
-[23:33:46] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.afk true
-[23:34:04] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.afk.message
-[23:34:28] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.balance
-[23:34:28] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
-[23:34:28] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.balance true
-[23:34:30] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.balancetop
-[23:34:30] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
-[23:34:30] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.balancetop true
-[23:34:31] [Server thread/INFO]: zSxhio issued server command: /skin set thispmo
-[23:34:38] [Server thread/INFO]: ghost17z has made the advancement [Not Today, Thank You]
-[23:34:39] [Async Chat Thread - #10/INFO]: [Not Secure] <SebasyTU_> prueba ahora z
-[23:34:41] [Async Chat Thread - #10/INFO]: [Not Secure] <SebasyTU_> zSxhio
-[23:34:45] [Server thread/INFO]: zSxhio issued server command: /balance
-[23:34:47] [Async Chat Thread - #10/INFO]: [Not Secure] <zSxhio> se
-[23:34:48] [Async Chat Thread - #10/INFO]: [Not Secure] <SebasyTU_> te deja?
-[23:34:50] [Async Chat Thread - #11/INFO]: [Not Secure] <SebasyTU_> ok
-[23:35:28] [Server thread/INFO]: zSxhio issued server command: /skin set madriza
-[23:35:37] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.pay
-[23:35:37] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:35:37] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.pay true
-[23:35:42] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.pay
-[23:35:42] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
-[23:35:42] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.pay true
-[23:35:49] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.payconfirmtoggle
-[23:35:49] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:35:49] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.payconfirmtoggle true
-[23:35:57] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.payconfirmtoggle
-[23:35:57] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
-[23:35:57] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.payconfirmtoggle true
-[23:36:20] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.paytoggle
-[23:36:20] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (vip)
-[23:36:20] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.paytoggle true
-[23:36:29] [Server thread/INFO]: SebasyTU_ issued server command: /lp group vip permission set essentials.paytoggle
-[23:36:43] [Server thread/INFO]: SebasyTU_ issued server command: /lp group default permission set essentials.paytoggle
-[23:36:43] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (default)
-[23:36:43] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.paytoggle true
-[23:36:50] [Async Chat Thread - #12/INFO]: [Not Secure] <zSxhio> spooñky
-[23:36:54] [Async Chat Thread - #12/INFO]: [Not Secure] <zSxhio> se llama
-[23:37:25] [Server thread/INFO]: zSxhio issued server command: /return
-[23:37:37] [Server thread/INFO]: SebasyTU_ issued server command: /lp creategroup tryhard
-[23:37:37] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (tryhard)
-[23:37:37] [luckperms-command-executor/INFO]: [LP] LOG > create
-[23:38:00] [Server thread/INFO]: zSxhio was blown up by Creeper
-[23:38:14] [Async Chat Thread - #14/INFO]: [Not Secure] <ghost17z> si
-[23:38:16] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:38:22] [Server thread/INFO]: SebasyTU_ issued server command: /lp group tryhard meta setprefix "&c&lTRYHARD &r"
-[23:38:22] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (tryhard)
-[23:38:22] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &c&lTRYHARD &r
-[23:38:49] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:38:54] [Server thread/INFO]: Shop >> ghost17z vendido 1 x Emerald(Ores.page1.items.11) para 9.85$ con el sell screen.
-[23:39:43] [Server thread/INFO]: zSxhio issued server command: /balancetop
-[23:39:50] [Server thread/INFO]: ghost17z issued server command: /balance top
-[23:41:10] [Server thread/INFO]: SebasyTU_ issued server command: /lp user ghost17z parent set tryhard
-[23:41:10] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [U] (ghost17z)
-[23:41:10] [luckperms-command-executor/INFO]: [LP] LOG > parent set tryhard
-[23:41:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player ghost17z's group (tryhard) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[23:42:19] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[23:43:08] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[23:43:30] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[23:43:49] [Server thread/INFO]: SebasyTU_ issued server command: /lp group tryhard permission set essentials.afk
-[23:43:49] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (tryhard)
-[23:43:49] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.afk true
-[23:44:11] [Server thread/INFO]: zSxhio issued server command: /skin set tryhard
-[23:44:18] [Server thread/INFO]: zSxhio issued server command: /skin set drak
-[23:44:19] [Server thread/INFO]: SebasyTU_ issued server command: /lp group tryhard permission set essentials.afk.message
-[23:44:19] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (tryhard)
-[23:44:19] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.afk.message true
-[23:44:45] [Server thread/INFO]: SebasyTU_ issued server command: /lp group tryhard permission set essentials.balance
-[23:44:45] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (tryhard)
-[23:44:45] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.balance true
-[23:45:03] [Server thread/INFO]: SebasyTU_ issued server command: /lp group tryhard permission set essentials.balancetop
-[23:45:03] [luckperms-command-executor/INFO]: [LP] LOG > (SebasyTU_) [G] (tryhard)
-[23:45:03] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.balancetop true
-[23:45:36] [Server thread/INFO]: zSxhio issued server command: /skin set luvAnsoni
-[23:45:55] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:46:00] [Server thread/INFO]: Shop >> zSxhio compró 64 x Cooked Beef(Food.page1.items.11) para 403.20$ con el buy screen.
-[23:47:02] [Server thread/INFO]: zSxhio issued server command: /skin set iMiau
-[23:49:55] [Server thread/INFO]: zSxhio issued server command: /skin set wzhtg
-[23:51:03] [Server thread/INFO]: SebasyTU_ issued server command: /balancetop
-[23:51:10] [Server thread/INFO]: ghost17z issued server command: /balancetop
-[23:51:18] [Server thread/INFO]: zSxhio issued server command: /skin set Snr_Gorni4nay
-[23:51:24] [Server thread/INFO]: ghost17z issued server command: /sethome a
-[23:51:24] [Server thread/INFO]: [Essentials] ghost17z was denied access to command.
-[23:51:44] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:51:46] [Server thread/INFO]: zSxhio issued server command: /home
-[23:51:46] [Server thread/INFO]: [Essentials] zSxhio was denied access to command.
-[23:51:51] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:51:55] [Server thread/INFO]: Shop >> ghost17z compró 2 x Fletching Table(Workstations.page1.items.6) para 17.68$ con el buy screen.
-[23:52:10] [Server thread/INFO]: Shop >> zSxhio compró 1 x Water Bucket(Miscellaneous.page1.items.41) para 18.34$ con el buy screen.
-[23:52:19] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:20] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:20] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:20] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:20] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:20] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:20] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:21] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:21] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:21] [Server thread/INFO]: Shop >> zSxhio compró 1 x Totem Of Undying(Miscellaneous.page1.items.36) para 100.00$ con el buy screen.
-[23:52:32] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:52:42] [Server thread/INFO]: Shop >> zSxhio compró 64 x Obsidian(Blocks.page3.items.143) para 2,000.00$ con el buy screen.
-[23:52:42] [Server thread/INFO]: zSxhio has made the advancement [Ice Bucket Challenge]
-[23:52:59] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[23:52:59] [Server thread/INFO]: SebasyTU_ left the game
-[23:53:20] [Server thread/INFO]: zSxhio lost connection: Disconnected
-[23:53:20] [Server thread/INFO]: zSxhio left the game
-[23:53:42] [User Authenticator #3/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
-[23:53:43] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of zSxhio, updating cached skin...
-[23:53:43] [Server thread/INFO]: zSxhio joined the game
-[23:53:43] [Server thread/INFO]: zSxhio[/127.34.225.252:52497] logged in with entity id 20831 at ([world]-980.5530359736398, 76.875, 482.2377267433074)
-[23:54:19] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:54:23] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:55:40] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:40] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:41] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:41] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:41] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:41] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:42] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:42] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:42] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:42] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:42] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:43] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:43] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:43] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:43] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:43] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:44] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:55:44] [Server thread/INFO]: Shop >> zSxhio compró 1 x Firework Rocket(Miscellaneous.page1.items.999) para 303.00$ con el buy screen.
-[23:56:09] [Server thread/INFO]: zSxhio issued server command: /shop
-[23:56:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /balance 
-[23:56:31] [Server thread/INFO]: Command Help: /balance
-[23:56:31] [Server thread/INFO]: Description: States the current balance of a player.
-[23:56:31] [Server thread/INFO]: Usage(s);
-[23:56:31] [Server thread/INFO]: /balance - States your current balance
-[23:56:31] [Server thread/INFO]: /balance <player> - Displays the balance of the specified player
-[23:56:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /balance zSxhio
-[23:56:37] [Server thread/INFO]: Balance of zSxhio: $1,124.46
-[23:57:11] [Server thread/INFO]: ghost17z has made the advancement [Sweet Dreams]
-[23:59:01] [Server thread/INFO]: ghost17z has made the advancement [What a Deal!]
-[23:59:11] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:59:19] [Server thread/INFO]: Shop >> ghost17z vendido 32 x Emerald(Ores.page1.items.11) para 315.20$ con el sell screen.
-[23:59:30] [Server thread/INFO]: ghost17z issued server command: /shop
-[23:59:36] [Server thread/INFO]: Shop >> ghost17z vendido 16 x Emerald(Ores.page1.items.11) para 157.60$ con el sell screen.
-[23:59:38] [Server thread/INFO]: zSxhio issued server command: //sel all
-[23:59:48] [Server thread/INFO]: Stopping the server
-[23:59:48] [Server thread/INFO]: Stopping server
-[23:59:48] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[23:59:48] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[23:59:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
-[23:59:48] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.14.5
-[23:59:48] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
-[23:59:48] [Server thread/INFO]: [TAB] Disabled in 2ms
-[23:59:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[23:59:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:59:48] [Server thread/INFO]: [NametagEditX] Disabling NametagEditX v5.0.0
-[23:59:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+26-e086064
-[23:59:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[23:59:48] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[23:59:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[23:59:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
-[23:59:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:59:48] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:59:48] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:59:48] [Server thread/INFO]: Saving players
-[23:59:48] [Server thread/INFO]: ghost17z lost connection: Server closed
-[23:59:48] [Server thread/INFO]: ghost17z left the game
-[23:59:48] [Server thread/INFO]: zSxhio lost connection: Server closed
-[23:59:48] [Server thread/INFO]: zSxhio left the game
-[23:59:48] [Server thread/INFO]: Saving worlds
-[23:59:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:59:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:59:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:59:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:59:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2020 block chunks, 854 entity chunks, 13 poi chunks in world 'world' in 3.32s
-[23:59:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:59:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:59:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:59:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:59:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:59:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:59:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:59:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:59:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:59:52] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[23:59:52] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[23:59:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:59:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:00:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:00:56] [ServerMain/INFO]: Loaded 1407 recipes
+[00:00:56] [ServerMain/INFO]: Loaded 1520 advancements
+[00:00:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:00:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 814.5ms
+[00:00:57] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[00:00:57] [Server thread/INFO]: Loading properties
+[00:00:57] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[00:00:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:00:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:00:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:00:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:00:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:00:59] [Server thread/INFO]: Default game type: SURVIVAL
+[00:00:59] [Server thread/INFO]: Generating keypair
+[00:00:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:00:59] [Server thread/INFO]: Using epoll channel type
+[00:00:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:00:59] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:01:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
+[00:01:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:01:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[00:01:01] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[00:01:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+26-e086064
+[00:01:01] [Server thread/INFO]: [NametagEditX] Loading server plugin NametagEditX v5.0.0
+[00:01:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[00:01:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@303e08c3]
+[00:01:02] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[00:01:02] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.5
+[00:01:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[00:01:02] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[00:01:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:01:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[00:01:03] [Server thread/INFO]:         __    
+[00:01:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
+[00:01:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:01:03] [Server thread/INFO]: 
+[00:01:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:01:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:01:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:01:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2277ms)
+[00:01:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:01:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:01:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:01:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:01:05] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:01:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[00:01:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:01:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:01:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[00:01:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[00:01:09] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[00:01:10] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[00:01:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[00:01:10] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[00:01:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:01:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:01:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:01:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:01:10] [Server thread/INFO]: Preparing level "world"
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[00:01:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[00:01:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:01:13] [Server thread/INFO]: Preparing spawn area: 0%
+[00:01:13] [Server thread/INFO]: Preparing spawn area: 2%
+[00:01:13] [Server thread/INFO]: Preparing spawn area: 14%
+[00:01:14] [Server thread/INFO]: Preparing spawn area: 14%
+[00:01:14] [Server thread/INFO]: Preparing spawn area: 14%
+[00:01:14] [Server thread/INFO]: Time elapsed: 2006 ms
+[00:01:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:01:14] [Server thread/INFO]: Preparing spawn area: 0%
+[00:01:15] [Server thread/INFO]: Preparing spawn area: 6%
+[00:01:15] [Server thread/INFO]: Time elapsed: 655 ms
+[00:01:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:01:15] [Server thread/INFO]: Preparing spawn area: 0%
+[00:01:15] [Server thread/INFO]: Time elapsed: 282 ms
+[00:01:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[00:01:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:01:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+26-e086064
+[00:01:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:01:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:01:17] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[00:01:17] [Server thread/INFO]: [Essentials] Found 4 files to convert...
+[00:01:17] [Server thread/INFO]: [Essentials] Converted 0/4
+[00:01:17] [Server thread/INFO]: [Essentials] Ban format update complete.
+[00:01:17] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[00:01:17] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[00:01:17] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[00:01:17] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[00:01:17] [Server thread/INFO]: [Essentials] Done converting mail list.
+[00:01:17] [Server thread/INFO]: [Essentials] #===========================================================================#
+[00:01:17] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[00:01:17] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[00:01:17] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[00:01:17] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[00:01:17] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[00:01:17] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[00:01:17] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[00:01:17] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[00:01:17] [Server thread/INFO]: [Essentials] 
+[00:01:17] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[00:01:17] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[00:01:17] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[00:01:17] [Server thread/INFO]: [Essentials] #===========================================================================#
+[00:01:17] [Server thread/INFO]: [Essentials] Found ~4 files under "plugins/Essentials/userdata"...
+[00:01:17] [Server thread/INFO]: [Essentials] #===========================================================================#
+[00:01:17] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[00:01:17] [Server thread/INFO]: [Essentials] 
+[00:01:17] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[00:01:17] [Server thread/INFO]: [Essentials]  Total accounts processed: 4
+[00:01:17] [Server thread/INFO]: [Essentials] 
+[00:01:17] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[00:01:17] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[00:01:17] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[00:01:17] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[00:01:17] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[00:01:17] [Server thread/INFO]: [Essentials] #===========================================================================#
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:01:17] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[00:01:18] [Server thread/INFO]: [Essentials] Using locale en
+[00:01:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:01:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:01:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:01:18] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:01:18] [Server thread/INFO]: [NametagEditX] Enabling NametagEditX v5.0.0
+[00:01:18] [Server thread/INFO]: [NametagEditX] Found LuckPerms! Hooking in.
+[00:01:18] [Server thread/INFO]: [NametagEditX] Found PlaceholderAPI! Hooking in.
+[00:01:18] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[00:01:19] [Server thread/INFO]: [TAB] [WARN] [config.yml] belowname-objective: Belowname title is set to "&c❤ &f| &b%statistic_player_kills% ⚔", however, the feature cannot display different title on different players due to a minecraft limitation. Placeholders will be parsed for viewing player. To display per-player placeholders correctly, move them to fancy-value and only keep static text in title (this only works on 1.20.3+, on older versions you will need to use "value", which only supports numbers).
+[00:01:19] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[00:01:19] [Server thread/INFO]: [TAB] Enabled in 634ms
+[00:01:19] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.5
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carga completada 16 configuraciones de la sección de /secciones/
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completada la carga de la configuración de 16 tiendas desde /shops/
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 14 secciones de tiendas.
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21.8...
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[00:01:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
+[00:01:20] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
+[00:01:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Iniciado - Tomó 2873ms para completar
+[00:01:22] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[00:01:22] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[00:01:22] [Server thread/INFO]: [JustTPA] bStats enabled
+[00:01:22] [Server thread/INFO]: [JustTPA] Checking for updates...
+[00:01:23] [Server thread/INFO]: [spark] Starting background profiler...
+[00:01:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:01:24] [Server thread/INFO]: Done preparing level "world" (13.255s)
+[00:01:24] [Server thread/INFO]: Running delayed init tasks
+[00:01:24] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:01:24] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:01:24] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[00:01:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[00:01:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[00:01:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[00:01:24] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[00:01:24] [Server thread/INFO]: Done (41.245s)! For help, type "help"
+[00:01:24] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[00:01:24] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[00:01:29] [User Authenticator #0/INFO]: UUID of player ghost17z is b6c45568-5856-342f-9a8a-5d525d56c0ea
+[00:01:29] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer, Essentials]
+[00:01:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@3f23b0f8[id=b6c45568-5856-342f-9a8a-5d525d56c0ea,name=ghost17z,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTc1NzIwMzI4OTMwNiwKICAicHJvZmlsZUlkIiA6ICJiMTkzMGQxNzJhMzE0YzZkODJhNzZkNTIzNDkzOGE5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaG9zdDE3eiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lOWE1YjVjODM5YmJlNzQ5MDM2YTUwY2NlYTA0Mzg0MjJlZjQ4NTg3YzQ0MTA2ZTJmMTBhNzg4ZDU1YzhiMzQ1IgogICAgfQogIH0KfQ==, signature=kmNaT550cRVOZW1N5y0RkZeP+ChLq0Em5pvSIQbKnrJwxg+J1ve/7rxirECxMV9N0CCRkkQo9/F6OcF5J5DPytS773p7qoRFUIlVY6z+JpLqNE/PMMTbmDBhbBGtZgjxpiiHEi3OslV6jKbSfAYP48fhU1tBktLRhX4bzYnpDIgcAxxyt2EgLIiqqZC+xLgqVPZDGmUP6QPOhN1QRgpB4q2efhL9M8kyxb/VWRmgB1zxHflm3Hy2EK0CfnujOkx+wiKr7SK1FDtKFjvie6WWU+lkckcGniyqxAy6OljAQqxMGPrjDRs9z2cTHVs3ibGcpxgNmbsO3/0ltxiDfMcqH6aYtO7tJjtQpwSkVhNYx/XlrHoQA9/OkrdPB5gFndZ965pWhbt7i4pG7XQTId8vfclarh/V4Pcs3nx4VWUHSjvX8YGRWkLaV9iUXKr7b8ktNtiwCf80mw+rkVpfO53LyVKj0OCEpsG4iYlTr9+MB5XE9e/vLmD3EzVBW7EFAer4xKoA5B278Y8C1DP9csrLKFRjH2a9LAEW1shTgc52u9lbnh6/rzwba5F0AYFK3oi/o5E0yNRUa30hC3xxjBymSxigWps2Ym/eqRiB8qRq7EUKL/FRSEf1ztneUf29q4Re/AxD7HraMIYhlFN3c5KZ3hqyQbKSKTDPTi4ghy/xwn4=]]}] lost connection: Disconnected
+[00:01:32] [User Authenticator #0/INFO]: UUID of player ghost17z is b6c45568-5856-342f-9a8a-5d525d56c0ea
+[00:01:33] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:01:33] [Server thread/INFO]: ghost17z joined the game
+[00:01:33] [TAB Processing Thread/INFO]: [TAB] [WARN] Player ghost17z's group (tryhard) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[00:01:34] [Server thread/INFO]: ghost17z[/127.20.228.124:53877] logged in with entity id 33 at ([world]-2954.26840457212, 63.0, -476.891200770288)
+[00:01:46] [Server thread/INFO]: ghost17z lost connection: Disconnected
+[00:01:46] [Server thread/INFO]: ghost17z left the game
+[00:01:49] [Server thread/INFO]: Stopping the server
+[00:01:49] [Server thread/INFO]: Stopping server
+[00:01:49] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[00:01:49] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[00:01:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[00:01:49] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.14.5
+[00:01:49] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[00:01:49] [Server thread/INFO]: [TAB] Disabled in 1ms
+[00:01:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[00:01:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:01:49] [Server thread/INFO]: [NametagEditX] Disabling NametagEditX v5.0.0
+[00:01:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+26-e086064
+[00:01:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:01:49] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[00:01:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:01:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.11
+[00:01:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:01:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:01:49] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:01:49] [Server thread/INFO]: Saving players
+[00:01:49] [Server thread/INFO]: Saving worlds
+[00:01:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:01:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:01:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:01:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Saved 1274 block chunks, 1274 entity chunks, 0 poi chunks in world 'world' in 3.94s
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[00:01:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.16s
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[00:01:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[00:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[00:01:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:01:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:01:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:01:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[00:01:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[00:01:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:01:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
