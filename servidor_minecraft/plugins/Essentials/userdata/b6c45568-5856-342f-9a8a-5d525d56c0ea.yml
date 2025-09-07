@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.20.228.124
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757203188264
+  login: 1757200456518
+money: '10364.17'
+last-account-name: ghost17z
+logoutlocation:
+  world: fbbf006a-da30-4488-a2cd-eea0e3dd0b81
+  world-name: world
+  x: -2954.26840457212
+  y: 63.0
+  z: -476.891200770288
+  yaw: 18.90020751953125
+  pitch: 48.150115966796875
