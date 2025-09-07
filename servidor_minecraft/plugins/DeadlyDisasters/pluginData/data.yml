@@ -1,0 +1,97 @@
+data:
+  version: 12.1
+  timerValueMemory: 120
+  entries: 3
+  notify: false
+  firstStart: false
+  lang: 0
+  catalogFetchCooldown: 142461
+  currentConfig: DEFAULT
+  favored: 'null'
+  disliked: 'null'
+  catalogVersion: 3
+customentities: {}
+metrics:
+  occurred:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  spawned:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  destroyed:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  killed:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+timers:
+  7db02c2e-08b6-4528-b58a-1d55a9ca2484:
+    77a390da-81bb-3a9a-83b6-98e9f9115325: 238
+  c1047e55-c7b2-4fa1-b517-851bf9b39699:
+    77a390da-81bb-3a9a-83b6-98e9f9115325: 163
+  f47a4e96-b38c-4e4d-aba3-41f3bc573381:
+    77a390da-81bb-3a9a-83b6-98e9f9115325: 167
